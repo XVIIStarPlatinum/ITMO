@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetaldehyde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetaldehyde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetic_acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetic_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetylene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetylene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Allene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Allene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Aniline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Aniline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzaldehyde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzaldehyde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzoic_acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzoic_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Butanone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Butanone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Butyric_acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Butyric_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Chlorobenzene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Chlorobenzene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Chloroform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Chloroform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Cinnamaldehyde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Cinnamaldehyde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Cubane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Cubane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dichloromethane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dichloromethane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Diethyl_ether -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Diethyl_ether">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dimethyl_ether -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dimethyl_ether">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dioxane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dioxane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethanol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethanol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethenol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethenol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethyl_acetate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethyl_acetate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethyl_formate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethyl_formate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene_glycol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene_glycol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene_oxide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene_oxide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Formaldehyde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Formaldehyde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Formic_acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Formic_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Glucose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Glucose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Glycerol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Glycerol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isobutane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isobutane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isobutylene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isobutylene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isopentane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isopentane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isopropanol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isopropanol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Lactose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Lactose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Maltose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Maltose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methanol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methanol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methyl_acetate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methyl_acetate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methyl_formate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methyl_formate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methylene_glycol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methylene_glycol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Neopentane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Neopentane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Nitrobenzene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Nitrobenzene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Octane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Octane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Oxalic_acid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Oxalic_acid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Phenol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Phenol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Propane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Propane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Propionaldehyde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Propionaldehyde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Sucrose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Sucrose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Tetrachloromethane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Tetrachloromethane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Tetrahydrofuran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Tetrahydrofuran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Toluene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Toluene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#cis-Butylene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#cis-Butylene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Butane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Butane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Butylene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Butylene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Pentane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Pentane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Propanol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Propanol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#trans-Butylene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#trans-Butylene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#organic_compound"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetaldehyde"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetic_acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Acetylene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Allene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Aniline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzaldehyde"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Benzoic_acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Butanone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Butyric_acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Chlorobenzene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Chloroform"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Cinnamaldehyde"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Cubane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dichloromethane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Diethyl_ether"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dimethyl_ether"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Dioxane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethanol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethenol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethyl_acetate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethyl_formate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene_glycol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Ethylene_oxide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Formaldehyde"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Formic_acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Glucose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Glycerol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isobutane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isobutylene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isopentane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Isopropanol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Lactose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Maltose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methanol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methyl_acetate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methyl_formate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Methylene_glycol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Neopentane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Nitrobenzene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Octane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Oxalic_acid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Phenol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Propane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Propionaldehyde"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Sucrose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Tetrachloromethane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Tetrahydrofuran"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#Toluene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#cis-Butylene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Butane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Butylene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Pentane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#n-Propanol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2024/8/untitled-ontology-2#trans-Butylene"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

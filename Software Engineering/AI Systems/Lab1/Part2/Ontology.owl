@@ -1,0 +1,2102 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontologies/<organiccompounds.owl/"
+     xml:base="http://ontologies/<organiccompounds.owl/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:<organiccompounds="http://ontologies/organiccompounds.owl#">
+    <owl:Ontology rdf:about="http://ontologies/organiccompounds.owl">
+        <rdfs:comment>Онтология органических молекул.</rdfs:comment>
+    </owl:Ontology>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#hasFireWarning -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies/<organiccompounds.owl#hasFireWarning">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#Organic_Compound"/>
+        <rdfs:range rdf:resource="http://ontologies/<organiccompounds.owl#Fire"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#hasNomenclature -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies/<organiccompounds.owl#hasHealthWarning">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#hasFireWarning -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies/<organiccompounds.owl#hasFireWarning">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#HealthWarning -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies/<organiccompounds.owl#HealthWarning">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+    </owl:ObjectProperty>
+
+    <!-- http://ontologies/<organiccompounds.owl#ReactivityWarning -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies/<organiccompounds.owl#ReactivityWarning">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://ontologies/<organiccompounds.owl#ReactivityWarning"/>
+    </owl:ObjectProperty>
+
+        <!-- http://ontologies/<organiccompounds.owl#SpecialWarning -->
+
+    <owl:ObjectProperty rdf:about="http://ontologies/<organiccompounds.owl#SpecialWarning">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://ontologies/<organiccompounds.owl#SpecialWarning"/>
+    </owl:ObjectProperty>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#hasDensity -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies/<organiccompounds.owl#hasDensity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#hasMeltingPoint -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies/<organiccompounds.owl#hasMeltingPoint">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:propertyDisjointWith rdf:resource="http://ontologies/<organiccompounds.owl#hasReleaseYear"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#hasReleaseYear -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologies/<organiccompounds.owl#hasReleaseYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Characteristic -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#Characteristic">
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+        <rdfs:comment>Class for explaining characteristics for <organiccompounds.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Creature -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#Creature">
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+        <rdfs:comment>Class for saving information about creatures.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Genre -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#Genre">
+        <rdfs:subClassOf rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+        <rdfs:comment>Class for saving information about genre.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Nomenclature -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#Nomenclature">
+        <rdfs:subClassOf rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+        <rdfs:comment>Class for saving information about main character.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#FireWarning -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#FireWarning">
+        <rdfs:subClassOf rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <owl:disjointWith rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+        <rdfs:comment>Class for saving information about FireWarning of game.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#HealthWarning -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#HealthWarning">
+        <rdfs:subClassOf rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdfs:comment>Class for saving information about type of game.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#OrganicCompound -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#OrganicCompound">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Class for saving information about video games.</rdfs:comment>
+    </owl:Class>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#WellRatedVideoGame -->
+
+    <owl:Class rdf:about="http://ontologies/<organiccompounds.owl#WellRatedVideoGame">
+        <rdfs:subClassOf rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Action-Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Action-Adventure">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Action_RPG -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Action_RPG">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Among_Us -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Among_Us">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Social_Deduction"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Crewmember"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.1</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">2020</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Arthur_Morgan -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Arthur_Morgan">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Assassins_Creed_Valhalla -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Assassins_Creed_Valhalla">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action-Adventure"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Eivor"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Role-Playing"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.1</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2017</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Battle -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Battle">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Battle_Arena -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Battle_Arena">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Battle_Royale -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Battle_Royale">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Card_and_Board_Games -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Card_and_Board_Games">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Crafting -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Crafting">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Crewmember -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Crewmember">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Custom_Operator -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Custom_Operator">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Custom_Player -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Custom_Player">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Cyberpunk_2077 -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Cyberpunk_2077">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action_RPG"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#V"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Crafting"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.9</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2007</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Dark_Souls_III -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Dark_Souls_III">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action_RPG"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#The_Ashen_One"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Card_and_Board_Games"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2018</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Default_Skin -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Default_Skin">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Dragonborn -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Dragonborn">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Eivor -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Eivor">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Empty -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Empty">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Ethan_Winters -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Ethan_Winters">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#FIFA_22 -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#FIFA_22">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Sports"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Custom_Player"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Team"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.4</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2021</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Fighting -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Fighting">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#First-Person_Shooter -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#First-Person_Shooter">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Fortnite -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Fortnite">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Battle_Royale"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Default_Skin"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Battle"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.26</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2019</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Geralt_of_Rivia -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Geralt_of_Rivia">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Ginger -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Ginger">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Moba"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Steve"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Grand_Theft_Auto_V -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Grand_Theft_Auto_V">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action-Adventure"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Michael_De_Santa"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2018</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Halo_Infinite -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Halo_Infinite">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#First-Person_Shooter"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Master_Chief"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Survival"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.99</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2015</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#League_of_Legends -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#League_of_Legends">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Moba"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Summoner"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Battle_Arena"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2012</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Link -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Link">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Mario -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Mario">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Master_Chief -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Master_Chief">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Michael_De_Santa -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Michael_De_Santa">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Minecraft -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Minecraft">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Sandbox"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Steve"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Crafting"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.45</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2001</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Moba -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Moba">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Mortal_Kombat_11 -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Mortal_Kombat_11">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Fighting"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Various_Fighters"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Team"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.65</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2018</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Multiplayer -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Multiplayer">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Open_world -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Open_world">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Overwatch -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Overwatch">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Shooter"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Tracer"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Team"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2017</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Platformer -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Platformer">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#RPG -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#RPG">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Red_Dead_Redemption_2 -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Red_Dead_Redemption_2">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action-Adventure"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Arthur_Morgan"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.765</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Resident_Evil_Village -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Resident_Evil_Village">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Survival_Horror"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Ethan_Winters"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Side_Scrolling"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.45</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2015</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Role-Playing -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Role-Playing">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Sandbox -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Sandbox">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Shooter -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Shooter">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Side_Scrolling -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Side_Scrolling">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Simulator -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Simulator">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Single_player -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Single_player">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Social_Deduction -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Social_Deduction">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Sports -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Sports">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Steve -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Steve">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Strategy">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Summoner -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Summoner">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Super_Mario_Bros -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Super_Mario_Bros">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Platformer"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Mario"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Role-Playing"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.765</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1989</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Survival -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Survival">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Survival_Horror -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Survival_Horror">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Team -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Team">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#The_Ashen_One -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#The_Ashen_One">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#The_Sims_3 -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#The_Sims_3">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Simulator"/>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Sports"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Empty"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.55</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2013</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Tracer -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Tracer">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#V -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#V">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Various_Fighters -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Various_Fighters">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Creature"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#View -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#View">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#Characteristic"/>
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#_Breath_of_the_Wild -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#_Breath_of_the_Wild">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#_Skyrim -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#_Skyrim">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#_Warzone -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#_Warzone">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#_Wild_Hunt -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#_Wild_Hunt">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                        <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Genre"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#Nomenclature"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#FireWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+                <owl:someValuesFrom rdf:resource="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#Call_of_Duty:_Warzone -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#Call_of_Duty:_Warzone">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Battle_Royale"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Custom_Operator"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Strategy"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Multiplayer"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.3</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2004</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#The_Elder_Scrolls_V:_Skyrim -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#The_Elder_Scrolls_V:_Skyrim">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action_RPG"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Dragonborn"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Team"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.765</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2019</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#The_Legend_of_Zelda:_Breath_of_the_Wild -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#The_Legend_of_Zelda:_Breath_of_the_Wild">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#Action-Adventure"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Link"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2015</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://ontologies/<organiccompounds.owl#The_Witcher_3:_Wild_Hunt -->
+
+    <owl:NamedIndividual rdf:about="http://ontologies/<organiccompounds.owl#The_Witcher_3:_Wild_Hunt">
+        <rdf:type rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+        <organiccompounds:hasGenre rdf:resource="http://ontologies/<organiccompounds.owl#RPG"/>
+        <organiccompounds:hasNomenclature rdf:resource="http://ontologies/<organiccompounds.owl#Geralt_of_Rivia"/>
+        <organiccompounds:hasFireWarning rdf:resource="http://ontologies/<organiccompounds.owl#Open_world"/>
+        <organiccompounds:HealthWarning rdf:resource="http://ontologies/<organiccompounds.owl#Single_player"/>
+        <organiccompounds:hasDensity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</<organiccompounds:hasDensity>
+        <organiccompounds:hasMeltingPoint rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</<organiccompounds:hasMeltingPoint>
+        <organiccompounds:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2016</<organiccompounds:hasReleaseYear>
+    </owl:NamedIndividual>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#hasGenre"/>
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#hasNomenclature"/>
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#hasFireWarning"/>
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#HealthWarning"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#hasDensity"/>
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#hasMeltingPoint"/>
+            <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl#hasReleaseYear"/>
+        </owl:members>
+    </rdf:Description>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl/game">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ontologies/<organiccompounds.owl/rating">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>isWellRated</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://ontologies/<organiccompounds.owl#OrganicCompound"/>
+                        <swrl:argument1 rdf:resource="http://ontologies/<organiccompounds.owl/game"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://ontologies/<organiccompounds.owl#hasMeltingPoint"/>
+                                <swrl:argument1 rdf:resource="http://ontologies/<organiccompounds.owl/game"/>
+                                <swrl:argument2 rdf:resource="http://ontologies/<organiccompounds.owl/rating"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://ontologies/<organiccompounds.owl/rating"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://ontologies/<organiccompounds.owl#WellRatedVideoGame"/>
+                        <swrl:argument1 rdf:resource="http://ontologies/<organiccompounds.owl/game"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
