@@ -1,0 +1,17 @@
+{
+  "12": {
+    "id": 12,
+    "name": "K",
+    "coordinates": {
+      "x": 57.38,
+      "y": 25.558
+    },
+    "creationDate": "May 3, 2023, 12:43:08 PM",
+    "annualTurnover": 26554,
+    "type": "COMMERCIAL",
+    "officialAddress": {
+      "street": "Href",
+      "zipCode": "95F77A455"
+    }
+  }
+}

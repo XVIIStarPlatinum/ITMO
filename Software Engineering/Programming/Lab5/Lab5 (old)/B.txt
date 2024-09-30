@@ -1,0 +1,9 @@
+insert 76
+B
+4.57
+84.987
+4848310
+PRIVATE_LIMITED_COMPANY
+somewhere else
+78945D894
+execute_script A.txt

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Lab1_memevar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Lab1_memevar</output-path>
+    <root id="archive" name="Lab1_memevar.jar">
+      <element id="module-output" name="Lab1_memevar" />
+    </root>
+  </artifact>
+</component>

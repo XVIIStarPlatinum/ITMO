@@ -1,0 +1,9 @@
+insert 7
+worldcorp
+614.335
+613.23
+6942069
+PUBLIC
+V A P O R W A V E S P A C E
+A69953345
+execute_script nope.txt
