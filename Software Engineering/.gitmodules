@@ -1,0 +1,19 @@
+[submodule "Algorithms & Data Structures"]
+    path = Algorithms & Data Structures
+    url = https://github.com/XVIIStarPlatinum/AlgorithmsandDataStructures
+[submodule "Databases"]
+    path = ./Databases
+    url = https://github.com/XVIIStarPlatinum/Databases
+[submodule "Fundamentals of Professional Activity"]
+    path = Fundamentals of Professional Activity
+    url = https://github.com/XVIIStarPlatinum/csbasics
+[submodule "Programming/Lab5/Lab5 (new)"]
+    path = Programming/Lab5/Lab5 (new)
+    url = https://github.com/XVIIStarPlatinum/JAVA_V_VAR_372799
+[submodule "Programming/Lab6"]
+    path = Programming/Lab6
+    url = https://github.com/XVIIStarPlatinum/JAVA_VI_VAR_543534
+[submodule "Programming/Lab7"]
+    path = Programming/Lab7
+    url = https://github.com/XVIIStarPlatinum/JAVA_VII_VAR_3232
+[]

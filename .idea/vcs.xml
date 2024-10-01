@@ -2,12 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab1 (3 варианты выполнения работы)/Lab1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab1 (3 варианты выполнения работы)/Lab1_1var" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab1 (3 варианты выполнения работы)/Lab1_memevar" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab3" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab4" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab5 (Gradle)/Lab5 (gradle)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming Languages/Labs/assignment-1-io-library" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming Languages/Labs/assignment-2-dictionary" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming Languages/Labs/assignment-3-image-rotation" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming Languages/Labs/assignment-4-memory-allocator" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming Languages/Labs/assignment-5-sepia-filter" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab2" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab3" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab4" vcs="" />
   </component>
 </project>
