@@ -34,3 +34,9 @@
 [submodule "Software Engineering/Algorithms & Data Structures"]
 	path = Software Engineering/Algorithms & Data Structures
 	url = https://github.com/XVIIStarPlatinum/AlgorithmsandDataStructures
+[submodule "Software Engineering/Programming/Lab6"]
+	path = Software Engineering/Programming/Lab6
+	url = https://github.com/XVIIStarPlatinum/JAVA_VI_VAR_543534
+[submodule "Software Engineering/Programming/Lab7"]
+	path = Software Engineering/Programming/Lab7
+	url = https://github.com/XVIIStarPlatinum/JAVA_VII_VAR_3232
