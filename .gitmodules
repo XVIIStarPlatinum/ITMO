@@ -58,3 +58,15 @@
 [submodule "Software Engineering/Programming Languages/Labs/assignment-5-sepia-filter"]
 	path = Software Engineering/Programming Languages/Labs/assignment-5-sepia-filter
 	url = https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-5-sepia-filter
+[submodule "Software Engineering/Informational Systems/Labs/Lab1"]
+	path = Software Engineering/Informational Systems/Labs/Lab1
+	url = https://github.com/17starplatinum/InfSys-I_VAR-100246
+[submodule "Software Engineering/Programming/Lab2"]
+	path = Software Engineering/Programming/Lab2
+	url = https://github.com/17starplatinum/PROG-Lab2
+[submodule "Software Engineering/Programming/Lab3"]
+	path = Software Engineering/Programming/Lab3
+	url = https://github.com/17starplatinum/PROG-Lab3
+[submodule "Software Engineering/Programming/Lab4"]
+	path = Software Engineering/Programming/Lab4
+	url = https://github.com/17starplatinum/PROG-Lab4
