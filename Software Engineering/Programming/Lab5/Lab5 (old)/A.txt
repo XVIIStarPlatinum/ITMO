@@ -1,9 +1,0 @@
-insert 75
-A
-64.477
-613.23
-42045
-PUBLIC
-somewhere
-7984A5877
-execute_script B.txt

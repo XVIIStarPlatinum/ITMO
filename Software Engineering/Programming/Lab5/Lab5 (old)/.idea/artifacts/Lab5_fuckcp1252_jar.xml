@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Lab5-fuckcp1252:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Lab5_fuckcp1252_jar</output-path>
-    <root id="archive" name="Lab5-fuckcp1252.jar">
-      <element id="module-output" name="Lab5-fuckcp1252.main" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" path-in-jar="/" />
-    </root>
-  </artifact>
-</component>
