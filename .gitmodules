@@ -40,3 +40,9 @@
 [submodule "Software Engineering/Programming/Lab7"]
 	path = Software Engineering/Programming/Lab7
 	url = https://github.com/XVIIStarPlatinum/JAVA_VII_VAR_3232
+[submodule "Software Engineering/Programming Languages/assignment-1-io-library"]
+	path = Software Engineering/Programming Languages/assignment-1-io-library
+	url = https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-1-io-library
+[submodule "Software Engineering/Programming Languages/Labs/assignment-1-io-library"]
+	path = Software Engineering/Programming Languages/Labs/assignment-1-io-library
+	url = https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-1-io-library
