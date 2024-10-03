@@ -1,0 +1,1304 @@
+@prefix : <http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9/> .
+
+<http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9> rdf:type owl:Ontology ;
+                                                                          rdfs:comment "Онтология органичесих веществ." .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#isRuleEnabled
+:isRuleEnabled rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasFireWarning
+:hasFireWarning rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdf:type owl:AsymmetricProperty ,
+                         owl:IrreflexiveProperty ;
+                rdfs:domain :Organic_Compound ;
+                rdfs:range :Fire .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasHealthWarning
+:hasHealthWarning rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdf:type owl:AsymmetricProperty ,
+                           owl:IrreflexiveProperty ;
+                  rdfs:domain :Organic_Compound ;
+                  rdfs:range :Health .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasNomenclature
+:hasNomenclature rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdf:type owl:AsymmetricProperty ,
+                          owl:IrreflexiveProperty ;
+                 rdfs:domain :Organic_Compound ;
+                 rdfs:range :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasReactivityWarning
+:hasReactivityWarning rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdf:type owl:AsymmetricProperty ,
+                               owl:IrreflexiveProperty ;
+                      rdfs:domain :Organic_Compound ;
+                      rdfs:range :Reactivity .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasSpecialWarning
+:hasSpecialWarning rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdf:type owl:AsymmetricProperty ,
+                            owl:IrreflexiveProperty ;
+                   rdfs:domain :Organic_Compound ;
+                   rdfs:range :Special .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasBoilingPoint
+:hasBoilingPoint rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Organic_Compound ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasDensity
+:hasDensity rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :Organic_Compound ;
+            rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasMeltingPoint
+:hasMeltingPoint rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Organic_Compound ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasMolarMass
+:hasMolarMass rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Organic_Compound ;
+              rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#hasWaterSolubility
+:hasWaterSolubility rdf:type owl:DatatypeProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :Organic_Compound ;
+                    rdfs:range xsd:float .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Classification
+:Classification rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Fire
+:Fire rdf:type owl:Class ;
+      rdfs:subClassOf :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Health
+:Health rdf:type owl:Class ;
+        rdfs:subClassOf :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Nomenclature
+:Nomenclature rdf:type owl:Class ;
+              rdfs:subClassOf :Classification .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Organic_Compound
+:Organic_Compound rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasFireWarning ;
+                                                               owl:someValuesFrom :Fire
+                                                             ]
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasHealthWarning ;
+                                                               owl:someValuesFrom :Health
+                                                             ]
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasNomenclature ;
+                                                               owl:someValuesFrom :Nomenclature
+                                                             ]
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasReactivityWarning ;
+                                                               owl:someValuesFrom :Reactivity
+                                                             ]
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :hasSpecialWarning ;
+                                                               owl:someValuesFrom :Special
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Reactivity
+:Reactivity rdf:type owl:Class ;
+            rdfs:subClassOf :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Special
+:Special rdf:type owl:Class ;
+         rdfs:subClassOf :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Warning
+:Warning rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#ACID
+:ACID rdf:type owl:NamedIndividual ,
+               :Special ,
+               :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Acetaldehyde
+:Acetaldehyde rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Very_Flammable ;
+              :hasHealthWarning :Toxic ;
+              :hasNomenclature :Aldehyde ;
+              :hasReactivityWarning :Unstable ;
+              :hasSpecialWarning :Empty ;
+              :hasBoilingPoint "20.2"^^xsd:float ;
+              :hasDensity "784.0"^^xsd:float ;
+              :hasMeltingPoint "-123.37"^^xsd:float ;
+              :hasMolarMass "44.053"^^xsd:float ;
+              :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Acetic_acid
+:Acetic_acid rdf:type owl:NamedIndividual ,
+                      :Organic_Compound ;
+             :hasFireWarning :Somewhat_Flammable ;
+             :hasHealthWarning :Mildly_Toxic ;
+             :hasNomenclature :Carboxylic_Acid ;
+             :hasReactivityWarning :Very_Stable ;
+             :hasSpecialWarning :ACID ;
+             :hasBoilingPoint "118.5"^^xsd:float ;
+             :hasDensity "1049.0"^^xsd:float ;
+             :hasMeltingPoint "16.5"^^xsd:float ;
+             :hasMolarMass "60.052"^^xsd:float ;
+             :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Acetone
+:Acetone rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Flammable ;
+         :hasHealthWarning :Irritating ;
+         :hasNomenclature :Ketone ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "56.08"^^xsd:float ;
+         :hasDensity "784.5"^^xsd:float ;
+         :hasMeltingPoint "-94.9"^^xsd:float ;
+         :hasMolarMass "58.08"^^xsd:float ;
+         :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Acetylene
+:Acetylene rdf:type owl:NamedIndividual ,
+                    :Organic_Compound ;
+           :hasFireWarning :Very_Flammable ;
+           :hasHealthWarning :Irritating ;
+           :hasNomenclature :Alkyne ;
+           :hasReactivityWarning :Unstable ;
+           :hasSpecialWarning :Empty ;
+           :hasBoilingPoint "-84.0"^^xsd:float ;
+           :hasDensity "1.1772"^^xsd:float ;
+           :hasMolarMass "26.038"^^xsd:float ;
+           :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Alcane
+:Alcane rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Alcohol
+:Alcohol rdf:type owl:NamedIndividual ,
+                  :Classification ,
+                  :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Aldehyde
+:Aldehyde rdf:type owl:NamedIndividual ,
+                   :Classification ,
+                   :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Alkane
+:Alkane rdf:type owl:NamedIndividual ,
+                 :Classification ,
+                 :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Alkene
+:Alkene rdf:type owl:NamedIndividual ,
+                 :Classification ,
+                 :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Alkyne
+:Alkyne rdf:type owl:NamedIndividual ,
+                 :Classification ,
+                 :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Allene
+:Allene rdf:type owl:NamedIndividual ,
+                 :Organic_Compound ;
+        :hasFireWarning :Very_Flammable ;
+        :hasHealthWarning :Non-toxic ;
+        :hasNomenclature :Alkene ;
+        :hasReactivityWarning :Unstable ;
+        :hasSpecialWarning :Empty ;
+        :hasBoilingPoint "-34.0"^^xsd:float ;
+        :hasDensity "1.7"^^xsd:float ;
+        :hasMeltingPoint "-136.0"^^xsd:float ;
+        :hasMolarMass "40.065"^^xsd:float ;
+        :hasWaterSolubility "0.0021"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Aniline
+:Aniline rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Somewhat_Flammable ;
+         :hasHealthWarning :Mildly_Toxic ;
+         :hasNomenclature :Arene ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "184.13"^^xsd:float ;
+         :hasDensity "1029.7"^^xsd:float ;
+         :hasMeltingPoint "-6.3"^^xsd:float ;
+         :hasMolarMass "93.129"^^xsd:float ;
+         :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Arene
+:Arene rdf:type owl:NamedIndividual ,
+                :Classification ,
+                :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Benzaldehyde
+:Benzaldehyde rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Somewhat_Flammable ;
+              :hasHealthWarning :Mildly_Toxic ;
+              :hasNomenclature :Aldehyde ;
+              :hasReactivityWarning :Very_Stable ;
+              :hasSpecialWarning :Empty ;
+              :hasBoilingPoint "178.1"^^xsd:float ;
+              :hasDensity "1044.0"^^xsd:float ;
+              :hasMeltingPoint "-57.12"^^xsd:float ;
+              :hasMolarMass "106.124"^^xsd:float ;
+              :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Benzene
+:Benzene rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Very_Flammable ;
+         :hasHealthWarning :Toxic ;
+         :hasNomenclature :Arene ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "80.1"^^xsd:float ;
+         :hasDensity "876.52"^^xsd:float ;
+         :hasMeltingPoint "5.53"^^xsd:float ;
+         :hasMolarMass "78.114"^^xsd:float ;
+         :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Benzoic_acid
+:Benzoic_acid rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Hardly_Flammable ;
+              :hasHealthWarning :Mildly_Toxic ;
+              :hasNomenclature :Arene ;
+              :hasReactivityWarning :Very_Stable ;
+              :hasSpecialWarning :Empty ;
+              :hasBoilingPoint "250.0"^^xsd:float ;
+              :hasDensity "1265.9"^^xsd:float ;
+              :hasMeltingPoint "122.0"^^xsd:float ;
+              :hasMolarMass "122.123"^^xsd:float ;
+              :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Butanone
+:Butanone rdf:type owl:NamedIndividual ,
+                   :Organic_Compound ;
+          :hasFireWarning :Flammable ;
+          :hasHealthWarning :Toxic ;
+          :hasNomenclature :Ketone ;
+          :hasReactivityWarning :Very_Stable ;
+          :hasSpecialWarning :Empty ;
+          :hasBoilingPoint "79.64"^^xsd:float ;
+          :hasDensity "805.0"^^xsd:float ;
+          :hasMeltingPoint "-86.0"^^xsd:float ;
+          :hasMolarMass "72.107"^^xsd:float ;
+          :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Butyric_acid
+:Butyric_acid rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Somewhat_Flammable ;
+              :hasHealthWarning :Toxic ;
+              :hasNomenclature :Carboxylic_Acid ;
+              :hasReactivityWarning :Very_Stable ;
+              :hasSpecialWarning :ACID ;
+              :hasBoilingPoint "163.75"^^xsd:float ;
+              :hasDensity "1135.0"^^xsd:float ;
+              :hasMeltingPoint "-5.1"^^xsd:float ;
+              :hasMolarMass "88.106"^^xsd:float ;
+              :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#COR
+:COR rdf:type owl:NamedIndividual ,
+              :Special ,
+              :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Carboxylic_Acid
+:Carboxylic_Acid rdf:type owl:NamedIndividual ,
+                          :Classification .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Chlorobenzene
+:Chlorobenzene rdf:type owl:NamedIndividual ,
+                        :Organic_Compound ;
+               :hasFireWarning :Flammable ;
+               :hasHealthWarning :Mildly_Flammable ;
+               :hasNomenclature :Arene ;
+               :hasReactivityWarning :Very_Stable ;
+               :hasSpecialWarning :Empty ;
+               :hasBoilingPoint "131.7"^^xsd:float ;
+               :hasDensity "1110.0"^^xsd:float ;
+               :hasMeltingPoint "-45.58"^^xsd:float ;
+               :hasMolarMass "112.56"^^xsd:float ;
+               :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Chloroform
+:Chloroform rdf:type owl:NamedIndividual ,
+                     :Organic_Compound ;
+            :hasFireWarning :Somewhat_Flammable ;
+            :hasHealthWarning :Mildly_Toxic ;
+            :hasNomenclature :Haloalkane ;
+            :hasReactivityWarning :Stable ;
+            :hasSpecialWarning :Empty ;
+            :hasBoilingPoint "61.15"^^xsd:float ;
+            :hasDensity "1489.0"^^xsd:float ;
+            :hasMeltingPoint "-63.5"^^xsd:float ;
+            :hasMolarMass "119.37"^^xsd:float ;
+            :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Cinnamaldehyde
+:Cinnamaldehyde rdf:type owl:NamedIndividual ,
+                         :Organic_Compound ;
+                :hasFireWarning :Somewhat_Flammable ;
+                :hasHealthWarning :Mildly_Toxic ;
+                :hasNomenclature :Aldehyde ;
+                :hasReactivityWarning :Very_Stable ;
+                :hasSpecialWarning :Empty ;
+                :hasBoilingPoint "248.0"^^xsd:float ;
+                :hasDensity "1049.7"^^xsd:float ;
+                :hasMeltingPoint "-7.5"^^xsd:float ;
+                :hasMolarMass "132.16"^^xsd:float ;
+                :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Cubane
+:Cubane rdf:type owl:NamedIndividual ,
+                 :Organic_Compound ;
+        :hasFireWarning :Very_Flammable ;
+        :hasHealthWarning :Irritating ;
+        :hasNomenclature :Alkane ;
+        :hasReactivityWarning :Very_Stable ;
+        :hasSpecialWarning :Empty ;
+        :hasBoilingPoint "161.6"^^xsd:float ;
+        :hasDensity "1290.0"^^xsd:float ;
+        :hasMeltingPoint "133.5"^^xsd:float ;
+        :hasMolarMass "104.15"^^xsd:float ;
+        :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Dichloromethane
+:Dichloromethane rdf:type owl:NamedIndividual ,
+                          :Organic_Compound ;
+                 :hasFireWarning :Hardly_Flammable ;
+                 :hasHealthWarning :Mildly_Toxic ;
+                 :hasNomenclature :Haloalkane ;
+                 :hasReactivityWarning :Very_Stable ;
+                 :hasSpecialWarning :Empty ;
+                 :hasBoilingPoint "39.6"^^xsd:float ;
+                 :hasDensity "1326.6"^^xsd:float ;
+                 :hasMeltingPoint "-96.7"^^xsd:float ;
+                 :hasMolarMass "84.93"^^xsd:float ;
+                 :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Diethyl_ether
+:Diethyl_ether rdf:type owl:NamedIndividual ,
+                        :Organic_Compound ;
+               :hasFireWarning :Very_Flammable ;
+               :hasHealthWarning :Mildly_Toxic ;
+               :hasNomenclature :Ether ;
+               :hasReactivityWarning :Stable ;
+               :hasSpecialWarning :Empty ;
+               :hasBoilingPoint "34.6"^^xsd:float ;
+               :hasDensity "713.4"^^xsd:float ;
+               :hasMeltingPoint "-116.3"^^xsd:float ;
+               :hasMolarMass "74.123"^^xsd:float ;
+               :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Dimethyl_ether
+:Dimethyl_ether rdf:type owl:NamedIndividual ,
+                         :Organic_Compound ;
+                :hasFireWarning :Very_Flammable ;
+                :hasHealthWarning :Mildly_Toxic ;
+                :hasNomenclature :Ether ;
+                :hasReactivityWarning :Stable ;
+                :hasSpecialWarning :Empty ;
+                :hasBoilingPoint "-24.0"^^xsd:float ;
+                :hasDensity "2.1146"^^xsd:float ;
+                :hasMeltingPoint "-141.0"^^xsd:float ;
+                :hasMolarMass "46.069"^^xsd:float ;
+                :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Diol
+:Diol rdf:type owl:NamedIndividual ,
+               :Classification ,
+               :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Dioxane
+:Dioxane rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Flammable ;
+         :hasHealthWarning :Mildly_Toxic ;
+         :hasNomenclature :Ether ;
+         :hasReactivityWarning :Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "101.1"^^xsd:float ;
+         :hasDensity "1033.0"^^xsd:float ;
+         :hasMeltingPoint "11.8"^^xsd:float ;
+         :hasMolarMass "88.106"^^xsd:float ;
+         :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Empty
+:Empty rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ester
+:Ester rdf:type owl:NamedIndividual ,
+                :Classification ,
+                :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethane
+:Ethane rdf:type owl:NamedIndividual ,
+                 :Organic_Compound ;
+        :hasFireWarning :Very_Flammable ;
+        :hasHealthWarning :Irritating ;
+        :hasNomenclature :Alkane ;
+        :hasReactivityWarning :Very_Stable ;
+        :hasSpecialWarning :SA .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethanol
+:Ethanol rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Flammable ;
+         :hasHealthWarning :Mildly_Toxic ;
+         :hasNomenclature :Alcohol ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "78.23"^^xsd:float ;
+         :hasDensity "789.45"^^xsd:float ;
+         :hasMeltingPoint "-144.14"^^xsd:float ;
+         :hasMolarMass "46.069"^^xsd:float ;
+         :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethenol
+:Ethenol rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Somewhat_Flammable ;
+         :hasHealthWarning :Irritating ;
+         :hasNomenclature :Alcohol ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "10.5"^^xsd:float ;
+         :hasDensity "652.0"^^xsd:float ;
+         :hasMeltingPoint "9.0"^^xsd:float ;
+         :hasMolarMass "44.053"^^xsd:float ;
+         :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ether
+:Ether rdf:type owl:NamedIndividual ,
+                :Classification ,
+                :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethyl_acetate
+:Ethyl_acetate rdf:type owl:NamedIndividual ,
+                        :Organic_Compound ;
+               :hasFireWarning :Flammable ;
+               :hasHealthWarning :Mildly_Toxic ;
+               :hasNomenclature :Ester ;
+               :hasReactivityWarning :Very_Stable ;
+               :hasSpecialWarning :Empty ;
+               :hasBoilingPoint "77.1"^^xsd:float ;
+               :hasDensity "902.0"^^xsd:float ;
+               :hasMeltingPoint "-83.6"^^xsd:float ;
+               :hasMolarMass "88.106"^^xsd:float ;
+               :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethyl_formate
+:Ethyl_formate rdf:type owl:NamedIndividual ,
+                        :Organic_Compound ;
+               :hasFireWarning :Flammable ;
+               :hasHealthWarning :Mildly_Toxic ;
+               :hasNomenclature :Ester ;
+               :hasReactivityWarning :Very_Stable ;
+               :hasSpecialWarning :Empty ;
+               :hasBoilingPoint "54.0"^^xsd:float ;
+               :hasDensity "917.0"^^xsd:float ;
+               :hasMeltingPoint "-80.0"^^xsd:float ;
+               :hasMolarMass "74.079"^^xsd:float ;
+               :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethylene
+:Ethylene rdf:type owl:NamedIndividual ,
+                   :Organic_Compound ;
+          :hasFireWarning :Very_Flammable ;
+          :hasHealthWarning :Mildly_Toxic ;
+          :hasNomenclature :Alkene ;
+          :hasReactivityWarning :Somewhat_Stable ;
+          :hasSpecialWarning :Empty ;
+          :hasBoilingPoint "-103.7"^^xsd:float ;
+          :hasDensity "1.178"^^xsd:float ;
+          :hasMeltingPoint "-169.2"^^xsd:float ;
+          :hasMolarMass "28.054"^^xsd:float ;
+          :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethylene_glycol
+:Ethylene_glycol rdf:type owl:NamedIndividual ,
+                          :Organic_Compound ;
+                 :hasFireWarning :Hardly_Flammable ;
+                 :hasHealthWarning :Mildly_Toxic ;
+                 :hasNomenclature :Diol ;
+                 :hasReactivityWarning :Very_Stable ;
+                 :hasSpecialWarning :Empty ;
+                 :hasBoilingPoint "197.3"^^xsd:float ;
+                 :hasDensity "1113.2"^^xsd:float ;
+                 :hasMeltingPoint "-12.9"^^xsd:float ;
+                 :hasMolarMass "62.068"^^xsd:float ;
+                 :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ethylene_oxide
+:Ethylene_oxide rdf:type owl:NamedIndividual ,
+                         :Organic_Compound ;
+                :hasFireWarning :Very_Flammable ;
+                :hasHealthWarning :Toxic ;
+                :hasNomenclature :Ether ;
+                :hasReactivityWarning :Unstable ;
+                :hasSpecialWarning :Empty ;
+                :hasBoilingPoint "10.4"^^xsd:float ;
+                :hasDensity "882.1"^^xsd:float ;
+                :hasMeltingPoint "-112.46"^^xsd:float ;
+                :hasMolarMass "44.052"^^xsd:float ;
+                :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Flammable
+:Flammable rdf:type owl:NamedIndividual ,
+                    :Fire ,
+                    :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Formaldehyde
+:Formaldehyde rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Very_Flammable ;
+              :hasHealthWarning :Very_Toxic ;
+              :hasNomenclature :Aldehyde ;
+              :hasReactivityWarning :Very_Stable ;
+              :hasSpecialWarning :COR ;
+              :hasBoilingPoint "-19.0"^^xsd:float ;
+              :hasDensity "815.3"^^xsd:float ;
+              :hasMeltingPoint "-92.0"^^xsd:float ;
+              :hasMolarMass "30.026"^^xsd:float ;
+              :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Formic_acid
+:Formic_acid rdf:type owl:NamedIndividual ,
+                      :Organic_Compound ;
+             :hasFireWarning :Somewhat_Flammable ;
+             :hasHealthWarning :Toxic ;
+             :hasNomenclature :Carboxylic_Acid ;
+             :hasReactivityWarning :Very_Stable ;
+             :hasSpecialWarning :ACID ;
+             :hasBoilingPoint "100.8"^^xsd:float ;
+             :hasDensity "1220.0"^^xsd:float ;
+             :hasMeltingPoint "8.4"^^xsd:float ;
+             :hasMolarMass "46.025"^^xsd:float ;
+             :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Glucose
+:Glucose rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Hardly_Flammable ;
+         :hasHealthWarning :Non-Toxic ;
+         :hasNomenclature :Sugar ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "-1000.0"^^xsd:float ;
+         :hasDensity "1540.0"^^xsd:float ;
+         :hasMeltingPoint "146.0"^^xsd:float ;
+         :hasMolarMass "180.156"^^xsd:float ;
+         :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Glycerol
+:Glycerol rdf:type owl:NamedIndividual ,
+                   :Organic_Compound ;
+          :hasFireWarning :Hardly_Flammable ;
+          :hasHealthWarning :Irritating ;
+          :hasNomenclature :Triol ;
+          :hasReactivityWarning :Very_Stable ;
+          :hasSpecialWarning :Empty ;
+          :hasBoilingPoint "290.0"^^xsd:float ;
+          :hasDensity "1261.0"^^xsd:float ;
+          :hasMeltingPoint "17.8"^^xsd:float ;
+          :hasMolarMass "92.094"^^xsd:float ;
+          :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Haloalkane
+:Haloalkane rdf:type owl:NamedIndividual ,
+                     :Classification ,
+                     :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Hardly_Flammable
+:Hardly_Flammable rdf:type owl:NamedIndividual ,
+                           :Fire ,
+                           :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Irritating
+:Irritating rdf:type owl:NamedIndividual ,
+                     :Health ,
+                     :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Isobutane
+:Isobutane rdf:type owl:NamedIndividual ,
+                    :Organic_Compound ;
+           :hasFireWarning :Very_Flammable ;
+           :hasHealthWarning :Irritating ;
+           :hasNomenclature :Alkane ;
+           :hasReactivityWarning :Very_Stable ;
+           :hasSpecialWarning :Empty ;
+           :hasBoilingPoint "-11.7"^^xsd:float ;
+           :hasDensity "2.51"^^xsd:float ;
+           :hasMeltingPoint "-159.42"^^xsd:float ;
+           :hasMolarMass "58.124"^^xsd:float ;
+           :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Isobutylene
+:Isobutylene rdf:type owl:NamedIndividual ,
+                      :Organic_Compound ;
+             :hasFireWarning :Very_Flammable ;
+             :hasHealthWarning :Irritating ;
+             :hasNomenclature :Alkene ;
+             :hasReactivityWarning :Very_Stable ;
+             :hasSpecialWarning :Empty ;
+             :hasBoilingPoint "-6.9"^^xsd:float ;
+             :hasDensity "587.9"^^xsd:float ;
+             :hasMeltingPoint "-140.3"^^xsd:float ;
+             :hasMolarMass "56.106"^^xsd:float ;
+             :hasWaterSolubility "263.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Isopentane
+:Isopentane rdf:type owl:NamedIndividual ,
+                     :Organic_Compound ;
+            :hasFireWarning :Very_Flammable ;
+            :hasHealthWarning :Irritating ;
+            :hasNomenclature :Alkane ;
+            :hasReactivityWarning :Very_Stable ;
+            :hasSpecialWarning :Empty ;
+            :hasBoilingPoint "28.0"^^xsd:float ;
+            :hasDensity "616.0"^^xsd:float ;
+            :hasMeltingPoint "-160.0"^^xsd:float ;
+            :hasMolarMass "72.151"^^xsd:float ;
+            :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Isopropanol
+:Isopropanol rdf:type owl:NamedIndividual ,
+                      :Organic_Compound ;
+             :hasFireWarning :Flammable ;
+             :hasHealthWarning :Irritating ;
+             :hasNomenclature :Alcohol ;
+             :hasReactivityWarning :Very_Stable ;
+             :hasSpecialWarning :Empty ;
+             :hasBoilingPoint "82.0"^^xsd:float ;
+             :hasDensity "786.0"^^xsd:float ;
+             :hasMeltingPoint "-89.0"^^xsd:float ;
+             :hasMolarMass "60.096"^^xsd:float ;
+             :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Ketone
+:Ketone rdf:type owl:NamedIndividual ,
+                 :Classification ,
+                 :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Lactose
+:Lactose rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Non-Flammable ;
+         :hasHealthWarning :Non-Toxic ;
+         :hasNomenclature :Sugar ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "-1000.0"^^xsd:float ;
+         :hasDensity "1525.0"^^xsd:float ;
+         :hasMeltingPoint "252.0"^^xsd:float ;
+         :hasMolarMass "342.297"^^xsd:float ;
+         :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Maltose
+:Maltose rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Hardly_Flammable ;
+         :hasHealthWarning :Irritating ;
+         :hasNomenclature :Sugar ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "-1000.0"^^xsd:float ;
+         :hasDensity "1080.0"^^xsd:float ;
+         :hasMeltingPoint "162.5"^^xsd:float ;
+         :hasMolarMass "342.297"^^xsd:float ;
+         :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Methane
+:Methane rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Very_Flammable ;
+         :hasHealthWarning :Mildly_Toxic ;
+         :hasNomenclature :Alkane ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :SA ;
+         :hasBoilingPoint "-161.5"^^xsd:float ;
+         :hasDensity "0.657"^^xsd:float ;
+         :hasMeltingPoint "-182.456"^^xsd:float ;
+         :hasMolarMass "16.043"^^xsd:float ;
+         :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Methanol
+:Methanol rdf:type owl:NamedIndividual ,
+                   :Organic_Compound ;
+          :hasFireWarning :Flammable ;
+          :hasHealthWarning :Irritating ;
+          :hasNomenclature :Alcohol ;
+          :hasReactivityWarning :Very_Stable ;
+          :hasSpecialWarning :Empty ;
+          :hasBoilingPoint "64.7"^^xsd:float ;
+          :hasDensity "792.0"^^xsd:float ;
+          :hasMeltingPoint "-13.02"^^xsd:float ;
+          :hasMolarMass "32.042"^^xsd:float ;
+          :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Methyl_acetate
+:Methyl_acetate rdf:type owl:NamedIndividual ,
+                         :Organic_Compound ;
+                :hasFireWarning :Flammable ;
+                :hasHealthWarning :Mildly_Toxic ;
+                :hasNomenclature :Ester ;
+                :hasReactivityWarning :Very_Stable ;
+                :hasSpecialWarning :Empty ;
+                :hasBoilingPoint "56.9"^^xsd:float ;
+                :hasDensity "932.0"^^xsd:float ;
+                :hasMeltingPoint "-98.0"^^xsd:float ;
+                :hasMolarMass "74.079"^^xsd:float ;
+                :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Methyl_formate
+:Methyl_formate rdf:type owl:NamedIndividual ,
+                         :Organic_Compound ;
+                :hasFireWarning :Very_Flammable ;
+                :hasHealthWarning :Mildly_Toxic ;
+                :hasNomenclature :Ester ;
+                :hasReactivityWarning :Very_Stable ;
+                :hasSpecialWarning :Empty ;
+                :hasBoilingPoint "32.0"^^xsd:float ;
+                :hasDensity "980.0"^^xsd:float ;
+                :hasMeltingPoint "-100.0"^^xsd:float ;
+                :hasMolarMass "60.052"^^xsd:float ;
+                :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Methylene_glycol
+:Methylene_glycol rdf:type owl:NamedIndividual ,
+                           :Organic_Compound ;
+                  :hasFireWarning :Hardly_Flammable ;
+                  :hasHealthWarning :Mildly_Toxic ;
+                  :hasNomenclature :Diol ;
+                  :hasReactivityWarning :Very_Stable ;
+                  :hasSpecialWarning :Empty ;
+                  :hasBoilingPoint "194.0"^^xsd:float ;
+                  :hasDensity "1199.0"^^xsd:float ;
+                  :hasMolarMass "48.041"^^xsd:float ;
+                  :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Mildly_Flammable
+:Mildly_Flammable rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Mildly_Toxic
+:Mildly_Toxic rdf:type owl:NamedIndividual ,
+                       :Health ,
+                       :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Neopentane
+:Neopentane rdf:type owl:NamedIndividual ,
+                     :Organic_Compound ;
+            :hasFireWarning :Very_Flammable ;
+            :hasHealthWarning :Irritating ;
+            :hasNomenclature :Alcane ;
+            :hasReactivityWarning :Very_Stable ;
+            :hasSpecialWarning :Empty ;
+            :hasBoilingPoint "9.5"^^xsd:float ;
+            :hasDensity "3.255"^^xsd:float ;
+            :hasMeltingPoint "-16.5"^^xsd:float ;
+            :hasMolarMass "72.151"^^xsd:float ;
+            :hasWaterSolubility "48.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Nitrobenzene
+:Nitrobenzene rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Somewhat_Flammable ;
+              :hasHealthWarning :Toxic ;
+              :hasNomenclature :Arene ;
+              :hasReactivityWarning :Stable ;
+              :hasSpecialWarning :Empty ;
+              :hasBoilingPoint "210.9"^^xsd:float ;
+              :hasDensity "1199.0"^^xsd:float ;
+              :hasMeltingPoint "5.7"^^xsd:float ;
+              :hasMolarMass "123.11"^^xsd:float ;
+              :hasWaterSolubility "19000.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Non-Flammable
+:Non-Flammable rdf:type owl:NamedIndividual ,
+                        :Fire ,
+                        :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Non-Toxic
+:Non-Toxic rdf:type owl:NamedIndividual ,
+                    :Health ,
+                    :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Non-toxic
+:Non-toxic rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Octane
+:Octane rdf:type owl:NamedIndividual ,
+                 :Organic_Compound ;
+        :hasFireWarning :Flammable ;
+        :hasHealthWarning :Irritating ;
+        :hasNomenclature :Alkane ;
+        :hasReactivityWarning :Very_Stable ;
+        :hasSpecialWarning :Empty ;
+        :hasBoilingPoint "126.0"^^xsd:float ;
+        :hasDensity "703.0"^^xsd:float ;
+        :hasMeltingPoint "-56.8"^^xsd:float ;
+        :hasMolarMass "114.232"^^xsd:float ;
+        :hasWaterSolubility "0.007"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Oxalic_acid
+:Oxalic_acid rdf:type owl:NamedIndividual ,
+                      :Organic_Compound ;
+             :hasFireWarning :Hardly_Flammable ;
+             :hasHealthWarning :Toxic ;
+             :hasNomenclature :Carboxylic_Acid ;
+             :hasReactivityWarning :Very_Stable ;
+             :hasSpecialWarning :ACID ;
+             :hasBoilingPoint "365.1"^^xsd:float ;
+             :hasDensity "1900.0"^^xsd:float ;
+             :hasMeltingPoint "190.0"^^xsd:float ;
+             :hasMolarMass "90.034"^^xsd:float ;
+             :hasWaterSolubility "237000.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Phenol
+:Phenol rdf:type owl:NamedIndividual ,
+                 :Organic_Compound ;
+        :hasFireWarning :Somewhat_Flammable ;
+        :hasHealthWarning :Toxic ;
+        :hasNomenclature :Arene ;
+        :hasReactivityWarning :Very_Stable ;
+        :hasSpecialWarning :Empty ;
+        :hasBoilingPoint "181.7"^^xsd:float ;
+        :hasDensity "1070.0"^^xsd:float ;
+        :hasMeltingPoint "40.5"^^xsd:float ;
+        :hasMolarMass "94.113"^^xsd:float ;
+        :hasWaterSolubility "83000.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Propane
+:Propane rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Very_Flammable ;
+         :hasHealthWarning :Mildly_Toxic ;
+         :hasNomenclature :Alkane ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "-42.25"^^xsd:float ;
+         :hasDensity "2.0098"^^xsd:float ;
+         :hasMeltingPoint "-187.7"^^xsd:float ;
+         :hasMolarMass "44.097"^^xsd:float ;
+         :hasWaterSolubility "47.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Propionaldehyde
+:Propionaldehyde rdf:type owl:NamedIndividual ,
+                          :Organic_Compound ;
+                 :hasFireWarning :Flammable ;
+                 :hasHealthWarning :Mildly_Toxic ;
+                 :hasNomenclature :Aldehyde ;
+                 :hasReactivityWarning :Somewhat_Stable ;
+                 :hasSpecialWarning :Empty ;
+                 :hasBoilingPoint "48.0"^^xsd:float ;
+                 :hasDensity "810.0"^^xsd:float ;
+                 :hasMeltingPoint "-81.0"^^xsd:float ;
+                 :hasMolarMass "58.08"^^xsd:float ;
+                 :hasWaterSolubility "200000.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#SA
+:SA rdf:type owl:NamedIndividual ,
+             :Special ,
+             :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Somewhat_Flammable
+:Somewhat_Flammable rdf:type owl:NamedIndividual ,
+                             :Fire ,
+                             :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Somewhat_Stable
+:Somewhat_Stable rdf:type owl:NamedIndividual ,
+                          :Reactivity ,
+                          :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Stable
+:Stable rdf:type owl:NamedIndividual ,
+                 :Reactivity ,
+                 :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Sucrose
+:Sucrose rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Hardly_Flammable ;
+         :hasHealthWarning :Non-Toxic ;
+         :hasNomenclature :Sugar ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "-1000.0"^^xsd:float ;
+         :hasDensity "1587.0"^^xsd:float ;
+         :hasMeltingPoint "186.0"^^xsd:float ;
+         :hasMolarMass "342.3"^^xsd:float ;
+         :hasWaterSolubility "2010000.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Sugar
+:Sugar rdf:type owl:NamedIndividual ,
+                :Classification ,
+                :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Tetrachloromethane
+:Tetrachloromethane rdf:type owl:NamedIndividual ,
+                             :Organic_Compound ;
+                    :hasFireWarning :Non-Flammable ;
+                    :hasHealthWarning :Toxic ;
+                    :hasNomenclature :Haloalkane ;
+                    :hasReactivityWarning :Very_Stable ;
+                    :hasSpecialWarning :Empty ;
+                    :hasBoilingPoint "76.72"^^xsd:float ;
+                    :hasDensity "1586.7"^^xsd:float ;
+                    :hasMeltingPoint "-22.92"^^xsd:float ;
+                    :hasMolarMass "153.81"^^xsd:float ;
+                    :hasWaterSolubility "81.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Tetrahydrofuran
+:Tetrahydrofuran rdf:type owl:NamedIndividual ,
+                          :Organic_Compound ;
+                 :hasFireWarning :Flammable ;
+                 :hasHealthWarning :Mildly_Toxic ;
+                 :hasNomenclature :Ether ;
+                 :hasReactivityWarning :Stable ;
+                 :hasSpecialWarning :Empty ;
+                 :hasBoilingPoint "66.0"^^xsd:float ;
+                 :hasDensity "887.6"^^xsd:float ;
+                 :hasMeltingPoint "-108.4"^^xsd:float ;
+                 :hasMolarMass "72.107"^^xsd:float ;
+                 :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Toluene
+:Toluene rdf:type owl:NamedIndividual ,
+                  :Organic_Compound ;
+         :hasFireWarning :Flammable ;
+         :hasHealthWarning :Mildly_Toxic ;
+         :hasNomenclature :Arene ;
+         :hasReactivityWarning :Very_Stable ;
+         :hasSpecialWarning :Empty ;
+         :hasBoilingPoint "110.6"^^xsd:float ;
+         :hasDensity "862.3"^^xsd:float ;
+         :hasMeltingPoint "-95.0"^^xsd:float ;
+         :hasMolarMass "92.141"^^xsd:float ;
+         :hasWaterSolubility "519.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Toxic
+:Toxic rdf:type owl:NamedIndividual ,
+                :Health ,
+                :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Triol
+:Triol rdf:type owl:NamedIndividual ,
+                :Classification ,
+                :Nomenclature .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Unstable
+:Unstable rdf:type owl:NamedIndividual ,
+                   :Reactivity ,
+                   :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Very_Flammable
+:Very_Flammable rdf:type owl:NamedIndividual ,
+                         :Fire ,
+                         :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Very_Stable
+:Very_Stable rdf:type owl:NamedIndividual ,
+                      :Reactivity ,
+                      :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Very_Toxic
+:Very_Toxic rdf:type owl:NamedIndividual ,
+                     :Health ,
+                     :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#Very_Unstable
+:Very_Unstable rdf:type owl:NamedIndividual ,
+                        :Reactivity ,
+                        :Warning .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#cis-Butylene
+:cis-Butylene rdf:type owl:NamedIndividual ,
+                       :Organic_Compound ;
+              :hasFireWarning :Very_Flammable ;
+              :hasHealthWarning :Irritating ;
+              :hasNomenclature :Alkene ;
+              :hasReactivityWarning :Very_Stable ;
+              :hasSpecialWarning :Empty ;
+              :hasBoilingPoint "1.2"^^xsd:float ;
+              :hasDensity "641.0"^^xsd:float ;
+              :hasMeltingPoint "-138.9"^^xsd:float ;
+              :hasMolarMass "56.106"^^xsd:float ;
+              :hasWaterSolubility "1.165"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#n-Butane
+:n-Butane rdf:type owl:NamedIndividual ,
+                   :Organic_Compound ;
+          :hasFireWarning :Very_Flammable ;
+          :hasHealthWarning :Irritating ;
+          :hasNomenclature :Alkane ;
+          :hasReactivityWarning :Very_Stable ;
+          :hasSpecialWarning :SA ;
+          :hasBoilingPoint "0.0"^^xsd:float ;
+          :hasDensity "2.48"^^xsd:float ;
+          :hasMeltingPoint "-137.0"^^xsd:float ;
+          :hasMolarMass "58.124"^^xsd:float ;
+          :hasWaterSolubility "61.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#n-Butylene
+:n-Butylene rdf:type owl:NamedIndividual ,
+                     :Organic_Compound ;
+            :hasFireWarning :Very_Flammable ;
+            :hasHealthWarning :Irritating ;
+            :hasNomenclature :Alkene ;
+            :hasReactivityWarning :Very_Stable ;
+            :hasSpecialWarning :Empty ;
+            :hasBoilingPoint "-6.47"^^xsd:float ;
+            :hasDensity "620.0"^^xsd:float ;
+            :hasMeltingPoint "-185.3"^^xsd:float ;
+            :hasMolarMass "56.106"^^xsd:float ;
+            :hasWaterSolubility "221.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#n-Pentane
+:n-Pentane rdf:type owl:NamedIndividual ,
+                    :Organic_Compound ;
+           :hasFireWarning :Very_Flammable ;
+           :hasHealthWarning :Irritating ;
+           :hasNomenclature :Alkane ;
+           :hasReactivityWarning :Very_Stable ;
+           :hasSpecialWarning :Empty ;
+           :hasBoilingPoint "36.1"^^xsd:float ;
+           :hasDensity "626.0"^^xsd:float ;
+           :hasMeltingPoint "-130.5"^^xsd:float ;
+           :hasMolarMass "72.151"^^xsd:float ;
+           :hasWaterSolubility "40.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#n-Propanol
+:n-Propanol rdf:type owl:NamedIndividual ,
+                     :Organic_Compound ;
+            :hasFireWarning :Flammable ;
+            :hasHealthWarning :Irritating ;
+            :hasNomenclature :Alcohol ;
+            :hasReactivityWarning :Very_Stable ;
+            :hasSpecialWarning :Empty ;
+            :hasBoilingPoint "97.0"^^xsd:float ;
+            :hasDensity "803.0"^^xsd:float ;
+            :hasMeltingPoint "-126.0"^^xsd:float ;
+            :hasMolarMass "60.096"^^xsd:float ;
+            :hasWaterSolubility "1.0E7"^^xsd:float .
+
+
+###  http://www.semanticweb.org/admin/ontologies/2024/9/untitled-ontology-9#trans-Butylene
+:trans-Butylene rdf:type owl:NamedIndividual ,
+                         :Organic_Compound ;
+                :hasFireWarning :Very_Flammable ;
+                :hasHealthWarning :Irritating ;
+                :hasNomenclature :Alkane ;
+                :hasReactivityWarning :Very_Stable ;
+                :hasSpecialWarning :Empty ;
+                :hasBoilingPoint "3.6"^^xsd:float ;
+                :hasDensity "626.0"^^xsd:float ;
+                :hasMeltingPoint "-105.5"^^xsd:float ;
+                :hasMolarMass "56.106"^^xsd:float ;
+                :hasWaterSolubility "242.5"^^xsd:float .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Classification
+                :Fire
+                :Health
+                :Reactivity
+                :Special
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Fire
+                :Health
+                :Nomenclature
+                :Reactivity
+                :Special
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Fire
+                :Health
+                :Reactivity
+                :Special
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :hasFireWarning
+                :hasHealthWarning
+                :hasNomenclature
+                :hasReactivityWarning
+                :hasSpecialWarning
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
