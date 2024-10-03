@@ -1,0 +1,36 @@
+[submodule "Software Engineering/Web Programming/Lab1"]
+	path = Software Engineering/Web Programming/Lab1
+	url = https://github.com/XVIIStarPlatinum/WEB_I_VAR2130
+[submodule "Lab4/Front"]
+	path = Lab4/Front
+	url = https://github.com/XVIIStarPlatinum/WEB_IV_VAR_124411_FRONT
+[submodule "Software Engineering/Web Programming/Lab4/Front"]
+	path = Software Engineering/Web Programming/Lab4/Front
+	url = https://github.com/XVIIStarPlatinum/WEB_IV_VAR_124411_FRONT
+[submodule "Software Engineering/Web Programming/Lab4/Back"]
+	path = Software Engineering/Web Programming/Lab4/Back
+	url = https://github.com/XVIIStarPlatinum/WEB_IV_VAR_124411_BACK
+[submodule "Software Engineering/Web Programming/Lab3"]
+	path = Software Engineering/Web Programming/Lab3
+	url = https://github.com/XVIIStarPlatinum/WEB_III_VAR_3552
+[submodule "Software Engineering/Web Programming/Lab2"]
+	path = Software Engineering/Web Programming/Lab2
+	url = https://github.com/XVIIStarPlatinum/WEB_II_VAR_3110
+[submodule "Software Engineering/Programming/Lab5/Lab5 (new)"]
+	path = Software Engineering/Programming/Lab5/Lab5 (new)
+	url = https://github.com/XVIIStarPlatinum/JAVA_V_VAR_372799
+[submodule "Software Engineering/Programming/Lab5/Lab6"]
+	path = Software Engineering/Programming/Lab5/Lab6
+	url = https://github.com/XVIIStarPlatinum/JAVA_VI_VAR_543534
+[submodule "Software Engineering/Programming/Lab5/Lab7"]
+	path = Software Engineering/Programming/Lab5/Lab7
+	url = https://github.com/XVIIStarPlatinum/JAVA_VII_VAR_3232
+[submodule "Software Engineering/Fundamentals of Professional Activity"]
+	path = Software Engineering/Fundamentals of Professional Activity
+	url = https://github.com/XVIIStarPlatinum/csbasics
+[submodule "Software Engineering/Databases"]
+	path = Software Engineering/Databases
+	url = https://github.com/XVIIStarPlatinum/Databases
+[submodule "Software Engineering/Algorithms & Data Structures"]
+	path = Software Engineering/Algorithms & Data Structures
+	url = https://github.com/XVIIStarPlatinum/AlgorithmsandDataStructures

@@ -10,5 +10,10 @@
     <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab2" vcs="" />
     <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab3" vcs="" />
     <mapping directory="$PROJECT_DIR$/Software Engineering/Programming/Lab4" vcs="" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Web Programming/Lab1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Web Programming/Lab2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Web Programming/Lab3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Web Programming/Lab4/Back" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Software Engineering/Web Programming/Lab4/Front" vcs="Git" />
   </component>
 </project>

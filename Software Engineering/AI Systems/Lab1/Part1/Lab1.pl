@@ -65,6 +65,67 @@ organic_compound('Maltose').
 organic_compound('Lactose').
 organic_compound('Sucrose').
 
+% Классы соединении, к которым принадлежат вышеописанные органические вещества.
+chemical_class('Methane', 'alkane').
+chemical_class('Ethane', 'alkane').
+chemical_class('Propane', 'alkane').
+chemical_class('n-Butane', 'alkane').
+chemical_class('n-Pentane', 'alkane').
+chemical_class('Isobutane', 'alkane').
+chemical_class('Isopentane', 'alkane').
+chemical_class('Neopentane', 'alkane').
+chemical_class('Octane', 'alkane').
+chemical_class('Cubane', 'alkane').
+chemical_class('Dichloromethane', 'haloalkane').
+chemical_class('Chloroform', 'haloalkane').
+chemical_class('Tetrachloromethane', 'haloalkane').
+chemical_class('Ethylene', 'alkene').
+chemical_class('Allene', 'alkene').
+chemical_class('n-Butylene', 'alkene').
+chemical_class('Isobutylene', 'alkene').
+chemical_class('cis-Butylene', 'alkene').
+chemical_class('trans-Butylene', 'alkene').
+chemical_class('Acetylene', 'alkyne').
+chemical_class('Methanol', 'alcohol').
+chemical_class('Ethanol', 'alcohol').
+chemical_class('n-Propanol', 'alcohol').
+chemical_class('Isopropanol', 'alcohol').
+chemical_class('Ethenol', 'alcohol').
+chemical_class('Methylene glycol', 'diol').
+chemical_class('Ethylene glycol', 'diol').
+chemical_class('Glycerol', 'triol').
+chemical_class('Formaldehyde', 'aldehyde').
+chemical_class('Acetaldehyde', 'aldehyde').
+chemical_class('Propionaldehyde', 'aldehyde').
+chemical_class('Benzaldehyde', 'aldehyde').
+chemical_class('Cinnamaldehyde', 'aldehyde').
+chemical_class('Formic acid', 'carboxylic acid').
+chemical_class('Acetic acid', 'carboxylic acid').
+chemical_class('Butyric acid', 'carboxylic acid').
+chemical_class('Oxalic acid', 'carboxylic acid').
+chemical_class('Acetone', 'ketone').
+chemical_class('Butanone', 'ketone').
+chemical_class('Benzene', 'arene').
+chemical_class('Phenol', 'arene').
+chemical_class('Toluene', 'arene').
+chemical_class('Chlorobenzene', 'arene').
+chemical_class('Nitrobenzene', 'arene').
+chemical_class('Aniline', 'arene').
+chemical_class('Benzoic acid', 'arene').
+chemical_class('Dimethyl ether', 'ether').
+chemical_class('Diethyl ether', 'ether').
+chemical_class('Tetrahydrofuran', 'ether').
+chemical_class('Dioxane', 'ether').
+chemical_class('Ethylene oxide', 'ether').
+chemical_class('Methyl acetate', 'ester').
+chemical_class('Ethyl acetate', 'ester').
+chemical_class('Methyl formate', 'ester').
+chemical_class('Ethyl formate', 'ester').
+chemical_class('Glucose', 'sugar').
+chemical_class('Maltose', 'sugar').
+chemical_class('Lactose', 'sugar').
+chemical_class('Sucrose', 'sugar').
+
 % Молярная масса молекул — характеристика вещества, отношение массы вещества к его количеству. Измеряется в г/моль.
 molar_mass('Methane', 16.043).
 molar_mass('Ethane', 30.070).
@@ -215,7 +276,7 @@ temperatures('Ethanol', -144.14, 78.23).
 temperatures('n-Propanol', -126, 97).
 temperatures('Isopropanol', -89, 82).
 temperatures('Ethenol', 9, 10.5).
-temperatures('Methylene glycol', 'Empty', '194').
+temperatures('Methylene glycol', 'Empty', 194).
 temperatures('Ethylene glycol', -12.9, 197.3).
 temperatures('Glycerol', 17.8, 290).
 temperatures('Formaldehyde', -92, -19).
@@ -249,67 +310,6 @@ temperatures('Glucose', 146, 'Empty').
 temperatures('Maltose', 162.5, 'Empty').
 temperatures('Lactose', 252, 'Empty').
 temperatures('Sucrose', 186, 'Empty').
-
-% Классы соединении, к которым принадлежат вышеописанные органические вещества.
-chemical_class('Methane', 'alkane').
-chemical_class('Ethane', 'alkane').
-chemical_class('Propane', 'alkane').
-chemical_class('n-Butane', 'alkane').
-chemical_class('n-Pentane', 'alkane').
-chemical_class('Isobutane', 'alkane').
-chemical_class('Isopentane', 'alkane').
-chemical_class('Neopentane', 'alkane').
-chemical_class('Octane', 'alkane').
-chemical_class('Cubane', 'alkane').
-chemical_class('Dichloromethane', 'haloalkane').
-chemical_class('Chloroform', 'haloalkane').
-chemical_class('Tetrachloromethane', 'haloalkane').
-chemical_class('Ethylene', 'alkene').
-chemical_class('Allene', 'alkene').
-chemical_class('n-Butylene', 'alkene').
-chemical_class('Isobutylene', 'alkene').
-chemical_class('cis-Butylene', 'alkene').
-chemical_class('trans-Butylene', 'alkene').
-chemical_class('Acetylene', 'alkyne').
-chemical_class('Methanol', 'alcohol').
-chemical_class('Ethanol', 'alcohol').
-chemical_class('n-Propanol', 'alcohol').
-chemical_class('Isopropanol', 'alcohol').
-chemical_class('Ethenol', 'alcohol').
-chemical_class('Methylene glycol', 'diol').
-chemical_class('Ethylene glycol', 'diol').
-chemical_class('Glycerol', 'triol').
-chemical_class('Formaldehyde', 'aldehyde').
-chemical_class('Acetaldehyde', 'aldehyde').
-chemical_class('Propionaldehyde', 'aldehyde').
-chemical_class('Benzaldehyde', 'aldehyde').
-chemical_class('Cinnamaldehyde', 'aldehyde').
-chemical_class('Formic acid', 'carboxylic acid').
-chemical_class('Acetic acid', 'carboxylic acid').
-chemical_class('Butyric acid', 'carboxylic acid').
-chemical_class('Oxalic acid', 'carboxylic acid').
-chemical_class('Acetone', 'ketone').
-chemical_class('Butanone', 'ketone').
-chemical_class('Benzene', 'arene').
-chemical_class('Phenol', 'arene').
-chemical_class('Toluene', 'arene').
-chemical_class('Chlorobenzene', 'arene').
-chemical_class('Nitrobenzene', 'arene').
-chemical_class('Aniline', 'arene').
-chemical_class('Benzoic acid', 'arene').
-chemical_class('Dimethyl ether', 'ether').
-chemical_class('Diethyl ether', 'ether').
-chemical_class('Tetrahydrofuran', 'ether').
-chemical_class('Dioxane', 'ether').
-chemical_class('Ethylene oxide', 'ether').
-chemical_class('Methyl acetate', 'ester').
-chemical_class('Ethyl acetate', 'ester').
-chemical_class('Methyl formate', 'ester').
-chemical_class('Ethyl formate', 'ester').
-chemical_class('Glucose', 'sugar').
-chemical_class('Maltose', 'sugar').
-chemical_class('Lactose', 'sugar').
-chemical_class('Sucrose', 'sugar').
 
 % Давления насыщенного пара веществ. Это свойство указывает на летучесть вещества. Измеряется в КПа при ~20±5°C.
 vapor_pressure('Methane', 'Empty').
@@ -367,10 +367,10 @@ vapor_pressure('Methyl acetate', 23.0648).
 vapor_pressure('Ethyl acetate', 9.73253).
 vapor_pressure('Methyl formate', 0.634).
 vapor_pressure('Ethyl formate', 26.6645).
-vapor_pressure('Glucose', '0.00001').
-vapor_pressure('Maltose', '0.00031').
-vapor_pressure('Lactose', '0.000002').
-vapor_pressure('Sucrose', '0.000034').
+vapor_pressure('Glucose', 0.00001).
+vapor_pressure('Maltose', 0.00031).
+vapor_pressure('Lactose', 0.000002).
+vapor_pressure('Sucrose', 0.000034).
 
 % Растворимость в воде. Измеряется в мг/л при разных температурах (источник к сожалению не позволяет единого условия).
 water_solubility('Methane', 22.7).
@@ -609,7 +609,7 @@ nfpa_avg(X, Avg) :-
 list_of_specials(X_list, S) :-
     findall(X, nfpa(X, _, _, _, S), X_list).
 
-% 12. Сравнение безопастности веществ по их средним значеним по NFPA.
+% 12. Сравнение безопасности веществ по их средним значеним по NFPA.
 nfpa_compare(X, Y) :-
     nfpa_avg(X, Avg_1), nfpa_avg(Y, Avg_2),
     (   Avg_1 > Avg_2

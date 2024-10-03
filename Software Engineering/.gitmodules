@@ -16,4 +16,18 @@
 [submodule "Programming/Lab7"]
     path = Programming/Lab7
     url = https://github.com/XVIIStarPlatinum/JAVA_VII_VAR_3232
-[]
+[submodule "Web Programming/Lab1"]
+    path = Web Programming/Lab1
+    url = https://github.com/XVIIStarPlatinum/WEB_I_VAR2130
+[submodule "Web Programming/Lab2"]
+    path = Web Programming/Lab2
+    url = https://github.com/XVIIStarPlatinum/WEB_II_VAR_3110
+[submodule "Web Programming/Lab3"]
+    path = Web Programming/Lab3
+    url = https://github.com/XVIIStarPlatinum/WEB_III_VAR_3552
+[submodule "Web Programming/Lab4/Front"]
+    path = Web Programming/Lab4/Front
+    url = https://github.com/XVIIStarPlatinum/WEB_IV_VAR_124411_FRONT
+[submodule "Web Programming/Lab4/Back"]
+    path = Web Programming/Lab4/Back
+    url = https://github.com/XVIIStarPlatinum/WEB_IV_VAR_124411_BACK

@@ -1,0 +1,12 @@
+info
+show
+add
+another band
+1.3215
+5.984
+4
+2015/09/11
+POP
+Somewhere
+show
+help
