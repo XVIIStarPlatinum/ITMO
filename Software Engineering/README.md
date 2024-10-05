@@ -1,5 +1,9 @@
 # I/İTMO/SE
 
+<p align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW1lbnE2d3RpbXZrNjlxNGx4azFpeXZhZzhpNzJoNDY4cW16ank0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ld9W9HTQPXy1ECjbO3/giphy.gif" alt="wtf is a sea"/>
+</p>
+
 ---
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
