@@ -40,8 +40,9 @@
 
 ## Дисциплины <a name="disciplines"></a>
 
-[СППО](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README.md#)
-[БИТ]
+[СППО](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/)
+
+[БИТ](https://github.com/XVIIStarPlatinum/ITMO/tree/cybersec/Cybersecurity)
 ---
 
 ## Полезные ссылки <a name="links"></a>
