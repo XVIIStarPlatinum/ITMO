@@ -18,7 +18,7 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_IN.md) |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 
-Лектор: [Клименков Сергей Викторович](https://my.itmo.ru/persons/148787)
+**Лектор**: [Клименков Сергей Викторович](https://my.itmo.ru/persons/148787)
 > Две четвёрки на шее (На шее)\
 > В этой игре начальник, мой Игуза не прощает\
 > Ломаю твои катаны — это бог смерти вещает\
@@ -29,29 +29,30 @@
 > Каждый гуль трясётся в ужасе, для них словно маньяк\
 > И под звуки Реквиема я танцую на костях!
 
-Практик: Птицын Максим Евгеньевич [(@Kyoto67)](https://github.com/Kyoto67)
+**Практик**: Птицын Максим Евгеньевич [(@Kyoto67)](https://github.com/Kyoto67)
 
+> <sup><i>Каждый подход би лайк</sup></i>
 ![vtcursed](/img/pics/zxcursed-with-fan.jpg)
-<sup><i>Каждый подход би лайк</sup></i>
+
 
 Партнер: Орчиков Даниил Валерьевич [(@DaniilOrchikov)](https://github.com/DaniilOrchikov)
 
 ## Результаты
 <s>трахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахать</s>
-- IV семестр: **4C** (${\color{yellow}78.2}$/100 баллов)
+- IV семестр: **4С** (${\color{yellow}78.2}$/100 баллов)
 ---
 
-## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                               | Описание                                                                |
-|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| https://github.com/DaniilOrchikov/WEB3/                                              | Сам код для 3 и 4 лабы                                                  |
-| https://github.com/Kyoto67/VT_labs_2                                                 | Лабы от главного гуля ИТМО                                              |
-| https://www.youtube.com/watch?v=qEt9a9gty6w                                          | Чтобы окончательно стать дед инсайдом                                   |
-| https://github.com/maxbarsukov-itmo                                                  | Лабы от барсука                                                         |
-| https://docs.google.com/document/d/1mOeRs6-WKrAcwsTqyehsJl-ZT1zrzSXlnEm61GQfQBA/edit | Расписанные билеты для экзамена от нас                                  |
-| https://zerumi.notion.site/1bbf9e6a6b3944e8a54af4a90142be38?pvs=4                    | Расписанные билеты для экзамена от Зеруми (если что там более подробно) |
-| https://github.com/worthant/interactive-graph-ui                                     | Экземпляр от Бориса Дворкина                                            |
-| https://steamcommunity.com/profiles/76561198267268776                                | Если хотите на доте ганкать его с пиком Лины против сф маг              |
+## Полезные ссылки
+| Ссылка                                                                               | Описание                                                                                    |
+|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| https://github.com/DaniilOrchikov/WEB3/                                              | Сам код для 3 и 4 лабы                                                                      |
+| https://github.com/Kyoto67/VT_labs_2                                                 | Лабы от главного гуля ИТМО                                                                  |
+| https://www.youtube.com/watch?v=qEt9a9gty6w                                          | Чтобы окончательно стать дед инсайдом                                                       |
+| https://github.com/maxbarsukov-itmo                                                  | Лабы от барсука                                                                             |
+| https://docs.google.com/document/d/1mOeRs6-WKrAcwsTqyehsJl-ZT1zrzSXlnEm61GQfQBA/edit | Расписанные билеты для экзамена от нас                                                      |
+| https://zerumi.notion.site/1bbf9e6a6b3944e8a54af4a90142be38?pvs=4                    | Расписанные билеты для экзамена от Зеруми (если что там более подробно)                     |
+| https://github.com/worthant/interactive-graph-ui                                     | Экземпляр от Бориса Дворкина                                                                |
+| https://steamcommunity.com/profiles/76561198267268776                                | Если хотите на доте ганкать его с пиком ОД против шторма (но если что у него 3к игр на нем) |
 
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru/courses/software-engineering-basics)
 > Shinigami eyes

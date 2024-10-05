@@ -32,6 +32,7 @@
 | https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-5-sepia-filter     | Лабораторная №5: сепия фильтр                        |
 | https://github.com/Zerumi/disk-usage-reborn                         | Отличный проект от моей хорошей коллеги Zerumi       |
 | https://github.com/maxbarsukov/itmo/tree/master/3%20япы/семинары    | Я потерял свои семинары, поэтому ссылаю вас на Макса |
+| https://github.com/Alex-de-bug/stepik-c                             | Ответы на Степике                                    |
 
 [**Сайт с заданиями к работам.**](https://gitlab.se.ifmo.ru/programming-languages)
 
