@@ -67,3 +67,9 @@
 [submodule "Software Engineering/Programming/Lab4"]
 	path = Software Engineering/Programming/Lab4
 	url = https://github.com/17starplatinum/PROG-Lab4
+[submodule "Software Engineering/Information Systems/Labs/Lab1"]
+	path = Software Engineering/Information Systems/Labs/Lab1
+	url = https://github.com/17starplatinum/InfSys-I_VAR-100246
+[submodule "Software Engineering/Information Systems/CourseWork"]
+	path = Software Engineering/Information Systems/CourseWork
+	url = https://github.com/Raisondetr3/MeetHub
