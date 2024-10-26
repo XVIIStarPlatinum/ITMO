@@ -1,9 +1,10 @@
+import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 
-print(f"Path to data:")
+print(os.path.abspath("data.csv"))
 data_df = pd.read_csv(f"data.csv")
 data = data_df['data'].values
 val_array = [[], [], [], [], [], []]
@@ -227,7 +228,6 @@ def exponential_distribution(data):
 
 def hyperexponential_distribution(data):
     """Аппроксимация гиперэкспоненциального распределения"""
-    # Ваш код для гиперэкспоненциального распределения
     lambdas = [0.02, 0.05, 0.08]
     probs = [0.2, 0.3, 0.5]
     hyperexp_values = hyperexponential_gen(lambdas, probs, len(data))
@@ -264,7 +264,7 @@ def generate_and_compare(data, lambdas, probs, size):
         generated_mean, generated_var, generated_sigma, generated_coef_variation, generated_interval = calculate_moments(generated_data, i)
 
         # Вывод для сравнения
-        #print(f"Исходные данные: Мат. ожидание = {original_mean:.2f}; Дисперсия = {original_var:.2f}; СКО = {original_sigma:.2f}; КВ = {original_coef_variation:.2f}; Дов.инт. = {original_interval}%")
+        print(f"Исходные данные: Мат. ожидание = {original_mean:.2f}; Дисперсия = {original_var:.2f}; СКО = {original_sigma:.2f}; КВ = {original_coef_variation:.2f}; Дов.инт. = {original_interval}%")
         print(f"Сгенерированные данные: Мат. ожидание = {generated_mean:.2f}; Дисперсия = {generated_var:.2f}; СКО = {generated_sigma:.2f}; КВ = {generated_coef_variation:.2f}; Дов.инт. = {generated_interval}%".replace(".", ","))
 
     # Визуализация
