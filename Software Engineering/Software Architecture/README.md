@@ -20,12 +20,14 @@
 
 **Преподаватель**: [Перл Иван Андреевич](https://my.itmo.ru/persons/129448)
 
-> ![NOTE]
+> [!TIP]
 > Вы также можете выбрать один из проектов на COSM Lab. Выполнение проекта будет считаться как лабы.
 
 > Java со своими AbstractJavaFinalSerializedFactory или StaticFactoryFactoryFactory
 > ![AbstractJavaFinalSerializedFactory](/img/memes/steampunk-city-with-lot-factories-airships-city-is-built-river-there-are-bridges-cranes-everywhere_14117-447895.png)
+
 ---
+
 ## Результат
 <s>Халява</s>
 - V семестр: **?** (${\color{white}?}$/100 баллов)
