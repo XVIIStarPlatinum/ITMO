@@ -1,7 +1,7 @@
 # I/İTMO/SE/History
 
 ---
-## Мы в истории
+# Мы в истории
 <p align="center">
     <img src="https://media1.tenor.com/m/b6ly4VU5fGEAAAAC/science-scientist.gif" alt="science"/>
 </p>

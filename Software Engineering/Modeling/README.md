@@ -17,8 +17,8 @@
 
 Если я упустил кое-какой язык, то флаг в руки вам создать свою версию ридмишек и отправить **Pull Request**.
 
-| [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_IN.md) |
-|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Modeling/.docs/README_PT.md) |
+|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 
 ---
 > «Вы пожалеете»\
@@ -31,15 +31,18 @@
 > ![Topchenko](/img/memes/my-child-will.png)
 
 ## Результаты
-
+<s>ауфик</s>
 - V семестр: **?** (${\color{white}?}$/100 баллов)
 ---
-## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                            | Описание                                                                        |
-|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| https://github.com/maxbarsukov/itmo/tree/master/5%20моделирование                                 | Лабы от 🦡-а (он сдает самому Ауфу, так что рекомендую вам тоже туда заглянуть) |
-| https://github.com/Imtjl <br> https://github.com/EgorMIt/ITMO <br> https://github.com/RedGry/ITMO | Много готовых лабораторных работ, ДЗ и гайдов                                   |
 
-[**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru)
+> Me when Aliev takes a test just when I log off from the lecture (it was boring af)\
+> ![rage](/img/gifs/rage.gif)
+
+## Полезные ссылки <a name="links"></a>
+| Ссылка                                                                                            | Описание                                                                       |
+|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| https://github.com/maxbarsukov/itmo/tree/master/5%20моделирование                                 | Лабы от 🦡-а (он сдал самому Ауфу, так что рекомендую вам тоже туда заглянуть) |
+| https://github.com/Imtjl <br> https://github.com/EgorMIt/ITMO <br> https://github.com/RedGry/ITMO | Много готовых лабораторных работ, тестов и гайдов                              |
+| https://drive.google.com/drive/folders/1rSieDJ9gNiq1PbYlsENv5BAgZyjCTSj9                          | Все необходимые материалы для сдачи УИР или компьютерных тестов                |
 
 ---
