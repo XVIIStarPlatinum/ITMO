@@ -73,3 +73,9 @@
 [submodule "Software Engineering/Information Systems/CourseWork"]
 	path = Software Engineering/Information Systems/CourseWork
 	url = https://github.com/Raisondetr3/MeetHub
+[submodule "Software Engineering/Operating Systems/xv6-riscv-24y-XVIIStarPlatinum"]
+	path = Software Engineering/Operating Systems/xv6-riscv-24y-XVIIStarPlatinum
+	url = https://github.com/secs-dev-os-course/xv6-riscv-24y-XVIIStarPlatinum
+[submodule "Software Engineering/Knowledge Graphs/our-awesome-knowledge-graph"]
+	path = Software Engineering/Knowledge Graphs/Graph
+	url = https://gitlab.se.ifmo.ru/ColdDirol/our-awesome-knowledge-graph
