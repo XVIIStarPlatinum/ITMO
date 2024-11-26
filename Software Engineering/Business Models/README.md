@@ -27,8 +27,8 @@
 
 **Практик**: [Макаренко Екатерина Денисовна](https://my.itmo.ru/persons/307827)
 
-**Партнёры**:
-Кабалык Андрей Федорович ([@get4aR](https://github.com/get4ar))
+**Партнёры**:\
+Кабалык Андрей Федорович ([@get4aR](https://github.com/get4ar))\
 Степанов Егор Константинович ([@iamrapidfire](https://github.com/iamrapidfire))
 
 ## Результат
