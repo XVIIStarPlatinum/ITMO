@@ -31,9 +31,6 @@
 [submodule "Software Engineering/Databases"]
 	path = Software Engineering/Databases
 	url = https://github.com/XVIIStarPlatinum/Databases
-[submodule "Software Engineering/Algorithms & Data Structures"]
-	path = Software Engineering/Algorithms & Data Structures
-	url = https://github.com/XVIIStarPlatinum/AlgorithmsandDataStructures
 [submodule "Software Engineering/Programming/Lab6"]
 	path = Software Engineering/Programming/Lab6
 	url = https://github.com/XVIIStarPlatinum/JAVA_VI_VAR_543534
@@ -76,3 +73,6 @@
 [submodule "Software Engineering/Knowledge Graphs/our-awesome-knowledge-graph"]
 	path = Software Engineering/Knowledge Graphs/Graph
 	url = https://gitlab.se.ifmo.ru/ColdDirol/our-awesome-knowledge-graph
+[submodule "Software Engineering/Information Systems/CourseWork"]
+	path = Software Engineering/Information Systems/CourseWork
+	url = https://github.com/Raisondetr3/MeetHub
