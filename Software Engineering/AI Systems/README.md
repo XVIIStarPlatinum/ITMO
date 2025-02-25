@@ -32,7 +32,10 @@
 > Лабораторные работы №1 (Базы знаний) и №2 (Онтология) с осени 2024 года объединены в одну лабораторную.
 ## Результат
 <s>рубежки</s>
-- V семестр: **?** (${\color{white}?}$/100 баллов)
+- V семестр: **5A** (${\color{green}100}$/100 баллов)
+- I рубежка: 5/10
+- [II рубежка](/Software%20Engineering/AI%20Systems/Answers/Answers-II.pdf): 9/10
+- [Экзамен](/Software%20Engineering/AI%20Systems/Answers/Exam.pdf): 14/20
 ---
 
 > ![January](/img/memes/january.jpg)

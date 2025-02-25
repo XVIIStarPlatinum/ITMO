@@ -44,18 +44,18 @@
 > [!TIP]
 > Возможно сдавать 4 мастер-классов вместо проекта. Рубежные тестирования — необязательные.
 ## Результаты
-
-- V семестр: **?** (${\color{white}?}$/100 баллов)
+<s>вообще не почувствовал</s>
+- V семестр: **зачёт** (${\color{green}92,8}$/100 баллов)
 ---
 
 > ![Bluetooth](/img/memes/yjv8jjzniidc1.jpeg)
 
 ## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                               | Описание                                      |
-|------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| https://gitlab.se.ifmo.ru/embedded-systems/embedded-systems-fall-2024/                               | Описание всего курса.                         |
-| https://www.st.com/en/development-tools/stm32cubeide.html#get-software                               | ПО для выполнения второй лабораторной работы. |
-| https://openedu.ru/course/ITMOUniversity/EMBSYS/                                                     | Теоретическая часть курса.                    |
-| https://gitlab.se.ifmo.ru/embedded-systems/embedded-systems-fall-2024/projects/-/tree/master/Lampych | Наш проект                                    |
+| Ссылка                                                                                                      | Описание                                      |
+|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| https://gitlab.se.ifmo.ru/embedded-systems/embedded-systems-fall-2024/                                      | Описание всего курса.                         |
+| https://www.st.com/en/development-tools/stm32cubeide.html#get-software                                      | ПО для выполнения второй лабораторной работы. |
+| https://openedu.ru/course/ITMOUniversity/EMBSYS/                                                            | Теоретическая часть курса.                    |
+| https://gitlab.se.ifmo.ru/embedded-systems/embedded-systems-fall-2024/projects/-/tree/master/VENTILYATORICH | Наш проект.                                   |
 
 ---

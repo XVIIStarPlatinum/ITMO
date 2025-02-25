@@ -32,8 +32,8 @@
 > ![Topchenko](/img/memes/my-child-will.png)
 
 ## Результаты
-<s>соси хуй Эрланг</s>
-- V семестр: **?** (${\color{white}?}$/100 баллов)
+<s>П-слово</s>
+- V семестр: **4C** (${\color{yellow}79}$/100 баллов)
 ---
 
 > Me when Aliev takes a test just when I log off from the lecture (it was boring af)\
