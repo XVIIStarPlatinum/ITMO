@@ -79,3 +79,12 @@
 [submodule "Software Engineering/Information Systems/CourseWork"]
 	path = Software Engineering/Information Systems/CourseWork
 	url = https://github.com/Raisondetr3/MeetHub
+[submodule "Software Engineering/Algorithms & Data Structures/Solutions"]
+	path = Software Engineering/Algorithms & Data Structures/Solutions
+	url = https://github.com/XVIIStarPlatinum/AlgorithmsandDataStructures
+[submodule "Software Engineering/Fundamentals of Professional Activity/Labs"]
+	path = Software Engineering/Fundamentals of Professional Activity/Labs
+	url = https://github.com/XVIIStarPlatinum/csbasics
+[submodule "Software Engineering/Databases/Labs"]
+	path = Software Engineering/Databases/Labs
+	url = https://github.com/XVIIStarPlatinum/Databases
