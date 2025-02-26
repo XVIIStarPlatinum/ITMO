@@ -1,6 +1,7 @@
 # I/İTMO/SE/SoftArch
 
 ---
+# DO NOT ABBREVIATE THIS SUBJECT IN ENGLISH
 ![Design patterns](/img/memes/design-patterns-are-a-solution-to-the-problem-oop-itself.jpg)
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 

@@ -1,12 +1,13 @@
 # I/İTMO/SE/CSA
 
 ---
-> Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 # 32 / 8 == 5
 
 <p align="center">
     <img src="/img/gifs/Penskoi.gif" alt="Penskoi" width="540"/>
 </p>
+
+> Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
 | :exclamation: <b>Любое копирование материалов целиком или частично,<br>но без ссылки на автора, является кражей интеллектуальной собственности.<br>Это плагиат, за который из ИТМО отчисляют.</b> :exclamation:<br><sub><sup><i>(ещё получите 1-(2’’-гидроксилциклогексил)-3-[аминопропил]-4-[3’-аминопропил]пиперазин)-ы от нас)</sup></sub></b> |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -29,8 +30,8 @@
 
 Если я упустил кое-какой язык, то флаг в руки вам создать свою версию ридмишек и отправить **Pull Request**.
 
-| [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_IN.md) |
-|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_PT.md) |
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ![clojure](/img/gifs/consultation.gif)
 
@@ -38,7 +39,7 @@
 
 **Практик**: [Горбачев Ярослав Георгиевич](https://my.itmo.ru/persons/172909)
 
-## Структура курса, оценивание и баллы:
+## Структура курса, оценивание и баллы (актуально только в 2024):
 |                                | min    | max     |
 |--------------------------------|--------|---------|
 | **Лаб. 1. Семинар**            | **15** | **40**  |
