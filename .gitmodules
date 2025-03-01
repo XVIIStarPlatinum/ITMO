@@ -88,3 +88,9 @@
 [submodule "Software Engineering/Databases/Labs"]
 	path = Software Engineering/Databases/Labs
 	url = https://github.com/XVIIStarPlatinum/Databases
+[submodule "Software Engineering/Software Testing/Lab1"]
+	path = Software Engineering/Software Testing/Lab1
+	url = https://github.com/17starplatinum/TEST-Lab1.git
+[submodule "Software Engineering/Software Testing/Lab2"]
+	path = Software Engineering/Software Testing/Lab2
+	url = https://github.com/17starplatinum/TEST-Lab2
