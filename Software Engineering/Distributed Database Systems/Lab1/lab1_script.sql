@@ -61,7 +61,7 @@ $$
         raise notice '--- -------------  ----------------------------------------------';
 
         for column_record in 
-            select attnum, attname, atttypid, atttypmod, attnotnull 
+            select attnum, attname, atttypid
             from pg_catalog.pg_attribute 
             where attrelid = table_id and attnum > 0
             order by attnum
