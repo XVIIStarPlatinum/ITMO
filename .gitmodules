@@ -94,3 +94,6 @@
 [submodule "Software Engineering/Software Testing/Lab2"]
 	path = Software Engineering/Software Testing/Lab2
 	url = https://github.com/17starplatinum/TEST-Lab2
+[submodule "Software Engineering/Mobile Application Development/rmp_project"]
+	path = Software Engineering/Mobile Application Development/rmp_project
+	url = https://github.com/CHB-0r1s/rmp_project
