@@ -18,13 +18,23 @@ fn main() {
     let mut input = prompt("Введите сообщение: ");
     let key = prompt("Введите ключ: ");
 
-    println!("1. Зашифровать\n2. Расшифровать");
-    let mode = prompt("Введите режим: ");
     
-    match mode.as_str() { 
-        "1" => input = vigenere::encode(&input, &key),
-        "2" => input = vigenere::decode(&input, &key),
-        _ => {}
+    
+    let mut to_encode = false;
+    loop {
+        println!("1. Зашифровать\n2. Расшифровать");
+        let mode = prompt("Введите режим: ");
+        match mode.as_str() {
+            "1" => {
+                to_encode = true;
+                break
+            },
+            "2" => {
+                break
+            },
+            _ => println!("Неправильный режим, попробуйте снова")
+        }
     }
+    input = vigenere::encode(&input, &key, to_encode);
     println!("Ответ: {}", input.trim());
 }
