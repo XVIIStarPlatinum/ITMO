@@ -1,0 +1,10 @@
+[package]
+name = "RSA"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+input = { path = "lib/input" }
+acropolis = { path = "lib/acropolis" }
+city = { path = "lib/city" }
+
