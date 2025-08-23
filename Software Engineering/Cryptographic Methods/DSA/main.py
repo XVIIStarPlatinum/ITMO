@@ -1,7 +1,7 @@
 import json
 import gmpy2
 
-# Заполните JSON-файл в папке data своими данными перед запуском.
+# Заполните JSON-файл в папке "/data" своими данными перед запуском.
 try:
     with open ('data/Crypto_task_6_file_9.json', 'r', encoding='utf-8') as file:
         data = json.load(file)
