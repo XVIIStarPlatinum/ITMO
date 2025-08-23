@@ -5,6 +5,4 @@ edition = "2024"
 
 [dependencies]
 input = { path = "lib/input" }
-acropolis = { path = "lib/acropolis" }
-city = { path = "lib/city" }
-
+rsa = { path = "lib/rsa" }

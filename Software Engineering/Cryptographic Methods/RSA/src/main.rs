@@ -1,6 +1,5 @@
 use input::prompt;
-use acropolis::{find_private_key, generate_dictionary_block, encrypt};
-use city::{decrypt};
+use rsa::{ find_private_key, generate_dictionary_block, encrypt, decrypt };
 
 fn main() {
     println!("1. Шифрование\n2. Расшифрование");
