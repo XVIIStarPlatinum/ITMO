@@ -4,7 +4,7 @@
 
 # Не криптовалюты
 > 
-> ![encrypt deez nutz](img/memes/crypto.png)
+> ![encrypt deez nutz](/img/memes/crypto.png)
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -22,7 +22,7 @@
 
 ---
 > https://en.wikipedia.org/wiki/Alice_and_Bob#Cryptographic_systems
-> ![A whole telenovela lol](img/memes/why-is-it-always-you-three.png)
+> ![A whole telenovela lol](/img/memes/why-is-it-always-you-three.png)
 ---
 ## Методы
 | Название метода         | Упражнение                                                                                                                    |
@@ -44,7 +44,7 @@
 ---
 
 > Диффи-Хеллман момент\
-> ![dhm](img/memes/dhm.png)
+> ![dhm](/img/memes/dhm.png)
 
 ## Полезные ссылки <a name="links"></a>
 | Ссылка                                                                                                                                                         | Описание                                                  |
