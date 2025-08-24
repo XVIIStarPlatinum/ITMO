@@ -29,8 +29,8 @@ fn main() {
         match input.as_str() {
             "1" => {
                 let (file_path_int, file_path_rem) = (
-                    "data/pics/array_int_parts_4.png",
-                    "data/pics/array_remainders_4.png",
+                    "data/pics/array_int_parts_5.png",
+                    "data/pics/array_remainders_5.png",
                 );
                 (encrypted_data_int, encrypted_data_rem) = {
                     let a = image_to_array(file_path_int);
@@ -41,8 +41,8 @@ fn main() {
             }
             "2" => {
                 let (file_path_int, file_path_rem) = (
-                    "data/csv/array_int_parts_4.csv",
-                    "data/csv/array_remainders_4.csv");
+                    "data/csv/array_int_parts_5.csv",
+                    "data/csv/array_remainders_5.csv");
                 (encrypted_data_int, encrypted_data_rem) = {
                     let a = csv_to_array(file_path_int);
                     let b = csv_to_array(file_path_rem);

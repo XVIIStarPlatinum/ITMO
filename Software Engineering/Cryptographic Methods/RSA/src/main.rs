@@ -27,12 +27,13 @@ fn process_rsa_encryption() {
     println!("d: {}", private_key[0]);
     println!("N: {}", private_key[1]);
     let msg = prompt("Введите шифруемое сообщение: ");
+    let del = prompt("Введите длину комбинаций: ").parse::<usize>().unwrap();
     let msg_ascii = generate_dictionary_block(msg);
     print!("Поток сообщений: ");
     for element in &msg_ascii {
         print!("{}", element);
     }
-    let msg_ascii_enc = encrypt(msg_ascii, c, private_key[1]);
+    let msg_ascii_enc = encrypt(msg_ascii, c, private_key[1], del);
     print!("\nЗашифрованное сообщение: {}", msg_ascii_enc);
 }
 
@@ -43,5 +44,6 @@ fn process_rsa_decryption() {
         .filter(|s| !s.is_empty())
         .filter_map(|s| s.parse::<u64>().ok())
         .collect();
-    println!("Город: {}", decrypt(encrypted_text, private_key));
+    let del: usize = prompt("Введите длину комбинаций: ").parse::<usize>().unwrap();
+    println!("Город: {}", decrypt(encrypted_text, private_key, del));
 }

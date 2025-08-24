@@ -31,19 +31,19 @@ pub fn generate_dictionary_block(msg: String) -> Vec<u64> {
     block
 }
 
-pub fn encrypt(msg: Vec<u64>, e: u64, n: u64) -> String {
+pub fn encrypt(msg: Vec<u64>, e: u64, n: u64, del: usize) -> String {
     msg.into_iter()
         .map(|m| {
             let c: BigInt = modpow(&BigUint::from(m), &BigUint::from(e), &BigUint::from(n));
             let s = c.to_string();
-            if s.len() >= 4 { s } else { format!("{:0>4}", s) }
+            if s.len() < del { format!("{:0>del$}", s, del = del) } else { s }
         })
         .collect::<String>()
 }
 
-pub fn decrypt(encrypted: String, private_key: Vec<u64>) -> String {
+pub fn decrypt(encrypted: String, private_key: Vec<u64>, del: usize) -> String {
     let chars: Vec<char> = encrypted.chars().collect();
-    let enc_vec: Vec<u64> = chars.chunks(4)
+    let enc_vec: Vec<u64> = chars.chunks(del)
         .map(|chunk| chunk.iter().collect::<String>())
         .map(|s| s.parse::<u64>().unwrap()).collect::<Vec<u64>>();
     let mut msg: String = "".to_string();
