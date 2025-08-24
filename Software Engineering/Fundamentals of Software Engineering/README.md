@@ -30,7 +30,7 @@
 > Каждый гуль трясётся в ужасе, для них словно маньяк\
 > И под звуки Реквиема я танцую на костях!
 
-**Практик**: [Птицын Максим Евгеньевич](https://my.itmo.ru/persons/336759) [(@Kyoto67)](https://github.com/Kyoto67)
+**Практик**: [Птицын Максим Евгеньевич](https://my.itmo.ru/persons/336759) [(@zkyoto)](https://github.com/zkyoto)
 
 > <sup><i>Каждый подход би лайк</sup></i>
 ![vtcursed](/img/pics/zxcursed-with-fan.jpg)
@@ -47,7 +47,7 @@
 | Ссылка                                                                               | Описание                                                                                    |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | https://github.com/DaniilOrchikov/WEB3/                                              | Сам код для 3 и 4 лабы                                                                      |
-| https://github.com/Kyoto67/VT_labs_2                                                 | Лабы от главного гуля ИТМО                                                                  |
+| https://github.com/zkyoto/VT_labs_2                                                  | Лабы от главного гуля ИТМО                                                                  |
 | https://www.youtube.com/watch?v=qEt9a9gty6w                                          | Чтобы окончательно стать дед инсайдом                                                       |
 | https://github.com/maxbarsukov-itmo                                                  | Лабы от барсука                                                                             |
 | https://docs.google.com/document/d/1mOeRs6-WKrAcwsTqyehsJl-ZT1zrzSXlnEm61GQfQBA/edit | Расписанные билеты для экзамена от нас                                                      |
