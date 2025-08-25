@@ -36,6 +36,7 @@
 ## Полезные ссылки
 | Ссылка                                                                                           | Описание                                       |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------|
+| https://docs.google.com/document/d/1jN2kUHCTYM3Jh4RSUlolBzadA4G53NA2_uGUiry2CVE/edit?tab=t.0     | План занятии                                   |
 | https://docs.google.com/document/d/1jN2kUHCTYM3Jh4RSUlolBzadA4G53NA2_uGUiry2CVE/edit?usp=sharing | Все материалы                                  |
 | ---                                                                                              | Пишите в лс если хотите записи первых 6 лекции |
 
