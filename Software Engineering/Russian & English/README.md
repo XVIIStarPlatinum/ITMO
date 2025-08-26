@@ -21,6 +21,8 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Russian%20%26%20English/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+> Why the fuck would I need a lesson on the Russian language?
+
 **Практик**: Беляева Елена Алексеевна *(I курс, РЯ-B2)*\
 **Практик**: [Хамитова Алёна Альбертовна](https://my.itmo.ru/persons/378991) *(II курс, АЯ-B2)*\
 **Практик**: [Яковлева Ольга Александровна](https://my.itmo.ru/persons/228108) *(III курс/V семестр, АЯ-ЗПИиКТ-C1)*\
@@ -34,7 +36,7 @@
 - III семестр: **зачёт** (${\color{green}62}$/100 баллов)
 - IV семестр: **зачёт** (${\color{green}65}$/100 баллов)
 - V семестр: **зачёт** (${\color{green}72}$/100 баллов)
-- VI семестр: **?** (${\color{white}?}$/100 баллов)
+- VI семестр: **зачёт** (${\color{green}61}$/100 баллов)
 
 ---
 

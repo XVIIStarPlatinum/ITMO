@@ -19,23 +19,31 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Business%20Logic%20of%20Software%20Systems/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+![autumn boot](/img/memes/spring.jpg)
+
 Лектор: [Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)
 
 Практик: [Кривоносов Егор Дмитриевич](https://my.itmo.ru/persons/284261) [(@RedGry)](https://github.com/redgry)
 
+**Партнер**:\
+Коломиец Никита Сергеевич ([@nkolomiika](https://github.com/nkolomiika))
+
+> [!IMPORTANT]
+> Это предмет из профессионального модуля по выбору "Модуль 2: Информационные системы". В его рамках также входит "Проектирование пользовательских интерфейсов" и "Сервис-ориентированная архитектура".\
+> Можете вместо этого выбрать модуль "Системное и программное обеспечение" (т.е. Низкоуровневая хуйня).
+
+## Результаты
+![horrendous](/img/memes/java-bad.png)
+<s>теперь я профессионал</s>
+- VI семестр: **?** (${\color{white}?}$/100 баллов)
 ---
 
 ## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                                                                                                                                    | Описание                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| https://github.com/Imtjl/1st-year-guide <br> https://yank0vy3rdna.github.io/itmo-faq/                                                                                                                     | Гайд для первокурсников и абитуриентов                                                                                                  |
-| https://github.com/maxbarsukov/itmo                                                                                                                                                                       | Однотипный репозиторий от Макса Барсукова. Этот реп создан на основе его, так что переходите по этой ссылке и тоже поставьте звёздочку. |
-| https://t.me/ITMOhomework                                                                                                                                                                                 | Примеры готовых лабораторных работ                                                                                                      |
-| https://205826.github.io                                                                                                                                                                                  | Полезные ссылки                                                                                                                         |
-| https://github.com/Imtjl <br> https://github.com/EgorMIt/ITMO <br> https://github.com/RedGry/ITMO <br> https://github.com/RomanVassilchenko/ITMOProjects <br> https://github.com/band-of-four/cheatsheets | Много готовых лабораторных работ, ДЗ и гайдов                                                                                           |
-| https://picloud.pw/about/                                                                                                                                                                                 | Некоторые ДЗ и лабораторные до 2020 года                                                                                                |
-| https://rosroble.github.io/                                                                                                                                                                               | Полезная информация по лабораторным                                                                                                     |
-| https://telegra.ph/Poleznye-ssylki-dlya-pervokursnikov-VT-08-26                                                                                                                                           | Другие полезные ссылки                                                                                                                  |
+| Ссылка                                                                              | Описание                                                                                                                           |
+|-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| https://docs.google.com/spreadsheets/d/1Ewnd_le1oF4a4-h5-cRsbZj0jW3kbEAJoOr5CrTbKR4 | Вопросы к рубежной работе №1                                                                                                       |
+| https://docs.google.com/spreadsheets/d/1ELm57ZIbkNPfPGhJm-S6dkMQDOprZmiDcDY2cbxCacI | Вопросы к рубежной работе №2                                                                                                       |
+| https://github.com/maxbarsukov/itmo/blob/master/6%20блпс                            | Ещё материалы, включая микрокр и рубежки (мы вдвоём коллекционируем эти материалы, так что я не вижу смысла дублировать их у себя) |
 
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru/courses/bl)
 
