@@ -44,6 +44,7 @@
 | https://docs.google.com/document/d/18DuuatRxXXiwuG_Ly6FD-Pxy3njMQvWaqLycL77dEKs/edit?tab=t.0 | Рубежка + экзамен                                                             |
 | https://github.com/maxbarsukov-itmo                                                          | Лабы от барсука                                                               |
 | https://github.com/maxbarsukov/itmo/tree/master/6%20тпо                                      | Прям всё (даже детали про работы, он всё разжёвывал, так что благодарите ему) |
+
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru/courses/testing)
 
 ---
