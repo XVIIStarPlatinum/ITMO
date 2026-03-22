@@ -100,3 +100,21 @@
 [submodule "Software Engineering/Software Testing/Lab3"]
 	path = Software Engineering/Software Testing/Lab3
 	url = https://github.com/17starplatinum/TEST-Lab3
+[submodule "Software Engineering/Operating Systems/os-course"]
+	path = Software Engineering/Operating Systems/os-course
+	url = https://github.com/XVIIStarPlatinum/os-course.git
+[submodule "Software Engineering/Service-Oriented Architecture/SOALab2"]
+	path = Software Engineering/Service-Oriented Architecture/SOALab2
+	url = https://github.com/17starplatinum/SOAJerseyClub.git
+[submodule "Software Engineering/Network Application Development/Lab1"]
+	path = Software Engineering/Network Application Development/Lab1
+	url = https://gitlab.se.ifmo.ru/network-programming/itmo_autumn_2025/01-simple-messanger/XVIIstarPt_.git
+[submodule "Software Engineering/Information Systems/IS-Vehicle"]
+	path = Software Engineering/Information Systems/IS-Vehicle
+	url = https://github.com/17starplatinum/IS-Vehicle.git
+[submodule "Software Engineering/Network Application Development/Lab2"]
+	path = Software Engineering/Network Application Development/Lab2
+	url = https://gitlab.se.ifmo.ru/network-programming/itmo_autumn_2025/02-dns/XVIIstarPt_.git
+[submodule "Software Engineering/Network Application Development/Lab3"]
+	path = Software Engineering/Network Application Development/Lab3
+	url = https://gitlab.se.ifmo.ru/network-programming/itmo_autumn_2025/03-comment-system/XVIIstarPt_.git
