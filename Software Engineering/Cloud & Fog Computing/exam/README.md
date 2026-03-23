@@ -4,7 +4,8 @@
     <img src="https://media1.tenor.com/m/NxrCn70bJlAAAAAd/dandadan-dandadan-anime.gif" alt="looking for a cat">
 </p>
 
-> > ВТшники закрыли секретный курс "Основы нытья и саботажных технологий"
+> [!TIP]
+> ВТшники закрыли секретный курс "Основы нытья и саботажных технологий"
 >
 > — jefremof, 2025
 
