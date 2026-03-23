@@ -4,7 +4,9 @@
 
 # ПИиКТ-шная революция
 
-![img.png](../../img/memes/cloud.png)
+<p align="center">
+    <img src="../../img/memes/cloud.png" alt="cloud ahh cloud" width="500"/>
+</p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -20,7 +22,7 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Cloud%20%26%20Fog%02Computing/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-**Лектор**: [Перл Иван Андреевич](https://my.itmo.ru/persons/129448)\
+**Лектор**: [Перл Иван Андреевич](https://my.itmo.ru/persons/129448)
 
 **Практик**: [Перл Ольга Вячеславовна](https://my.itmo.ru/persons/172196)
 
