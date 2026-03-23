@@ -7,7 +7,7 @@
 > [!TIP]
 > ВТшники закрыли секретный курс "Основы нытья и саботажных технологий"
 >
-> — jefremof, 2025
+> — [@jefremof](https://github.com/jefremof), 2025
 
 **Google App Engine является примером**
 
