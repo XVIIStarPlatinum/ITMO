@@ -42,12 +42,12 @@ static void lcd_reset(I2C_HandleTypeDef * i2c) {
 
 void lcd_init(I2C_HandleTypeDef * i2c) {
     static uint8_t initCommands[] = {
-            0x20, 0x00, // horizontal mode
-            0x81, 0xFF, // high contrast (255)
-            0xC8,       // re-mapped mode
-            0xA1,       // segment re-map
-            0xD5, 0xF0, // set display clock
-            0x8D, 0x14, // turn power on
+            0x20, 0x00,
+            0x81, 0xFF,
+            0xC8,
+            0xA1,
+            0xD5, 0xF0,
+            0x8D, 0x14,
     };
 
     static uint8_t turnOnCommand = 0xAF;

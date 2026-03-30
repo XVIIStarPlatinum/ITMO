@@ -13,7 +13,6 @@
 #define PASSWORD_MIN 8
 #define PASSWORD_MAX 12
 
-/* Time in ms to ignore repeated identical key presses (simple per-last-key guard) */
 #define LOCK_REPEAT_GUARD_MS 200
 
 typedef enum {
@@ -31,22 +30,15 @@ static lock_state_t state = LOCK_IDLE;
 static char stored_password[PASSWORD_MAX + 1] = "12345678";
 static char input_buffer[PASSWORD_MAX + 1];
 static uint8_t input_len = 0;
-
 static uint32_t msg_timer = 0;
-
-/* UI flags to avoid double-drawing / overwriting input area */
 static bool idle_shown = false;
 static bool change_shown = false;
 static bool input_shown = false;
-
-/* Simple last-key guard to filter duplicated calls to lock_key_pressed */
 static char last_key = 0;
 static uint32_t last_key_tick = 0;
 
-/* LCD helpers that call lcd_done() after drawing so front buffer is updated */
 static void lcd_center(const char *msg)
 {
-    /* any explicit center message invalidates idle/input visuals */
     idle_shown = false;
     change_shown = false;
     input_shown = false;
@@ -58,10 +50,9 @@ static void lcd_center(const char *msg)
 
 static void screen_idle()
 {
-    /* do not overwrite input area if currently entering password */
     if (input_shown) return;
 
-    if (idle_shown) return; /* already drawn */
+    if (idle_shown) return;
     idle_shown = true;
     change_shown = false;
 
@@ -72,7 +63,7 @@ static void screen_idle()
 
 static void screen_change()
 {
-    if (input_shown) return; /* don't stomp input area */
+    if (input_shown) return;
     if (change_shown) return;
     change_shown = true;
     idle_shown = false;
@@ -84,15 +75,12 @@ static void screen_change()
 
 static void show_msg(const char *msg, uint32_t duration)
 {
-    /* show a short message — this will clear input/idles */
     lcd_center(msg);
     msg_timer = duration;
     state = LOCK_SHOW_MESSAGE;
-    /* hide input when showing message */
     input_shown = false;
 }
 
-/* PASSWORD PROCESSING */
 static void finish_enter()
 {
     if (strcmp(input_buffer, stored_password) == 0) {
@@ -111,7 +99,6 @@ static void finish_change()
     if (input_len < PASSWORD_MIN || input_len > PASSWORD_MAX) {
         show_msg("Bad length", 1500);
     } else {
-        /* save new password in RAM; can extend to Flash save later */
         strncpy(stored_password, input_buffer, PASSWORD_MAX);
         stored_password[input_len] = '\0';
         show_msg("Saved", 1000);
@@ -122,23 +109,20 @@ static void finish_change()
     input_shown = false;
 }
 
-/* Render stars for entered digits and commit buffer */
 static void render_input_stars(void)
 {
-    /* clear area where stars and debug string are drawn */
     lcd_fill_rect(0, 20, 127, 63, 0);
 
     const struct lcd_font *f = &font_7x10;
     const uint8_t char_w = (f && f->width) ? f->width : 8;
 
-    /* rectangle size: width = min(6, char_w-1), height = 8 */
     uint8_t rect_w = char_w > 3 ? (char_w - 2) : 4;
     if (rect_w > 8) rect_w = 8;
     const uint8_t rect_h = 8;
 
     for (uint8_t i = 0; i < input_len; ++i) {
         uint8_t x = i * char_w + (char_w > rect_w ? (char_w - rect_w) / 2 : 0);
-        uint8_t y = 22; // baseline area used earlier
+        uint8_t y = 22;
         lcd_fill_rect(x, y, x + rect_w - 1, y + rect_h - 1, true);
     }
 
@@ -146,10 +130,8 @@ static void render_input_stars(void)
     input_shown = true;
 }
 
-/* KEY PROCESSING: key is a printable char '0'..'9' or '*' or '#' */
 void lock_key_pressed(char key)
 {
-    /* simple duplicate-press guard: ignore same key within short interval */
     uint32_t now = HAL_GetTick();
     if (key == last_key && (uint32_t)(now - last_key_tick) < LOCK_REPEAT_GUARD_MS) {
         return;
@@ -157,7 +139,6 @@ void lock_key_pressed(char key)
     last_key = key;
     last_key_tick = now;
 
-    /* If we are showing a short message, ignore keys (as before) */
     if (state == LOCK_SHOW_MESSAGE) return;
 
     if (key == '#') {
@@ -185,13 +166,11 @@ void lock_key_pressed(char key)
         return;
     }
 
-    /* digits */
     if (key >= '0' && key <= '9') {
         if (state == LOCK_IDLE) {
             state = LOCK_ENTER;
             input_len = 0;
             input_buffer[0] = '\0';
-            /* draw "Enter:" header once */
             lcd_reset_screen();
             lcd_draw_string(0, 0, &font_7x10, "Enter:", 1, false);
             lcd_done();
@@ -208,12 +187,9 @@ void lock_key_pressed(char key)
     }
 }
 
-/* INIT and STEP */
 void lock_init(I2C_HandleTypeDef *hi2c)
 {
     lcd_i2c = hi2c;
-    /* Assume lcd_init already called in main() — do not call here to avoid double-init/double-draw.
-       But ensure idle screen is shown */
     screen_idle();
 }
 
@@ -226,7 +202,6 @@ void lock_step(I2C_HandleTypeDef *hi2c)
         if (msg_timer > 0) {
             msg_timer--;
         } else {
-            /* after message expired, return to idle screen */
             input_shown = false;
             screen_idle();
             state = LOCK_IDLE;

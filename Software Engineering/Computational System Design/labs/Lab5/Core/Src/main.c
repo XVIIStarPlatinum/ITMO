@@ -19,19 +19,15 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "main.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
-#include <stdbool.h>
-
+#include "main.h"
 #include "kb.h"
 #include "lcd.h"
 #include "lock.h"
-//#include "game.h"
 /* USER CODE END Includes */
-
+#include <stdbool.h>
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
@@ -138,7 +134,6 @@ int main(void)
 	          }
 	      }
 	  }
-	  //game_step();
   }
   /* USER CODE END 3 */
 }
