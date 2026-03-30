@@ -1,0 +1,78 @@
+services:
+  edge-broker:
+    image: eclipse-mosquitto:2
+    container_name: edge-broker
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    networks:
+      - factory-net
+
+  sensor:
+    build: ./sensor
+    container_name: sensor
+    environment:
+      - MQTT_BROKER=edge-broker
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=factory/temp
+    depends_on:
+      - edge-broker
+    networks:
+      - factory-net
+    restart: unless-stopped
+
+  fog-node:
+    image: nodered/node-red:latest
+    container_name: fog-node
+    ports:
+      - "1880:1880"
+    environment:
+      - TZ=Asia/Ulaanbaatar
+    volumes:
+      - node-red-data:/data
+    networks:
+      - factory-net
+    restart: unless-stopped
+
+  cloud-broker:
+    image: eclipse-mosquitto:2
+    container_name: cloud-broker
+    ports:
+      - "1884:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    networks:
+      - factory-net
+
+  cloud-dashboard:
+    build: ./cloud_dashboard
+    container_name: cloud_dashboard
+    environment:
+      - MQTT_BROKER=cloud-broker
+      - MQTT_PORT=1883
+      - MQTT_TOPIC=cloud/alerts
+    depends_on:
+      - cloud-broker
+    networks:
+      - factory-net
+    restart: unless-stopped
+
+  comparison-dashboard:
+    build: ./comparison_dashboard
+    container_name: comparison-dashboard
+    ports:
+      - "5002:5002"
+    depends_on:
+      - edge-broker
+      - cloud-broker
+    networks:
+      - factory-net
+    restart: unless-stopped
+
+networks:
+  factory-net:
+    driver: bridge
+
+volumes:
+  node-red-data:

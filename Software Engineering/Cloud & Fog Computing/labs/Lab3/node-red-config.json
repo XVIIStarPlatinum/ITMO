@@ -1,0 +1,130 @@
+[
+  {
+    "id": "mqtt_in_sensor",
+    "type": "mqtt in",
+    "z": "flow1",
+    "name": "Sensor Data",
+    "topic": "factory/temp",
+    "qos": "0",
+    "datatype": "auto",
+    "broker": "edge_broker",
+    "nl": false,
+    "rap": false,
+    "inputs": 0,
+    "x": 130,
+    "y": 180,
+    "wires": [
+      [
+        "json_parse"
+      ]
+    ]
+  },
+  {
+    "id": "json_parse",
+    "type": "json",
+    "z": "flow1",
+    "name": "Parse JSON",
+    "property": "payload",
+    "action": "",
+    "pretty": false,
+    "x": 310,
+    "y": 180,
+    "wires": [
+      [
+        "switch_filter"
+      ]
+    ]
+  },
+  {
+    "id": "switch_filter",
+    "type": "switch",
+    "z": "flow1",
+    "name": "Filter > 80°C",
+    "property": "payload.temp",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "gt",
+        "v": "80",
+        "vt": "num"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 1,
+    "x": 490,
+    "y": 180,
+    "wires": [
+      [
+        "mqtt_out_cloud"
+      ]
+    ]
+  },
+  {
+    "id": "mqtt_out_cloud",
+    "type": "mqtt out",
+    "z": "flow1",
+    "name": "Cloud Alert",
+    "topic": "cloud/alerts",
+    "qos": "0",
+    "retain": "",
+    "broker": "cloud_broker",
+    "x": 680,
+    "y": 180,
+    "wires": []
+  },
+  {
+    "id": "edge_broker",
+    "type": "mqtt-broker",
+    "name": "Edge Broker",
+    "broker": "edge-broker",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "cloud_broker",
+    "type": "mqtt-broker",
+    "name": "Cloud Broker",
+    "broker": "cloud-broker",
+    "port": "1883",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  }
+]
