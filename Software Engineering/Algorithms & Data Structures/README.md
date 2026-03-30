@@ -22,14 +22,13 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/ITMO/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-<p align="center">
-    Я после Accepted/OK<br>
-    <img src="https://media1.tenor.com/m/I-JZtUVrKIYAAAAC/gojo-satoru-jujutsu-kaisen.gif" alt="Go/Jo"/>
-</p>
+> Я после Accepted/OK<br>
+> <img src="https://media1.tenor.com/m/I-JZtUVrKIYAAAAC/gojo-satoru-jujutsu-kaisen.gif" alt="Go/Jo"/>
+
 
 Лектор: [Косяков Михаил Сергеевич](https://my.itmo.ru/persons/139799)
 
-Практик: Сосновцев Григорий Алексеевич [(@hyperb0rean)](https://github.com/hyperb0rean)
+Практик: [Сосновцев Григорий Алексеевич](https://my.itmo.ru/persons/335046) [(@hyperb0rean)](https://github.com/hyperb0rean)
 
 (Формальный) практик: [Тараканов Денис Сергеевич](https://my.itmo.ru/persons/173960)
 
