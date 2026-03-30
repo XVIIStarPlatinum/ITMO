@@ -1,0 +1,39 @@
+services:
+  pg104:
+    build: .
+    container_name: pg104
+    hostname: postgres1
+    restart: always
+    environment:
+      POSTGRES_USER: postgres1
+      POSTGRES_PASSWORD: 4hxuMvSO
+      POSTGRES_DB: postgres
+    volumes:
+      - ./ssh_keys:/home/backup/.ssh:ro
+      - ./data_node1:/var/lib/postgresql
+    ports:
+      - "2221:22"
+      - "5432:5432"
+    networks:
+      - pgnet
+
+  pg107:
+    build: .
+    container_name: pg107
+    hostname: postgres3
+    restart: always
+    environment:
+      POSTGRES_USER: postgres3
+      POSTGRES_PASSWORD: M7JP.erQ
+      POSTGRES_DB: postgres
+    volumes:
+      - ./ssh_keys:/home/backup/.ssh:ro
+      - ./data_node2:/var/lib/postgresql
+    ports:
+      - "2222:22"
+    networks:
+      - pgnet
+
+networks:
+  pgnet:
+    driver: bridge
