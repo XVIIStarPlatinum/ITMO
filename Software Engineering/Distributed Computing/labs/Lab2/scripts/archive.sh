@@ -1,4 +1,4 @@
-DIR="pa4"
+DIR="pa2"
 NAME="$DIR.tar.gz"
 
 rm $NAME
