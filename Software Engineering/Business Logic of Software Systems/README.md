@@ -21,9 +21,9 @@
 
 ![autumn boot](/img/memes/spring.jpg)
 
-Лектор: [Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)
+**Лектор**: [Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)
 
-Практик: [Кривоносов Егор Дмитриевич](https://my.itmo.ru/persons/284261) [(@RedGry)](https://github.com/redgry)
+**Практик**: [Кривоносов Егор Дмитриевич](https://my.itmo.ru/persons/284261) ([@RedGry](https://github.com/redgry))
 
 **Партнер**:\
 Коломиец Никита Сергеевич ([@nkolomiika](https://github.com/nkolomiika))
@@ -35,7 +35,8 @@
 ## Результаты
 ![horrendous](/img/memes/java-bad.png)
 <s>теперь я профессионал</s>
-- VI семестр: **?** (${\color{white}?}$/100 баллов)
+
+- VI семестр: **3E** (${\color{red}64}$/100 баллов)
 ---
 
 ## Полезные ссылки <a name="links"></a>
