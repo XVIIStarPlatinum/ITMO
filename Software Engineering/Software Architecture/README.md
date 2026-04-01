@@ -23,7 +23,8 @@
 **Преподаватель**: [Перл Иван Андреевич](https://my.itmo.ru/persons/129448)
 
 > [!TIP]
-> Вы также можете выбрать один из проектов на COSM Lab. Выполнение проекта будет считаться как лабы.
+> Вы также можете выбрать один из проектов на COSM Lab. Выполнение проекта будет считаться как лабы, тем самым закрыв
+> предмет по автомату.
 
 > Java со своими AbstractJavaFinalSerializedFactory или StaticFactoryFactoryFactory
 > ![AbstractJavaFinalSerializedFactory](/img/memes/steampunk-city-with-lot-factories-airships-city-is-built-river-there-are-bridges-cranes-everywhere_14117-447895.png)

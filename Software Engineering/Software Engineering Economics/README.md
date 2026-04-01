@@ -1,4 +1,4 @@
-# I/İTMO/SE
+# I/İTMO/SE/Economics
 
 ---
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
@@ -14,6 +14,7 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Software%20Engineering%20Economics/.docs/README_PT.md) |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+https://my.itmo.ru/persons/105394
 ## Оглавление
 1. [Обновления](#updates)
 2. [Дисциплины](#disciplines)
@@ -117,4 +118,13 @@
 
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru)
 
+| **Operation**         | **Code** | **Description**                                                                                                               | **Datatype**      |
+|-----------------------|----------|-------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Equal                 | eq       | Filters objects by their chosen field and returns objects which have a value equal to the provided                            | String, int, long |
+| Not equal             | neq      | Filters objects by their chosen field and returns objects which have a value not equal to the provided                        | String, int, long |
+| Greater than          | gt       | Filters objects by their chosen field and returns objects which have a value greater than the provided                        | int, long         |
+| Lesser than           | lt       | Filters objects by their chosen field and returns objects which have a value lesser than the provided                         | int, long         |
+| Greater than or equal | gte      | Filters objects by their chosen field and returns objects which have a value greater than or equal to the provided            | int, long         |
+| Lesser than or equal  | lte      | Filters objects by their chosen field and returns objects which have a value lesser than or equal to the provided             | int, long         |
+| Like                  | like     | Filters objects by their chosen field and returns objects which have a value matched using substring search with the provided | String, int, long |
 ---

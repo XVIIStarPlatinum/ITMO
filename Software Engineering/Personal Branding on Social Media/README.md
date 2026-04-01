@@ -35,11 +35,12 @@
 ---
 
 ## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                                                                                                                                    | Описание                                                |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| https://drive.google.com/drive/folders/15I3mymmtCjWFog_gC_2IiQp3ACi1hai8                                                                                                                                  | Материалы |
-| https://blog.sparkol.com/8-classic-storytelling-techniques-for-engaging-presentations                                                                                                                     | 8 классических приёмов для интерактивного сторителлинга |
-| https://www.youtube.com/watch?v=25iX4DvkhGM&t=712s                                                                                                                                                        | Видео про личного бренда на "Как изменить свою жизнь"   |
-| https://x.com/alex_pshe <br> https://x.com/nikalaikina <br> https://x.com/webholt                                                                                                                         | Примеры русскоговорящих брендов на X                    |
+
+| Ссылка                                                                                | Описание                                                |
+|---------------------------------------------------------------------------------------|---------------------------------------------------------|
+| https://drive.google.com/drive/folders/15I3mymmtCjWFog_gC_2IiQp3ACi1hai8              | Материалы                                               |
+| https://blog.sparkol.com/8-classic-storytelling-techniques-for-engaging-presentations | 8 классических приёмов для интерактивного сторителлинга |
+| https://www.youtube.com/watch?v=25iX4DvkhGM&t=712s                                    | Видео про личного бренда на "Как изменить свою жизнь"   |
+| https://x.com/alex_pshe <br> https://x.com/nikalaikina <br> https://x.com/webholt     | Примеры русскоговорящих брендов на X                    |
 
 ---

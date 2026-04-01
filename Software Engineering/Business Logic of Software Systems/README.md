@@ -21,8 +21,7 @@
 
 ![autumn boot](/img/memes/spring.jpg)
 
-**Лектор**: [Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)
-
+**Лектор**: [Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)\
 **Практик**: [Кривоносов Егор Дмитриевич](https://my.itmo.ru/persons/284261) ([@RedGry](https://github.com/redgry))
 
 **Партнер**:\

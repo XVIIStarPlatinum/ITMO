@@ -4,7 +4,7 @@
 
 # Ауф ☝️🐺 парт 2
 > «Ребята, у кого там с головой плохо?»\
-© Тауфик Измайлович Алиев\
+> © Тауфик Измайлович Алиев\
 > ![Mom was right it's the damn internet](/img/memes/no-more-internet.png)
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
@@ -23,16 +23,15 @@
 
 ---
 > «Скремблирование - это как встретить динозавра. Ты либо встретишь, либо нет. Вот я один раз встретил.»\
-© Тропченко
+> © Тропченко
 ---
-**Лектор**: [Тауфик Измайлович "Ауф" Алиев](https://my.itmo.ru/persons/100040)
-
+**Лектор**: [Тауфик Измайлович "Ауф" Алиев](https://my.itmo.ru/persons/100040)\
 **Практик**: [Тропченко Андрей Александрович](https://my.itmo.ru/persons/111848)
 > Я, [Макс 🦡ов](https://github.com/maxbarsukov) и [Вова Карташев](https://github.com/ColdDirol) на каждом лабораторном\
 > (Не спрашивайте кто из нас чёрный, я точно жёлтый)
-<p align="center">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJ3bjI5eWd5aXM5OThkY3A2YzFrbXc5YzE3OWQ3dW83cWd3ajN6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JdXbgDjF7E2S4pO/giphy.gif" alt="fun"/>
-</p>
+> <p align="center">
+>     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJ3bjI5eWd5aXM5OThkY3A2YzFrbXc5YzE3OWQ3dW83cWd3ajN6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JdXbgDjF7E2S4pO/giphy.gif" alt="fun"/>
+> </p>
 
 ## Результаты
 <s>🤷</s>

@@ -47,4 +47,5 @@
 | https://youtu.be/0nVNwozXsIc?si=L9C16D8GnjN8mgnj<br>https://youtu.be/sTHckUyxwp8?si=VBJTnqSIzhf8a4Hh<br>https://youtu.be/CAvawEcxoPU?si=vCzlVzXk9O6DBXth<br>https://youtu.be/yz7h5xd18OE?si=Qrhwt_h9K4x4HCR0 | Наглядные видосы по последовательным интерфейсам (найден [@worthant](https://github.com/worthant)) |
 | https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf                                                                                             | Atmega328 datasheet                                                                                |
 | https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf                                                                                                               | BME280 datasheet                                                                                   |
+
 ---

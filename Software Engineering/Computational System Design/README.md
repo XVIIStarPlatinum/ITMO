@@ -55,4 +55,5 @@
 | https://docs.google.com/document/d/1MvW8OULfDRJlSeqk4gCB7mw4vhuo_nxl            | Информация по лабораторным работам                 |
 | https://docs.google.com/document/d/15moHv0DAMzSmvoauieemTLiyTuPd1Y46WakW3pZ3eLI | Рекомендованный способ восстановления стенда STM32 |
 |                                                                                 |                                                    |
+
 ---

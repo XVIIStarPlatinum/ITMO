@@ -26,11 +26,11 @@
 > <img src="https://media1.tenor.com/m/I-JZtUVrKIYAAAAC/gojo-satoru-jujutsu-kaisen.gif" alt="Go/Jo"/>
 
 
-Лектор: [Косяков Михаил Сергеевич](https://my.itmo.ru/persons/139799)
+**Лектор**: [Косяков Михаил Сергеевич](https://my.itmo.ru/persons/139799)
 
-Практик: [Сосновцев Григорий Алексеевич](https://my.itmo.ru/persons/335046) [(@hyperb0rean)](https://github.com/hyperb0rean)
-
-(Формальный) практик: [Тараканов Денис Сергеевич](https://my.itmo.ru/persons/173960)
+**Практик
+**: [Сосновцев Григорий Алексеевич](https://my.itmo.ru/persons/335046) [(@hyperb0rean)](https://github.com/hyperb0rean)\
+**(Формальный) практик**: [Тараканов Денис Сергеевич](https://my.itmo.ru/persons/173960)
 
 ## Оценки
 > It looks like just being strong enough isn't enough. I can only save those who are prepared to be saved.

@@ -30,10 +30,10 @@
 > Многие были недовольными. Кому-то можно учить ФП, только потому что им повезло. Нина Рущенко (к которой полетят говно в первую очередь) прокомментировала, что исправит этого. Сочувствую, всегда к ней прилетят столько говна. Кустарев вообще всех нахуй послал, как этого понять? Вы устроили этот цирк, всм "похуй и нахуй"?\
 > Решение было принято: рождение нового предмета под названием "Графы знаний". Новейший предмет (его загрузили в информационную систему 12 августа 2024), преподаватель которого явно покрывает ситуевину. Это буквально свалка ВТ, куда попались невезучие и неосведомленные.
 ---
-<p align="center">
-    Студенты к Рущенко когда появляется маленькая неприятность <br>
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHN5amk0aXNoNXB3dTMwdWQ0YjEyOGQ4YjJrMHRuZjJ5dTdjMzlnYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xxe6Qpj9zKaIWA15zh/giphy.gif" alt="pounding"/>
-</p>
+> <p align="center">
+>     Студенты к Рущенко когда появляется маленькая неприятность <br>
+>     <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHN5amk0aXNoNXB3dTMwdWQ0YjEyOGQ4YjJrMHRuZjJ5dTdjMzlnYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Xxe6Qpj9zKaIWA15zh/giphy.gif" alt="pounding"/>
+> </p>
 
 ---
 

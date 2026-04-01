@@ -24,8 +24,7 @@
 > Гигачад\
 > ![gigachad](/img/memes/igor-zhirkov.jpg)
 
-Лектор: [Жирков Игорь Олегович](https://my.itmo.ru/persons/148787)
-
+Лектор: [Жирков Игорь Олегович](https://my.itmo.ru/persons/148787)\
 Практик: [Жданов Андрей Дмитриевич](https://my.itmo.ru/persons/126471)
 
 ## Результаты
@@ -33,16 +32,17 @@
 - III семестр: **5А** (${\color{green}100}$/100 баллов)
 
 ## Полезные ссылки <a name="links"></a>
-| Ссылка                                                              | Описание                                             |
-|---------------------------------------------------------------------|------------------------------------------------------|
-| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-1-io-library       | Лабораторная №1: библиотека ввод-вывода              |
-| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-2-dictionary       | Лабораторная №2: словарь                             |
-| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-3-image-rotation   | Лабораторная №3: поворот изображений                 |
-| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-4-memory-allocator | Лабораторная №4: поворот изображений                 |
-| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-5-sepia-filter     | Лабораторная №5: сепия фильтр                        |
-| https://github.com/Zerumi/disk-usage-reborn                         | Отличный проект от моей хорошей коллеги Zerumi       |
-| https://github.com/maxbarsukov/itmo/tree/master/3%20япы/семинары    | Я потерял свои семинары, поэтому ссылаю вас на Макса |
-| https://github.com/Alex-de-bug/stepik-c                             | Ответы на Степике                                    |
+
+| Ссылка                                                                                                  | Описание                                             |
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-1-io-library                                           | Лабораторная №1: библиотека ввод-вывода              |
+| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-2-dictionary                                           | Лабораторная №2: словарь                             |
+| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-3-image-rotation                                       | Лабораторная №3: поворот изображений                 |
+| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-4-memory-allocator                                     | Лабораторная №4: поворот изображений                 |
+| https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-5-sepia-filter                                         | Лабораторная №5: сепия фильтр                        |
+| https://github.com/Zerumi/disk-usage-reborn                                                             | Отличный проект от моей хорошей коллеги Zerumi       |
+| https://github.com/maxbarsukov/itmo/tree/master/3%20япы/семинары                                        | Я потерял свои семинары, поэтому ссылаю вас на Макса |
+| https://github.com/CandyGoose/Courses/tree/main/ITMO_courses/Stepik_C_programming_and_program_execution | Ответы на Степике                                    |
 
 [**Сайт с заданиями к работам.**](https://gitlab.se.ifmo.ru/programming-languages)
 

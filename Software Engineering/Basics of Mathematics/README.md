@@ -22,6 +22,9 @@
 
 ---
 > Ай блин меня просто не допускали на продмат ыыы(
+> <p align="center">
+>     <img src="/img/gifs/proof-vs-trivial.gif" alt="fuck it have a meme" width="500"/>
+> </p>
 
 **Лектор**: [Правдин Константин Владимирович](https://my.itmo.ru/persons/138626) *(I семестр)*\
 **Лектор**: [Филимонова Арина Николаевна](https://my.itmo.ru/persons/345632) *(II семестр)*\
@@ -34,23 +37,35 @@
 > [!CAUTION]
 > Лучше не попытаться связаться с ними, так как я не гарантирую помощи. Если их нет на гитхабе, то попробуйте на телеграм.
 
+> <p align="center">
+>     <img src="/img/memes/x2y2z2.jpg" alt="x^2 + y^2 - z2" width="500"/>
+> </p>
+
 I семестр:
-- Батманов Даниил Евгеньевич ([@CodeAxeAttacks](https://github.com/CodeAxeAttacks))
-- Шорников Сергей Андреевич ([@RaiseBan](https://github.com/RaiseBan))
-- Демидов Иван Алексеевич ([@? (@Shp3ck)](https://t.me/Shp3ck))
-- Адамов Тимур Адамович ([@? (@nbvec222)](https://t.me/nbvec222))
+
+- [Батманов Даниил Евгеньевич]() ([@CodeAxeAttacks](https://github.com/CodeAxeAttacks))
+- [Шорников Сергей Андреевич]() ([@RaiseBan](https://github.com/RaiseBan))
+- [Демидов Иван Алексеевич]() ([@? (@Shp3ck)](https://t.me/Shp3ck))
+- [Адамов Тимур Адамович]() ([@? (@nbvec222)](https://t.me/nbvec222))
 
 II семестр:
-- Дьяков Тимофей Александрович ([@? (@uporin)](https://t.me/uporin))
-- Докшина Алёна Максимовна ([@Alohhhis](https://github.com/Alohhhis))
-- Андреев Егор Алексеевич ([@? (@Egor2345i)](https://t.me/Egor2345i))
+
+- [Дьяков Тимофей Александрович]() ([@? (@uporin)](https://t.me/uporin))
+- [Докшина Алёна Максимовна]() ([@Alohhhis](https://github.com/Alohhhis))
+- [Андреев Егор Алексеевич]() ([@? (@Egor2345i)](https://t.me/Egor2345i))
 
 III семестр:
-- Галлямов Камиль Рустемович ([@pro100kamil](https://github.com/pro100kamil))
-- Барсуков Максим Андреевич ([@maxbarsukov](https://github.com/maxbarsukov))
-- Печкуров Данила Алексеевич ([@SugarCube1337](https://github.com/SugarCube1337))
+
+- [Галлямов Камиль Рустемович]() ([@pro100kamil](https://github.com/pro100kamil))
+- [Барсуков Максим Андреевич]() ([@maxbarsukov](https://github.com/maxbarsukov))
+- [Печкуров Данила Алексеевич]() ([@SugarCube1337](https://github.com/SugarCube1337))
 
 ## Результаты
+
+> <p align="center">
+>     Т.н. тождество Эпштейна 
+>     <img src="/img/memes/my-proof-of-the-riemann-hypothesis-time-i-finally-release-it-v0-biffzfuaue8g1.jpg" alt="fuck it have a meme" width="500"/>
+> </p>
 <s>После этого у меня гибла любовь к математике, говорю это как топ 200ый выпускник в своей стране</s>
 - I семестр: **4B** (${\color{lightgreen}83.1}$/100 баллов)
 - II семестр: **4B** (${\color{lightgreen}83.2}$/100 баллов)
@@ -66,6 +81,7 @@ III семестр:
 
 > [!IMPORTANT]
 > Благодарность Ирине Зайцеве ([@zirtoshka](https://github.com/zirtoshka)) и Вере Касьяненко ([@CandyGoose](https://github.com/CandyGoose)) за конспекты.
+
 ## Полезные ссылки
 | Ссылка                                                                                                                                                                                                               | Описание                                                                                            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|

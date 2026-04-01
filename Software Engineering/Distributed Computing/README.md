@@ -78,3 +78,4 @@
 | https://drive.google.com/file/d/1s6aajcdt1x5HqBn3j4N4-GXLWdTkmUbV/view <br> https://drive.google.com/file/d/1m0LRSZnNFVHokvUSEsUtIZGAd1oui9cJ/view | Лекция №1 (маг): Обедающие философы             |
 | https://drive.google.com/file/d/1CpwSZVKegaJI0vtzLXc6p0BHDXM9EABe/view <br> https://drive.google.com/file/d/1s0S0Zpzq_GoPVa7AL8ndX3NGgyhhJLwy/view | Лекция №2 (маг): Векторные часы                 |
 
+---
