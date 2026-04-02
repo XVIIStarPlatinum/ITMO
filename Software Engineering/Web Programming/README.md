@@ -47,13 +47,13 @@
 - III семестр: **3E** ($\color{red}62.31$/100 баллов)
 ---
 
-## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                                                                                                                                    | Описание                                      |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| https://github.com/maxbarsukov/itmo/tree/master/3%20%D0%B2%D0%B5%D0%B1/%D1%80%D1%83%D0%B1%D0%B5%D0%B6%D0%BA%D0%B8                                                                                         | Рубежные работы 2023                          |
-| https://github.com/maxbarsukov/itmo/tree/master/3%20%D0%B2%D0%B5%D0%B1/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5                                   | Микроконтрольные работы 2023                  |
-| https://github.com/AppLoidx/Web-Development-Cheats/blob/master/README.md                                                                                                                                  | Web Development Cheatsheets                   |
-| https://github.com/EgorMIt/ITMO/tree/master/2%20-%20Веб-Программирование<br>https://github.com/eliteSufferer/ITMO_Studies/tree/main/Web                                                                   | Материалы для теоретической защиты            |
+## Полезные ссылки
+| Ссылка                                                                                                                                                                  | Описание                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| https://github.com/maxbarsukov/itmo/tree/master/3%20%D0%B2%D0%B5%D0%B1/%D1%80%D1%83%D0%B1%D0%B5%D0%B6%D0%BA%D0%B8                                                       | Рубежные работы 2023               |
+| https://github.com/maxbarsukov/itmo/tree/master/3%20%D0%B2%D0%B5%D0%B1/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5 | Микроконтрольные работы 2023       |
+| https://github.com/AppLoidx/Web-Development-Cheats/blob/master/README.md                                                                                                | Web Development Cheatsheets        |
+| https://github.com/EgorMIt/ITMO/tree/master/2%20-%20Веб-Программирование<br>https://github.com/eliteSufferer/ITMO_Studies/tree/main/Web                                 | Материалы для теоретической защиты |
 
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru/courses/web#labs)
 
