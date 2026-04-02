@@ -3,8 +3,10 @@
 ---
 # Основы ЧатГПТ
 
-> Нейротех когда им наконец-то попадается предмет, в котором у них явное преимущество:\
-> ![GOAT](/img/gifs/klopp.gif)
+> <h3 align=center>
+>     Нейротех когда им наконец-то попадается предмет, в котором у них явное преимущество:
+>     <img src="/img/gifs/klopp.gif" alt="GOAT" width="500"/>
+> </h3>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -25,22 +27,28 @@
 ---
 **Лектор**: [Бессмертный Игорь Александрович](https://my.itmo.ru/persons/106013)\
 **Практик**: [Кугаевских Александр Владимирович](https://my.itmo.ru/persons/360609)
-> Кугаевских\
-> ![sigma](/img/gifs/zyzz-miring.gif)
+
+> <h3 align="center">
+>     Кугаевских
+>     <img src="/img/gifs/zyzz-miring.gif" alt="Кугаевских" width="500"/>
+> </h3>
 
 > [!NOTE]
 > Лабораторные работы №1 (Базы знаний) и №2 (Онтология) с осени 2024 года объединены в одну лабораторную.
 ## Результат
 <s>рубежки</s>
 - V семестр: **5A** (${\color{green}100}$/100 баллов)
-- I рубежка: 5/10
-- [II рубежка](/Software%20Engineering/AI%20Systems/Answers/Answers-II.pdf): 9/10
-- [Экзамен](/Software%20Engineering/AI%20Systems/Answers/Exam.pdf): 14/20
+    - I рубежка: 5/10
+    - [II рубежка](/Software%20Engineering/AI%20Systems/Answers/Answers-II.pdf): 9/10
+    - [Экзамен](/Software%20Engineering/AI%20Systems/Answers/Exam.pdf): 14/20
 ---
 
-> ![January](/img/memes/january.jpg)
+> <p align="center">
+>     <img src="/img/memes/january.jpg" alt="January"  width="500"/>
+> </p>
+---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                                               | Описание                                                            |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | https://sunnysubmarines.notion.site/AI-System-a559a46cddc44363bdf27b77e10b7d85?pvs=4 | Описание всех лабораторных работ.                                   |

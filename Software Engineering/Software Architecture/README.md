@@ -2,7 +2,11 @@
 
 ---
 # DO NOT ABBREVIATE THIS SUBJECT IN ENGLISH
-![Design patterns](/img/memes/design-patterns-are-a-solution-to-the-problem-oop-itself.jpg)
+
+> <p align="center">
+>     <img src="/img/memes/design-patterns-are-a-solution-to-the-problem-oop-itself.jpg" alt="Design patterns" width="500"/>
+> </p>
+
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
 | :exclamation: <b>Любое копирование материалов целиком или частично,<br>но без ссылки на автора, является кражей интеллектуальной собственности.<br>Это плагиат, за который из ИТМО отчисляют.</b> :exclamation:<br><sub><sup><i>(ещё получите 1-(2’’-гидроксилциклогексил)-3-[аминопропил]-4-[3’-аминопропил]пиперазин)-ы от нас)</sup></sub></b> |
@@ -26,21 +30,27 @@
 > Вы также можете выбрать один из проектов на COSM Lab. Выполнение проекта будет считаться как лабы, тем самым закрыв
 > предмет по автомату.
 
-> Java со своими AbstractJavaFinalSerializedFactory или StaticFactoryFactoryFactory
-> ![AbstractJavaFinalSerializedFactory](/img/memes/steampunk-city-with-lot-factories-airships-city-is-built-river-there-are-bridges-cranes-everywhere_14117-447895.png)
+> <h3 align="center">
+>     Java со своими AbstractJavaFinalSerializedFactory или StaticFactoryFactoryFactory
+>     <img src="/img/memes/steampunk-city-with-lot-factories-airships-city-is-built-river-there-are-bridges-cranes-everywhere_14117-447895.png" alt="AbstractJavaFinalSerializedFactory" width="500"/>
+> </h3>
 
 ---
 
 ## Результат
 <s>Халява</s>
+> <p align="center">
+>     <img src="/img/gifs/k5498joj7dm21.gif" alt="architecture" width="500"/>
+> </p>
+
 - V семестр: **5A** (${\color{green}93}$/100 баллов)
 
 ---
 
-## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Описание                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| https://vk.com/cosm_lab                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | COSM Lab                                         |
-| https://rutube.ru/video/private/9922fd668de40b1c7579bae3dd45aebf/?p=IcUoITlHNGtUQWmydDyqCg <br> https://rutube.ru/video/private/acfe8902ef397b285c83e387f5475c42/?p=gfuv-fkw9EhmhLudQYMuQA <br> https://rutube.ru/video/private/fc14d53db3557685da63c54a7874a725/?p=c-b0HE0qf-vVzUCpAUCb_g <br> https://rutube.ru/video/private/c0fe332f32e1753513742bc7c51907f0/?p=psJHTuonxzvBKTDMqOvjwg <br> https://rutube.ru/video/private/d02d99618559fee3d53805ee122c19c0/?p=NyoGeQTjwLLLzy9E2fY_Ag <br>  | Записи лекции 2024 года (неокончательный список) |
+## Полезные ссылки
+| Ссылка                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Описание                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| https://vk.com/cosm_lab                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | COSM Lab                                         |
+| https://rutube.ru/video/private/9922fd668de40b1c7579bae3dd45aebf/?p=IcUoITlHNGtUQWmydDyqCg <br> https://rutube.ru/video/private/acfe8902ef397b285c83e387f5475c42/?p=gfuv-fkw9EhmhLudQYMuQA <br> https://rutube.ru/video/private/fc14d53db3557685da63c54a7874a725/?p=c-b0HE0qf-vVzUCpAUCb_g <br> https://rutube.ru/video/private/c0fe332f32e1753513742bc7c51907f0/?p=psJHTuonxzvBKTDMqOvjwg <br> https://rutube.ru/video/private/d02d99618559fee3d53805ee122c19c0/?p=NyoGeQTjwLLLzy9E2fY_Ag <br> | Записи лекции 2024 года (неокончательный список) |
 
 ---

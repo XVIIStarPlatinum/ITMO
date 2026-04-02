@@ -4,8 +4,10 @@
 
 # Ауф ☝️🐺 парт 2
 > «Ребята, у кого там с головой плохо?»\
-> © Тауфик Измайлович Алиев\
-> ![Mom was right it's the damn internet](/img/memes/no-more-internet.png)
+> © Тауфик Измайлович Алиев
+> <p align="center">
+>     <img src="/img/memes/no-more-internet.png" alt="Mom was right it's the damn internet" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -30,18 +32,22 @@
 > Я, [Макс 🦡ов](https://github.com/maxbarsukov) и [Вова Карташев](https://github.com/ColdDirol) на каждом лабораторном\
 > (Не спрашивайте кто из нас чёрный, я точно жёлтый)
 > <p align="center">
->     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJ3bjI5eWd5aXM5OThkY3A2YzFrbXc5YzE3OWQ3dW83cWd3ajN6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JdXbgDjF7E2S4pO/giphy.gif" alt="fun"/>
+>     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExejJ3bjI5eWd5aXM5OThkY3A2YzFrbXc5YzE3OWQ3dW83cWd3ajN6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2JdXbgDjF7E2S4pO/giphy.gif" alt="fun" width="500"/>
 > </p>
 
+---
 ## Результаты
 <s>🤷</s>
 - VI семестр: **4C** (${\color{yellow}75}$/100 баллов)
+
+> <h3 align="center">
+>     «Я сам с этим долго трахался»<br>
+>     <img src="/img/memes/Topchenko.png" alt="Тропченко про шлюзы и интерфейсы" width="500"/>
+> </h3>
+
 ---
 
-> «Я сам с этим долго трахался»\
-![Тропченко про шлюзы и интерфейсы](img/memes/Topchenko.png)
-
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                                                                                                                                       | Описание                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | https://github.com/maxbarsukov/itmo/tree/master/6%20сети                                                                                                                     | Лабы от 🦡-а                                                                                                                  |

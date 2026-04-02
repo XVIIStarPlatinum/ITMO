@@ -3,8 +3,10 @@
 ---
 
 # Не криптовалюты
-> 
-> ![encrypt deez nutz](/img/memes/crypto.png)
+
+> <p align="center">
+>     <img src="/img/memes/crypto.png" alt="encrypt deez nutz" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -22,7 +24,10 @@
 
 ---
 > https://en.wikipedia.org/wiki/Alice_and_Bob#Cryptographic_systems
-> ![A whole telenovela lol](/img/memes/why-is-it-always-you-three.png)
+> <p align="center">
+>     <img src="/img/memes/why-is-it-always-you-three.png" alt="A whole telenovela lol" width="500"/>
+> </p>
+
 ---
 ## Методы
 | Название метода         | Упражнение                                                                                                                    |
@@ -40,13 +45,22 @@
 ---
 ## Результаты
 <s>Моя любимая нация — прокрастинация</s>
+
+> <p align="center">
+>     <img src="/img/gifs/rust.gif" alt="nullzert" width="500"/>
+> </p>
+
 - VI семестр: **зачёт** (${\color{green}100}$/100 баллов)
 ---
 
-> Диффи-Хеллман момент\
-> ![dhm](/img/memes/dhm.png)
+> Диффи-Хеллман момент
+> <p align="center">
+> <img src="/img/memes/dhm.png" alt="dhm" width="500"/>
+> </p>
 
-## Полезные ссылки <a name="links"></a>
+---
+
+## Полезные ссылки
 | Ссылка                                                                                                                                                         | Описание                                                  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | https://gravityfalls.fandom.com/wiki/List_of_cryptograms/Episodes#Vigen%C3%A8re_cipher<br>https://www.dcode.fr/vigenere-cipher                                 | Для шифра Виженера                                        |

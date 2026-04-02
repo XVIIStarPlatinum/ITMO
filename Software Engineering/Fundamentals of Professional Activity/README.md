@@ -2,14 +2,17 @@
 
 ---
 # бНОПНЯ ВХРЮК?
-![gif](/img/gifs/klimenkov-flex.gif)
+
+> <p align="center">
+>     <img src="/img/gifs/klimenkov-flex.gif" alt="klim" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
 | :exclamation: <b>Любое копирование материалов целиком или частично,<br>но без ссылки на автора, является кражей интеллектуальной собственности.<br>Это плагиат, за который из ИТМО отчисляют.</b> :exclamation:<br><sub><sup><i>(ещё получите 1-(2’’-гидроксилциклогексил)-3-[аминопропил]-4-[3’-аминопропил]пиперазин)-ы от нас)</sup></sub></b> |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 > Уточка, когда ее сжимаешь, она попискивает.\
-> © Клименков
+> © Клименков С. В.
 
 Здесь представлены лабораторные и экзамен по дисциплине **Основы профессиональной деятельности**.
 
@@ -20,8 +23,16 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Professional%20Activity/.docs/README_PT.md) |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+> <p align="center">
+>     <img src="/img/memes/talk-about-risc-y-business-v0-ktbs0u6qvbsa1.jpg" alt="risc-v" width="500"/>
+> </p>
+
+---
 **Лектор**: [Клименков Сергей Викторович](https://my.itmo.ru/persons/148787) ([@serge-klimenkov](https://github.com/Serge-Klimenkov))\
-![Кулич](/img/memes/Kulich.jpg)\
+> <p align="center">
+>     <img src="/img/memes/Kulich.jpg" alt="Кулич" width="500"/>
+> </p>
+
 **Практик
 **: [Кулинич Ярослав Вадимович](https://my.itmo.ru/persons/284721) ([@burevestnik-png](https://github.com/burevestnik-png))
 *(I семестр)*\
@@ -29,6 +40,7 @@
 
 > «Учите бэвм. мля.»\
 > © Клименков С. В.
+---
 ## Результаты
 <s>Микрокр...</s>
 - I семестр: **зачёт** (${\color{green}69}$/100 баллов)

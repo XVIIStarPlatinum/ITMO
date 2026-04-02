@@ -2,7 +2,10 @@
 
 ---
 # How to become an infloser
-![cancelled](/img/memes/images.jpeg)
+
+> <p align="center">
+>     <img src="/img/memes/images.jpeg" alt="cancelled" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -18,9 +21,23 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Personal%20Branding%20on%20Social%20Media/Operating%20Systems/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 ---
-> Я тебе столько раз говорил, что это называется X, а ты все равно продолжаешь называть это Twitter. На самом деле я так сука опустошен. Не могу поверить, что ты мог сказать такое, как назвать мою любимую платформу x.com неправильным именем. Теперь она принадлежит нашему господину и спасителю Илону Маску, который любезно одарил нас брендом X. Я так люблю X блять. Ты даже не можешь представить, сколько часов я потратил на платформу X, я публикую X каждый день. Никаких этих хуёвин по названию твитов, это называется X. Ты понимаешь, насколько важен X для меня? Я живу и дышу сраным X. Я публикую X всякий раз, когда в моей жизни происходит что-то важное. Мои подписчики X узнали о рождении моего первенца, когда я опубликовал свой самый популярный X на X.com. И ты думаешь, что смешно просто так наезжать на это со всеми этими разговорами в Twitter? Я имею в виду, кем ты себя возомнил? Такое поведение не имел в виду Илон, когда занял пост генерального директора X. Там буквально написано X вверху страницы, приложение называется X. Я даже не знаю, что вам сейчас сказать. Как вы смеете. Я опубликую X по поводу этого разговора в ближайшем будущем, так что надеюсь, вы почувствуете, как заставили меня чувствовать в следующий раз, когда будете прокручивать на X.
-
+> I've told you it's called X so many times and you still keep calling it Twitter. I'm actually so fucking devastated. I
+> can't believe you would say such a thing as to call my beloved x.com platform by the wrong name. It's now owned by our
+> lord and savior Elon Musk, who graciously gifted upon us the X branding. I love X so fucking much. You couldn't even
+> comprehend just how many hours I've put into the X platform, I post an X every day. None of this fucking tweet bullshit,
+> it's called an X. Do you understand how important X is to me? I live and breathe fucking X. I post an X whenever
+> something important happens on my life. My X followers learned of the birth of my first child when I posted my most
+> popular X on X.com. And you think it's funny to just steamroll over that with all this twitter talk? I mean, who does
+> you think you are? This behavior is not what Elon had in mind when taking over as CEO of X. It literally says X at the
+> top of the page, the app is called X. I don't even know what to say to you right now. How dare you. I'll be posting an X
+> about this conversation in the near future, so I hope you get a taste of how you made me feel next time you're scrolling
+> on X.
+---
 **Преподаватель**: [Макарова Валерия Константиновна](https://my.itmo.ru/persons/411780)
+
+> <p align="center">
+>     <img src="/img/memes/vuloudxmk9cb1.png" alt="insta" width="500"/>
+> </p>
 
 > [!IMPORTANT]
 > Этот предмет почему-то проводится на английском. Если у вас уровень "Хеллоу май нэйм из Антон, эвери морнинг ай южюалли гет ап эт севен оклок", то я бы не рекомендовал выбрать этот предмет. Лучше просидеть в условном "Основы сексологии".
@@ -29,12 +46,17 @@
 > Это факультативный предмет.
 ---
 ## Результаты
-<s></s>
+
+> <h3 align="center">
+>     <s>What the sigma</s>
+>     <img src="/img/gifs/slimed.gif" alt="reels" width="500"/>
+> </h3>
+
 - V семестр: **зачёт** (${\color{green}80}$/100 баллов)
 
 ---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 
 | Ссылка                                                                                | Описание                                                |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------|

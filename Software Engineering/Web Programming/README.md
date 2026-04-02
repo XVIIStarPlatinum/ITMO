@@ -3,8 +3,10 @@
 ---
 # Историческая справка (кроме последней четверти)
 
-> ~~PHP,~~ JSP & JSF in 202~~34~~5? Bruh\
-![jurassic era](/img/gifs/brachiosaurus.gif)
+> <h3 align="center">
+>     ~~PHP,~~ JSP & JSF in 202~~34~~5? Bruh
+>     <img src="/img/gifs/brachiosaurus.gif" alt="jurassic era" width="500"/>
+> </h3>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -25,13 +27,21 @@
 **Лектор**: ~~[Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)~~ [Егошин Алексей Васильевич](https://my.itmo.ru/persons/285578) ([@Roggired](https://github.com/roggired))
 
 **Практик**: [Инячина Диана Александровна](https://my.itmo.ru/persons/126471) ([@dianainya](https://github.com/dianainya))
-> ASP.NET, django и другие более актуальные фреймворки и технологии:
-> ![avril-lavigne](/img/gifs/avril-lavigne(1).gif)
+
+> <h3 align="center">
+>     ASP.NET, django и другие более актуальные фреймворки и технологии:
+>     <img src="/img/gifs/avril-lavigne(1).gif" alt="avril-lavigne" width="500"/>
+> </h3>
+
 ---
 
 > [!NOTE]
 > PHP заменен на FastCGI с 24/25. Движок в правильную сторону, но этого мало, по-моему.
 
+> <p align="center">
+>     <img src="/img/memes/aftertryinglike10languages-v0-jzm6t0dzhule1.jpg" alt="ew" width="500"/>
+> </p>
+---
 ## Результат
 
 - III семестр: **3E** ($\color{red}62.31$/100 баллов)

@@ -2,9 +2,10 @@
 
 ---
 # Сборище копипаст
-<p align="center">
-    <img src="https://media1.tenor.com/m/19bU2uw0v5QAAAAC/avril-avril-lavigne.gif" alt="Safety Last"/>
-</p>
+
+> <p align="center">
+>     <img src="https://media1.tenor.com/m/19bU2uw0v5QAAAAC/avril-avril-lavigne.gif" alt="Safety Last"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -20,15 +21,27 @@
 
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Life%20Safety/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/IO%20Systems/Life%20Safety/.docs/README_PT.md) |
 |---------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-> Софт скиллы когда Макс Барсуков публикует материал во имени свободы выражения\
-> ![pp privileges](/img/gifs/darwin-watterson.gif)
+
+> <h3 align="center">
+>     Департамент софт скиллов когда Макс Барсуков публикует материал во имени свободы выражения
+>     <img src="/img/gifs/darwin-watterson.gif" alt="pp privileges" width="500"/>
+> </h3>
+
+> [!TIP]
+> Можно выбрать другие треки.
 
 ---
 ## Результаты
-<s>Это когда я пошел в Аэрофлот вместо бжд</s>
+
+> <h3 align="center">
+>     <s>Это когда я пошел в Аэрофлот вместо бжд</s>
+>     <img src="https://media1.tenor.com/m/mIQZHn6oh1MAAAAC/dandadan-okarun.gif" alt="run" width="500"/>
+> </h3>
+
 - II семестр: **зачёт** (${\color{green}76.98}$/100 баллов)
 ---
-## Полезные ссылки <a name="links"></a>
+
+## Полезные ссылки
 | Ссылка                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Описание                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | https://vk.com/lifesafety_itmo                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Паблика ВК с актуальными информациями                                               |

@@ -2,9 +2,10 @@
 
 ---
 # Not like us
-<p align="center">
-    <img src="https://media1.tenor.com/m/2FLAN2Z_sIAAAAAd/kendrick-lamar-not-like-us.gif" alt="kdot"/>
-</p>
+
+> <p align="center">
+>     <img src="https://media1.tenor.com/m/2FLAN2Z_sIAAAAAd/kendrick-lamar-not-like-us.gif" alt="kdot" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -19,18 +20,20 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Business%20Logic%20of%20Software%20Systems/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+---
 ![autumn boot](/img/memes/spring.jpg)
 
 **Лектор**: [Цопа Евгений Алексеевич](https://my.itmo.ru/persons/126287)\
 **Практик**: [Кривоносов Егор Дмитриевич](https://my.itmo.ru/persons/284261) ([@RedGry](https://github.com/redgry))
 
 **Партнер**:\
-Коломиец Никита Сергеевич ([@nkolomiika](https://github.com/nkolomiika))
+[Коломиец Никита Сергеевич](https://my.itmo.ru/persons/367301) ([@nkolomiika](https://github.com/nkolomiika))
 
 > [!IMPORTANT]
 > Это предмет из профессионального модуля по выбору "Модуль 2: Информационные системы". В его рамках также входит "Проектирование пользовательских интерфейсов" и "Сервис-ориентированная архитектура".\
 > Можете вместо этого выбрать модуль "Системное и программное обеспечение" (т.е. Низкоуровневая хуйня).
 
+---
 ## Результаты
 ![horrendous](/img/memes/java-bad.png)
 <s>теперь я профессионал</s>
@@ -38,7 +41,7 @@
 - VI семестр: **3E** (${\color{red}64}$/100 баллов)
 ---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                                              | Описание                                                                                                                           |
 |-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | https://docs.google.com/spreadsheets/d/1Ewnd_le1oF4a4-h5-cRsbZj0jW3kbEAJoOr5CrTbKR4 | Вопросы к рубежной работе №1                                                                                                       |

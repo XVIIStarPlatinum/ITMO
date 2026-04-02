@@ -3,9 +3,12 @@
 ---
 
 # Ауф ☝️🐺
-> «Я читать не люблю, и я писать не люблю. <...> И поэтому ваши письма даже не читаю»\
-© Тауфик Измайлович Алиев\
-> ![a fucking clock factory lol](/img/charts/arrows.png)
+
+> <p align="center">
+> «Я читать не люблю, и я писать не люблю. <...> И поэтому ваши письма даже не читаю»<br>
+> © Тауфик Измайлович Алиев
+>     <img src="/img/charts/arrows.png" alt="a fucking clock factory lol" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -23,22 +26,30 @@
 
 ---
 > «Вы пожалеете»\
-© Тауфик Измайлович Алиев
+> © Тауфик Измайлович Алиев
 ---
-**Лектор**: [Тауфик Измайлович "Ауф" Алиев](https://my.itmo.ru/persons/100040)
-
+**Лектор**: [Тауфик Измайлович "Ауф" Алиев](https://my.itmo.ru/persons/100040)\
 **Практик**: [Тропченко Андрей Александрович](https://my.itmo.ru/persons/111848)
-> Практики наглядно\
-> ![Topchenko](/img/memes/my-child-will.png)
 
+**Партнер**:\
+[Боринский Игорь Дмитриевич](https://my.itmo.ru/persons/367911) ([@Raisondetr3](https://github.com/Raisondetr3))
+
+> <h3 align="center">
+>     <img src="/img/memes/my-child-will.png" alt="Topchenko" width="500"/>
+> </h3>
+
+---
 ## Результаты
 <s>П-слово</s>
 - V семестр: **4C** (${\color{yellow}79}$/100 баллов)
 ---
 
-> Me when Aliev takes a test just when I log off from the lecture (it was boring af)\
-> ![rage](/img/gifs/rage.gif)
+> <h3 align="center">
+>     Me when Aliev takes a test just when I log off from the lecture (it was boring af)
+>     <img src="/img/gifs/rage.gif" alt="rage" width="500"/>
+> </h3>
 
+---
 ## Полезные ссылки <a name="links"></a>
 | Ссылка                                                                                            | Описание                                                                       |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|

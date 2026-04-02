@@ -2,9 +2,10 @@
 
 ---
 # Actually a machine learning course
-<p align="center">
-    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVmNDY3aXZxNTZncm9lYW5wNHFkNmtmaDhsZGkzY3gyazA5OHp0YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xxCNsOokj8Rxp8EtUL/giphy.gif" alt="fuck"/>
-</p>
+
+> <p align="center">
+>     <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVmNDY3aXZxNTZncm9lYW5wNHFkNmtmaDhsZGkzY3gyazA5OHp0YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xxCNsOokj8Rxp8EtUL/giphy.gif" alt="fuck" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -18,16 +19,25 @@
 
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Security/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
- 
-> Какого хуя\
-> ![ML](/img/memes/wojak.jpeg)
 
-## Результаты
-![price](/img/memes/Napoleon-I-illustration-Moscow-Vasily-V-Vereshchagin-1890.jpg)
+> <h3 align="center">
+>     Мой спидран этого курса на 15-ом часе выполнения:
+>     <img src="/img/memes/img.png" alt="adventure gone wrong" width="500"/>
+> </h3>
+
 ---
+## Результаты
+
+https://ru.wikipedia.org/wiki/Пиррова_победа
+> <p align="center">
+>     <img src="/img/memes/Napoleon-I-illustration-Moscow-Vasily-V-Vereshchagin-1890.jpg" alt="price" width="500"/>
+> </p>
+
 <s>-1/10 экспериенс</s>
 - VI семестр: **зачёт** (${\color{green}}90.81$/100 баллов)
 
-## Полезные ссылки <a name="links"></a>
+---
+
+## Полезные ссылки
 да бля всё есть в lms, ничего дополнительного не нужно
 ---

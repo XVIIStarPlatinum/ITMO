@@ -3,9 +3,9 @@
 ---
 # He's literally me...
 
-<p align="center">
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmlyNTFyeHNsMjhmZTNpNWxrc2l6amtjdjFnbHpqZThpeGd5cmhlbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N8uutOwabFDcmsuPkp/giphy.gif" alt="greg"/>
-</p>
+> <p align="center">
+>     <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmlyNTFyeHNsMjhmZTNpNWxrc2l6amtjdjFnbHpqZThpeGd5cmhlbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/N8uutOwabFDcmsuPkp/giphy.gif" alt="greg"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -22,17 +22,21 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/ITMO/blob/master/Software%20Engineering/Algorithms%20%26%20Data%20Structures/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-> Я после Accepted/OK<br>
-> <img src="https://media1.tenor.com/m/I-JZtUVrKIYAAAAC/gojo-satoru-jujutsu-kaisen.gif" alt="Go/Jo"/>
+> <h3 align="center">
+>     Я после Accepted/OK
+>     <img src="https://media1.tenor.com/m/I-JZtUVrKIYAAAAC/gojo-satoru-jujutsu-kaisen.gif" alt="Go/Jo"/>
+> </h3>
 
-
+---
 **Лектор**: [Косяков Михаил Сергеевич](https://my.itmo.ru/persons/139799)
 
 **Практик
 **: [Сосновцев Григорий Алексеевич](https://my.itmo.ru/persons/335046) [(@hyperb0rean)](https://github.com/hyperb0rean)\
 **(Формальный) практик**: [Тараканов Денис Сергеевич](https://my.itmo.ru/persons/173960)
 
-## Оценки
+---
+
+## Оценивание
 > It looks like just being strong enough isn't enough. I can only save those who are prepared to be saved.
 - Оценки **3E**, **3D**, **4C**: `8` / `10` / `14` основных задач с *Яндекс.Контест*
 - Работает система антиплагиата: списанная и оригинальная работы аннулируются навсегда без права пересдачи
@@ -52,17 +56,18 @@
 > [!TIP]
 > Вы можете найти **подробное объяснение решения** и сложность алгоритма в отчёте.
 
+---
 ## Результаты
 - IV семестр: **4B** (${\color{lightgreen}84}$/100 баллов)
----
 
-<p align="center">
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG04dzZ3enFjOW84amF5OHM1OWZ0Mml1cDd2YjFhODdqMXFleGZ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bug2wkdhpf7kbFS/giphy.gif" alt="greg2"/>
-</p>
+> <p align="center">
+>     <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG04dzZ3enFjOW84amF5OHM1OWZ0Mml1cDd2YjFhODdqMXFleGZ3YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bug2wkdhpf7kbFS/giphy.gif" alt="greg2" width="500"/>
+> </p>
 
 > I've learned it's important not to limit yourself. You can do whatever you really love to do, no matter what it is.
+---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                                          | Описание                                          |
 |---------------------------------------------------------------------------------|---------------------------------------------------|
 | https://github.com/hyperb0rean/itmo_algo                                        | Примеры код от Грега                              |

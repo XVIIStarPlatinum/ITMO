@@ -3,9 +3,9 @@
 ---
 # English or Spanish
 
-<p align=center>
-    <img src="https://media1.tenor.com/m/b7YwmZmqfX0AAAAd/english-or-spanish.gif" alt="geh"/>
-</p>
+> <p align=center>
+>     <img src="https://media1.tenor.com/m/b7YwmZmqfX0AAAAd/english-or-spanish.gif" alt="geh" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -27,7 +27,9 @@
 **Практик**: [Хамитова Алёна Альбертовна](https://my.itmo.ru/persons/378991) *(II курс, АЯ-B2)*\
 **Практик**: [Яковлева Ольга Александровна](https://my.itmo.ru/persons/228108) *(III курс/V семестр, АЯ-ЗПИиКТ-C1)*\
 **Практик**: [Муфалали Чипо Мубалу](https://my.itmo.ru/persons/274726) *(III курс/VI семестр, АЯ-ЗПИиКТ-C2)*
-
+> <p align="center"> 
+>     <img src="/img/memes/average-western-polyglot-vs-average-african-v0-1pjasd60lc0b1.jpg" alt="average african" width="500"/>
+> </p>
 ---
 
 ## Результаты
@@ -39,9 +41,12 @@
 - V семестр: **зачёт** (${\color{green}72}$/100 баллов)
 - VI семестр: **зачёт** (${\color{green}61}$/100 баллов)
 
+> <p align="center">
+>     <img src="/img/memes/lpk9fy0hsg7z.png" alt="arabic" width="500"/>
+> </p>
 ---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 ![tinkov](/img/gifs/oleg-tinkov.gif)
 
 **[Задания с сайта мудла](https://fltc.itmo.ru)**

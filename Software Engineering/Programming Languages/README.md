@@ -3,9 +3,9 @@
 ---
 # Предмет, где низкоуровневое программирование покажется хорошим
 
-<p align="center">
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWR1aGs3aTR4dTdpaTdvd3BiN3Z6ejhyZ3BtZHNudXRoY2ZjM3h4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AIeh0ltAdNMrK/giphy.gif" alt="Avril"/>
-</p>
+> <p align="center">
+>     <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWR1aGs3aTR4dTdpaTdvd3BiN3Z6ejhyZ3BtZHNudXRoY2ZjM3h4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AIeh0ltAdNMrK/giphy.gif" alt="Avril"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -21,18 +21,22 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Programming%20Languages/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/IO%20Systems/Programming%20Languages/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-> Гигачад\
-> ![gigachad](/img/memes/igor-zhirkov.jpg)
+> <h3 align="center">
+>     Гигачад<br>
+>     <img src="/img/memes/igor-zhirkov.jpg" alt="gigachad" width="500"/>
+> </h3>
 
 Лектор: [Жирков Игорь Олегович](https://my.itmo.ru/persons/148787)\
 Практик: [Жданов Андрей Дмитриевич](https://my.itmo.ru/persons/126471)
 
 ## Результаты
 
+> <p align="center">
+>     <img src="/img/memes/how-many-assembly-programmers-are-there-v0-eggo2nhj2cz61.jpg" alt="asm" width="500"/>
+> </p>
 - III семестр: **5А** (${\color{green}100}$/100 баллов)
 
-## Полезные ссылки <a name="links"></a>
-
+## Полезные ссылки
 | Ссылка                                                                                                  | Описание                                             |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | https://gitlab.se.ifmo.ru/XVIIstarPt_/assignment-1-io-library                                           | Лабораторная №1: библиотека ввод-вывода              |

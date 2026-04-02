@@ -3,9 +3,9 @@
 ---
 # 32 / 8 == 5
 
-<p align="center">
-    <img src="/img/gifs/Penskoi.gif" alt="Penskoi" width="540"/>
-</p>
+> <p align="center">
+>     <img src="/img/gifs/Penskoi.gif" alt="Penskoi" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -33,10 +33,13 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Architecture/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+---
 ![clojure](/img/gifs/consultation.gif)
 
 **Лектор**: [Пенской Александр Владимирович](https://my.itmo.ru/persons/142415)\
 **Практик**: [Горбачев Ярослав Георгиевич](https://my.itmo.ru/persons/172909)
+
+---
 
 ## Структура курса, оценивание и баллы (актуально только в 2024):
 |                                | min    | max     |
@@ -68,11 +71,16 @@
 > [!NOTE]
 > Я не сделал лабораторную работу №3. Причины: пофиг + плохое проектирование.
 
-## Результат
+> <p align="center">
+>     <img src="/img/memes/its-all-cache-anyway-v0-ipbd3fxn7e571.jpg" alt="cache money" width="500"/>
+> </p>
 
 ---
+## Результат
 <s>Пенской против очепяток, самая односторонняя битва за всё время</s>
 - IV семестр: **5A** (${\color{green}93}$/100 баллов)
+
+---
 ## Полезные ссылки
 | Ссылка                                                                                                                                                                                                                                                                                                                          | Описание                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|

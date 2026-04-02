@@ -2,7 +2,10 @@
 
 ---
 # 1000-7? ZXC
-![gif](/img/gifs/zxc1000-7(2).gif)
+
+> <p align="center">
+>     <img src="/img/gifs/zxc1000-7(2).gif" alt="kaneki" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -19,7 +22,6 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Fundamentals%20of%20Software%20Engineering/.docs/README_PT.md) |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-**Лектор**: [Клименков Сергей Викторович](https://my.itmo.ru/persons/148787)
 > Две четвёрки на шее (На шее)\
 > В этой игре начальник, мой Игуза не прощает\
 > Ломаю твои катаны — это бог смерти вещает\
@@ -30,13 +32,17 @@
 > Каждый гуль трясётся в ужасе, для них словно маньяк\
 > И под звуки Реквиема я танцую на костях!
 
+---
+**Лектор**: [Клименков Сергей Викторович](https://my.itmo.ru/persons/148787)\
 **Практик**: [Птицын Максим Евгеньевич](https://my.itmo.ru/persons/336759) [(@zkyoto)](https://github.com/zkyoto)
 
-> <sup><i>Каждый подход би лайк</sup></i>
-![vtcursed](/img/pics/zxcursed-with-fan.jpg)
+> <h3 align="center">
+>     <sup><i>Каждый подход би лайк</i></sup>
+>     <img src="/img/pics/zxcursed-with-fan.jpg" alt="vtcursed" width="500"/>
+> </h3>
 
-
-Партнер: Орчиков Даниил Валерьевич [(@DaniilOrchikov)](https://github.com/DaniilOrchikov)
+**Партнер**: \
+[Орчиков Даниил Валерьевич](https://my.itmo.ru/persons/367452) ([@DaniilOrchikov](https://github.com/DaniilOrchikov))
 
 ## Результаты
 <s>трахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахать</s>
@@ -57,5 +63,7 @@
 
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru/courses/software-engineering-basics)
 > Shinigami eyes
-![zxcplatinum](/img/pics/zxcplatinum.jpg)
+> <p align="center">
+>     <img src="/img/pics/zxcplatinum.jpg" alt="zxcplatinum" width="500"/>
+> </p>
 ---

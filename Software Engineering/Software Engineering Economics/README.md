@@ -104,7 +104,7 @@ https://my.itmo.ru/persons/105394
 
 ---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                                                                                                                                                                    | Описание                                                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | https://github.com/Imtjl/1st-year-guide <br> https://yank0vy3rdna.github.io/itmo-faq/                                                                                                                     | Гайд для первокурсников и абитуриентов                                                                                                  |
@@ -118,13 +118,4 @@ https://my.itmo.ru/persons/105394
 
 [**Сайт кафедры Вычислительной техники с заданиями к работам.**](https://se.ifmo.ru)
 
-| **Operation**         | **Code** | **Description**                                                                                                               | **Datatype**      |
-|-----------------------|----------|-------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| Equal                 | eq       | Filters objects by their chosen field and returns objects which have a value equal to the provided                            | String, int, long |
-| Not equal             | neq      | Filters objects by their chosen field and returns objects which have a value not equal to the provided                        | String, int, long |
-| Greater than          | gt       | Filters objects by their chosen field and returns objects which have a value greater than the provided                        | int, long         |
-| Lesser than           | lt       | Filters objects by their chosen field and returns objects which have a value lesser than the provided                         | int, long         |
-| Greater than or equal | gte      | Filters objects by their chosen field and returns objects which have a value greater than or equal to the provided            | int, long         |
-| Lesser than or equal  | lte      | Filters objects by their chosen field and returns objects which have a value lesser than or equal to the provided             | int, long         |
-| Like                  | like     | Filters objects by their chosen field and returns objects which have a value matched using substring search with the provided | String, int, long |
 ---

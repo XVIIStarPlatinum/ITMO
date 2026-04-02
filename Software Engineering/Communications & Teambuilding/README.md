@@ -16,10 +16,16 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Communications%20%26%20Teambuilding/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+> <p align="center">
+>     <img src="/img/memes/soft-skills.jpg" alt="hard" width="500"/>
+> </p>
+
+---
 **Группа**: КиК 2.33
 
 **Практик**: [Топорова Инна Александровна](https://my.itmo.ru/persons/279132)
 
+---
 ## Результат
 <s>Soft skills == CCP</s>
 - II семестр: **зачёт** (${\color{green}63}$/100 баллов)
@@ -27,9 +33,12 @@
 ## Объяснение
 
 К сожалению, здесь нет никакого материала, так как руководитель блока Soft Skills требовал удаления материала от репозитория. Невыполнение этого требования закончилось бы плачевно для меня.
-
+> <h3 align="center">
+>     ФТМИ когда я опубликую их рабочую тетрадь:
+>     <img src="https://media1.tenor.com/m/lTu9zqijr88AAAAd/family-guy-joe-swanson.gif" alt="badger" width="500"/>
+> </h3>
 ---
 
-## Полезные ссылки <a name="links"></a> 
+## Полезные ссылки
 ![tinkov](/img/gifs/oleg-tinkov.gif)
 ---

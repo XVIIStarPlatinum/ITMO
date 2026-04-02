@@ -3,7 +3,9 @@
 ---
 # Хочется есть ≡ кинг
 
-![MPV being based](/img/memes/what-happened-to-mpv-v0-iml5i7mqd14b1.jpg)
+> <p align="center">
+>     <img src="/img/memes/what-happened-to-mpv-v0-iml5i7mqd14b1.jpg" alt="MPV being based" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -22,8 +24,11 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/UI%20Design/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 
-> Количественные данные говорят вам, как пользователи взаимодействуют с продуктом. Только качественные данные могут сказать вам, почему.\
-> ![lol](/img/memes/m1eo9wpt1ys61.jpg)
+> <p align="center">
+>     Количественные данные говорят вам, как пользователи взаимодействуют с продуктом. Только качественные данные могут сказать вам, почему.
+>     <img src="/img/memes/m1eo9wpt1ys61.jpg" alt="lol" width="500"/>
+> </p>
+
 ---
 
 **Преподаватель**: [Балканский Андрей Александрович](https://my.itmo.ru/persons/119887)
@@ -32,6 +37,9 @@
 > Это предмет из профессионального модуля по выбору "Модуль 2: Информационные системы". В его рамках также входит "Бизнес-логика программных систем" и "Сервис-ориентированная архитектура".\
 > Можете вместо этого выбрать модуль "Системное и программное обеспечение" (т.е. Низкоуровневая хуйня).
 
+> <p align="center">
+>     <img src="/img/gifs/rapidsave.com_ui-cwk98c048rsg1.gif" alt="ui/ux" width="500"/>
+> </p>
 ---
 
 ## Результаты
@@ -41,8 +49,9 @@
 ---
 > «БАЛКАНСКОМУ ЗАЛЕЙ ЛАБУ КИНОКРИТИК СУКА»\
 > © [Сенечка](https://github.com/FooolyHARD) к [Саше Алеверу](https://github.com/Tr1Galki)
+---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                                                                          | Описание                                 |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | https://docs.cntd.ru/document/1200141127                                                                        | Основной документ курса                  |

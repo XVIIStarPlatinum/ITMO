@@ -26,12 +26,23 @@
 
 ## Объяснение
 К сожалению, здесь не все лабораторные работы, так как во время полома жесткого диска я не успел выложить их в другое место.
+
+> <h3 align="center">
+>     Я после того как отлетел из-за рандомной хуйни и попал в 65-ое место до повторного подхода: 
+>     <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTM5ZGFmbGtzaWVkc2V2aGgxbTQ0dXM3bHprOGtvdGRuMW16ZTV6ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MJd3uGnPA0sh6VZMge/giphy.gif" alt="crash out" width="500"/>
+> </h3>
+
+---
 ## Результаты
-<s>Ад</s>
+
+> <h3 align="center">
+>     <s>Ад</s><br>
+>     <img src="/img/memes/fashwave.png" alt="fashwave" width="500"/>
+> </h3>
 - IV семестр: **зачёт** (${\color{green}66}$/100 баллов)
 ---
 
-## Полезные ссылки <a name="links"></a>
+## Полезные ссылки
 | Ссылка                                                 | Описание                                                        |
 |--------------------------------------------------------|-----------------------------------------------------------------|
 | https://205826.github.io/T2P/T2P_EDITOR.html?id=299993 | Решатор симплекс таблицы от Димы Ценекова                       |

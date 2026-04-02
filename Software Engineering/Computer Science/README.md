@@ -2,9 +2,10 @@
 
 ---
 # It's Balakshin' time
-<p align="">
-    <img src="https://media1.tenor.com/m/JP5Vbe-D3UoAAAAC/monkey-computer.gif" alt="monke" width="560"/>
-</p>
+
+> <p align="center">
+>     <img src="https://media1.tenor.com/m/JP5Vbe-D3UoAAAAC/monkey-computer.gif" alt="monke" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -20,7 +21,10 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Computer%20Science/.docs/README_PT.md) |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 
-![псж](/img/memes/Balakshin(2).jpg)
+> <p align="center">
+>     <img src="/img/memes/Balakshin(2).jpg" alt="псж" width="500"/>
+> </p>
+
 > Нифига себе, Павел Валерьевич решил заниматься интернационализированием до меня\
 > Русский: "Прошу отчислить меня из университета по собственному желанию!"\
 > Адыгейский: "Сэ сишlоигъоныгъэкlэ университетым сычlэжъугъэкlыжьынэу сыкъыкlэлъэlу!"\
@@ -44,17 +48,26 @@
 
 **Лектор**: [Балакшин Павел Валерьевич](https://my.itmo.ru/persons/125598)\
 **Практик**: [Малышева Татьяна Алексеевна](https://my.itmo.ru/persons/165275) (правда у меня принял какой-то Кирилл из 4 курса)
-![Annotation](/img/memes/Tears.jpg)
+
+> <p align="center">
+>     <img src="/img/memes/Tears.jpg" alt="Annotation" width="500"/>
+> </p>
+
 ## Результаты
-![nah](/img/memes/Balakshin.jpg)
+
+> <p align="center">
+>     <img src="/img/memes/Balakshin.jpg" alt="nah" width="500"/>
+> </p>
+
 ---
 <s>Если б я не ошибся с двоичными вычислениями на экзамене...</s>
 - I семестр: **4B** (${\color{lightgreen}}83.83$/100 баллов)
-## Полезные ссылки <a name="links"></a>
-| Ссылка                                                                                                                                                                                                    | Описание                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| https://t.me/balakshin_students                                                                                                                                                                           | Канал Павла Валерьевича с актуальными информациями |
-| https://books.ifmo.ru/file/pdf/2464.pdf                                                                                                                                                                   | Методическое пособие                               |
-| https://de.ifmo.ru/                                                                                                                                                                                       | Платформа для проведения тестировании              |
+
+## Полезные ссылки
+| Ссылка                                  | Описание                                           |
+|-----------------------------------------|----------------------------------------------------|
+| https://t.me/balakshin_students         | Канал Павла Валерьевича с актуальными информациями |
+| https://books.ifmo.ru/file/pdf/2464.pdf | Методическое пособие                               |
+| https://de.ifmo.ru/                     | Платформа для проведения тестировании              |
 
 ---
