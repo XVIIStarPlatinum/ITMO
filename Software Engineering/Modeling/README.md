@@ -31,8 +31,9 @@
 **Лектор**: [Тауфик Измайлович "Ауф" Алиев](https://my.itmo.ru/persons/100040)\
 **Практик**: [Тропченко Андрей Александрович](https://my.itmo.ru/persons/111848)
 
-**Партнер**:\
-[Боринский Игорь Дмитриевич](https://my.itmo.ru/persons/367911) ([@Raisondetr3](https://github.com/Raisondetr3))
+**Партнер**:
+
+- [Боринский Игорь Дмитриевич](https://my.itmo.ru/persons/367911) ([@Raisondetr3](https://github.com/Raisondetr3))
 
 > <h3 align="center">
 >     <img src="/img/memes/my-child-will.png" alt="Topchenko" width="500"/>

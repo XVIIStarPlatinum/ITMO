@@ -47,11 +47,11 @@
 
 ### Проект №1: Умная мусорка
 Партнеры:
-
 - [Бабенко Даниил Александрович](https://my.itmo.ru/persons/367069) ([@DanielBabenko](https://github.com/DanielBabenko))
 - [Нягин Михаил Алексеевич](https://my.itmo.ru/persons/368601) ([@JABAN111](https://github.com/JABAN111))
 - [Хорошев Максим Денисович](https://my.itmo.ru/persons/369000) ([@Makhor01](https://github.com/Makhor01))
 - Итого: ${\color{lightgreen}86}$/100
+
 ### Проект №2: PlanetHUB (аналог Miro/Notion)
 
 - Партнер: [Карташев Владимир](https://my.itmo.ru/persons/373440) ([@ColdDirol](https://github.com/ColdDirol))

@@ -41,8 +41,9 @@
 >     <img src="/img/pics/zxcursed-with-fan.jpg" alt="vtcursed" width="500"/>
 > </h3>
 
-**Партнер**: \
-[Орчиков Даниил Валерьевич](https://my.itmo.ru/persons/367452) ([@DaniilOrchikov](https://github.com/DaniilOrchikov))
+**Партнер**:
+
+- [Орчиков Даниил Валерьевич](https://my.itmo.ru/persons/367452) ([@DaniilOrchikov](https://github.com/DaniilOrchikov))
 
 ## Результаты
 <s>трахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахатьтрахать</s>

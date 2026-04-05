@@ -32,10 +32,15 @@
 ---
 **Лектор**: [Платунов Алексей Евгеньевич](https://my.itmo.ru/persons/100053)
 
-**Практики**:\
-[Пинкевич Василий Юрьевич](https://my.itmo.ru/persons/149216) (tg: [@vasiliy_pi](https://t.me/vasiliy_pi))\
-[Кольчурин Максим Вячеславович](https://my.itmo.ru/persons/287679) (tg: [@mkolchurin](https://t.me/mkolchurin))\
-[Асьминкин Фёдор Алексеевич](https://my.itmo.ru/persons/310120) (tg: [@FA1A8](https://t.me/FA1A8))
+**Практики**:
+
+- [Пинкевич Василий Юрьевич](https://my.itmo.ru/persons/149216) (tg: [@vasiliy_pi](https://t.me/vasiliy_pi))
+- [Кольчурин Максим Вячеславович](https://my.itmo.ru/persons/287679) (tg: [@mkolchurin](https://t.me/mkolchurin))
+- [Асьминкин Фёдор Алексеевич](https://my.itmo.ru/persons/310120) (tg: [@FA1A8](https://t.me/FA1A8))
+
+**Партнер**:
+
+- [Кравцов Кирилл Денисович](https://my.itmo.ru/persons/333291) ([@killreal777](https://github.com/killreal777))
 
 ---
 > [!IMPORTANT]

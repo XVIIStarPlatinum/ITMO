@@ -5,7 +5,7 @@
 # ПИиКТ-шная революция
 
 > <p align="center">
->     <img src="../../img/memes/cloud.png" alt="cloud ahh cloud" width="500"/>
+>     <img src="/img/memes/this-is-the-cloud-v0-yfr8ceuufue91.jpg" alt="cloud ahh cloud" width="500"/>
 > </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург

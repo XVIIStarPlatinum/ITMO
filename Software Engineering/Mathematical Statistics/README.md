@@ -25,8 +25,9 @@
 **Лектор**: [Милованович Екатерина Воиславовна](https://my.itmo.ru/persons/106026)\
 **Практик**: [Ким Эрик Евгеньевич](https://t.me/ricskrt)
 
-**Партнер**:\
-[Боринский Игорь Дмитриевич](https://my.itmo.ru/persons/367911) ([@Raisondetr3](https://github.com/Raisondetr3))
+**Партнер**:
+
+- [Боринский Игорь Дмитриевич](https://my.itmo.ru/persons/367911) ([@Raisondetr3](https://github.com/Raisondetr3))
 > [!NOTE]
 > 5-я ИДЗ — вторая часть первого ИДЗ.
 

@@ -1,7 +1,11 @@
-# I/İTMO/SE/РМП
+# I/İTMO/SE/Mobile
 
 ---
 # Как не управлять командой
+
+> <p align="center">
+>     <img src="/img/memes/how-kotlin-developers-see-java-developers-v0-cel4mv095ki51.jpg" alt="java man" width="500"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -22,6 +26,10 @@
 
 > [!IMPORTANT]
 > Это предмет по "Пулу выборных дисциплин 2". Можете вместо этого выбрать дисциплину "Многопоточное программирование".
+
+> <p align="center">
+>     <img src="/img/memes/kotlin-irl-v0-i5sthwlu29x31.jpg" alt="toLong()" width="500"/>
+> </p>
 
 ## Результаты
 ![nah](/img/memes/pov-youre-an-app-developer.png)

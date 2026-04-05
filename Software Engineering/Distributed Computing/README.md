@@ -5,7 +5,7 @@
 # Алгосы 2: Electric boogaloo
 
 <p align="center">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXhmb2lyeDdoYmpoc2o4ZnJicHg4ZzVnb3M5ZXV1eHQ3dzMwM2dkNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VhGkDaTIMRCn4nrT42/giphy.gif" width="500" alt="tgpu without pu"/>
+    <img src="/img/memes/photo_2026-04-03_13-58-58.jpg" width="500" alt="tgpu without pu"/>
 </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
@@ -29,8 +29,9 @@
 **Лектор**: [Косяков Михаил Сергеевич](https://my.itmo.ru/persons/139799) ([VK](https://vk.com/id4561041))\
 **Практик**: [Тараканов Денис Сергеевич](https://my.itmo.ru/persons/173960) ([VK](https://vk.com/id29936513))
 
-**Партнер**:\
-[Галлямов Камиль Рустемович](https://my.itmo.ru/persons/367149) ([@pro100kamil](https://github.com/pro100kamil))
+**Партнер**:
+
+- [Галлямов Камиль Рустемович](https://my.itmo.ru/persons/367149) ([@pro100kamil](https://github.com/pro100kamil))
 
 ---
 
@@ -51,8 +52,13 @@
 Решения написаны на **C**. Задачи компилируются через `Сlang-14.0.0-1ubuntu1.1` с аргументами
 `-std=C99 -Wall -pedantic *.c`.
 
+> [!IMPORTANT]
+> Это предмет по "Пулу выборных дисциплин 3", из которого разрешено выбрать 2 из 4 возможных. Можно также выбрать
+> дисциплину "Рефакторинг баз данных и приложений", "Визуализация данных"
+> или "[Разработка сетевых приложений](../Network%20Application%20Development)".
+
 > [!TIP]
-> Сетап для выполнения лабораторных была украдена у [@maxbarsukov](https://github.com/maxbarsukov).
+> Сетап для выполнения лабораторных работ была украдена у [@maxbarsukov](https://github.com/maxbarsukov).
 
 > [!CAUTION]
 > Лабораторная работа №1 была уличена в плагиате.

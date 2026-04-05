@@ -3,8 +3,10 @@
 ---
 # Туториал по созданию "смешного устройства с обратно считающим таймером" 
 
-> Проект, предложенный Максом :badger:-овым:\
-> ![bomb](/img/gifs/countdown-call-of-duty.gif)
+> <h3 align="center">
+>     Проект, предложенный Максом :badger:-овым:
+>     <img src="/img/gifs/countdown-call-of-duty.gif" alt="bomb" width="500"/>
+> </h3>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -20,16 +22,13 @@
 | [<strong>Русский</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/README.md) | [<strong>English</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_EN.md) | [<strong>Монгол</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_MN.md) | [<strong>Español</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_ES.md) | [<strong>中文</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_CN.md) | [<strong>Tiếng việt</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_VN.md) | [<strong><p dir="rtl" lang="ar">اَلْعَرَبِيَّةُ</p></strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_AR.md) | [<strong>हिन्दी</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_IN.md) | [<strong>Português</strong>](https://github.com/XVIIStarPlatinum/itmo/blob/master/Software%20Engineering/Embedded%20Systems/.docs/README_PT.md) |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 
----
-
-> <p align="center">
->     <img src="/img/memes/embedded-systems-here-i-come-v0-f3p0svwjpd2a1.jpg" alt="width" width="500"/>
-> </p>
 > <h3 align="center">
-> "python"
+>     <img src="/img/memes/embedded-systems-here-i-come-v0-f3p0svwjpd2a1.jpg" alt="width" width="500"/>
+>     "python"
 >     <img src="https://media1.tenor.com/m/JJHyjbiOi40AAAAd/three-glasses.gif" alt="trei" width="500"/>
 > </h3>
 
+---
 
 > Чтобы дать вам некоторый контекст: я только что получил степень младшего специалиста в области электронных систем и телекоммуникаций. Мне очень понравился аспект цифровой электроники, особенно компьютерная архитектура, настройка регистров, я делал в основном вещи из «голого железа», и мне это очень нравилось. (Я работал с архитектурой 8051, AVR и Arm Cortex m0+)\
 > Я подал заявку на работу инженером по встроенному программному обеспечению в автомобильной промышленности в очень крупной компании. И каким-то образом, не имея только степени младшего специалиста, мне удалось получить ее, получая намного больше, чем я мог бы получать, работая лаборантом или работая на производстве.\
@@ -41,10 +40,11 @@
 
 **Преподаватель**: [Быковский Сергей Вячеславович](https://my.itmo.ru/persons/142291)
 
-**Партнеры**:\
-Карташев Владимир ([@ColdDirol](https://github.com/ColdDirol)) \
-Боринский Игорь Дмитриевич ([@Raisondetr3](https://github.com/Raisondetr3))\
-Таранов Кирилл Александрович ([@k1rt4r](https://github.com/k1rt4r))
+**Партнеры**:
+
+- [Карташев Владимир](https://my.itmo.ru/persons/373440) ([@ColdDirol](https://github.com/ColdDirol))
+- [Боринский Игорь Дмитриевич](https://my.itmo.ru/persons/367911) ([@Raisondetr3](https://github.com/Raisondetr3))
+- [Таранов Кирилл Викторович](https://my.itmo.ru/persons/373330) ([@k1rt4r](https://github.com/k1rt4r))
 
 > [!IMPORTANT]
 > Это предмет по выбранному майнору "Вычислительные системы". В его рамках также входит "Системы ввода-вывода" и "Облачные и туманные вычисления".\
@@ -54,15 +54,18 @@
 > [!TIP]
 > Возможно сдавать 4 мастер-классов вместо проекта. Рубежные тестирования — обязательные.
 
----
-## Результаты
-<s>вообще не почувствовал</s>
-- V семестр: **зачёт** (${\color{green}92,8}$/100 баллов)
----
-
 > <p align="center">
 >     <img src="/img/memes/yjv8jjzniidc1.jpeg" alt="Bluetooth" width="500"/>
 > </p>
+---
+
+## Результаты
+
+<s>вообще не почувствовал</s>
+
+- V семестр: **зачёт** (${\color{green}92,8}$/100 баллов)
+
+---
 
 ## Полезные ссылки
 | Ссылка                                                                                                      | Описание                                      |

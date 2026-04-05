@@ -32,9 +32,10 @@
 **Лектор**: [Литвинова Наталья Александровна](https://my.itmo.ru/persons/288202)\
 **Практик**: [Макаренко Екатерина Денисовна](https://my.itmo.ru/persons/307827)
 
-**Партнёры**:\
-[Кабалык Андрей Федорович]() ([@get4aR](https://github.com/get4ar))\
-[Степанов Егор Константинович]() ([@iamrapidfire](https://github.com/iamrapidfire))
+**Партнёры**:
+
+- [Кабалык Андрей Федорович](https://my.itmo.ru/persons/368251) ([@get4aR](https://github.com/get4ar))\
+- [Степанов Егор Константинович](https://my.itmo.ru/persons/368851) ([@iamrapidfire](https://github.com/iamrapidfire))
 
 ---
 

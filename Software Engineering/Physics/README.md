@@ -51,7 +51,10 @@
 >     <img src="/img/gifs/pov-pov-physics.gif" alt="physics" width="500"/>
 > </p>
 
-**Партнер**: Орчиков Даниил Валерьевич ([@DaniilOrchikov](https://github.com/DaniilOrchikov))
+**Партнер**:
+
+- [Орчиков Даниил Валерьевич](https://my.itmo.ru/persons/367452) ([@DaniilOrchikov](https://github.com/DaniilOrchikov))
+
 ## Объяснение
 К сожалению, здесь не все лабораторные работы, так как существует много вариантов, а одному студенту распределяется только 5.
 > <p align="center">
