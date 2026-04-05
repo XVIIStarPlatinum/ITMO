@@ -66,7 +66,7 @@
 > является устаревшим и требует дополнительного согласования с практиком для сдачи.
 
 > <p align="center">
->     <img src="../../img/memes/loonix.png" alt="loonix" width="250"/>
+>     <img src="/img/memes/loonix.png" alt="loonix" width="250"/>
 > </p>
 ---
 ## Результат

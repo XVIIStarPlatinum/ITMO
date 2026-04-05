@@ -5,7 +5,7 @@
 # Облачные и туманные вычисления: спин-офф
 
 > <h3 align="center">
->     Виртуальные машины би лайк:
+>     Виртуальные машины би лайк:<br>
 >     <img src="/img/memes/virtual-machines-v0-bdxkzuwg0tz31.jpg" alt="cloud #2" width="500"/>
 > </h3>
 

@@ -5,7 +5,7 @@
 # От OSI до React, этот pipeline будет проклят
 
 > <h3 align="center">
->     CDN moment
+>     CDN moment<br>
 >     <img src="https://media1.tenor.com/m/YQgN6Y25IcgAAAAC/dirty-mind-mind.gif" alt="topology"/>
 > </h3>
 
@@ -25,7 +25,7 @@
 
 ---
 > <h3 align="center">
->     На основе того самого мема (добавлен Ормузский пролив, апельсин, биг Яху и биг Вова)
+>     На основе того самого мема (добавлен Ормузский пролив, апельсин, биг Яху и биг Вова)<br>
 >     <img src="/img/memes/even-more-expanded-and%20geopolitical.png" alt="big yahu" width="500"/>
 > </h3>
 ---

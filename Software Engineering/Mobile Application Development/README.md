@@ -32,9 +32,10 @@
 > </p>
 
 ## Результаты
-![nah](/img/memes/pov-youre-an-app-developer.png)
----
-<s>вопреки моему усилию</s>
+
+> <p align="center">
+>     <img src="/img/memes/pov-youre-an-app-developer.png" alt="nah" width="500"/>
+> </p>
 - VI семестр: **5A** (${\color{green}}92$/100 баллов)
 
 ---

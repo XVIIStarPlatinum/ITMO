@@ -42,7 +42,7 @@
 **Практик**: [Карапетян Эрик Акопович](https://my.itmo.ru/persons/312989) ([@mobest1an](https://github.com/mobest1an)) (IV семестр)
 
 > <h3 align="center">
->     Наглядно
+>     Наглядно<br>
 >     <img src="/img/gifs/java.gif" alt="java" width="500"/>
 > </h3>
 ---

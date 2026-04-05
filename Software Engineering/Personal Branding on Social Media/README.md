@@ -48,7 +48,7 @@
 ## Результаты
 
 > <h3 align="center">
->     <s>What the sigma</s>
+>     <s>What the sigma</s><br>
 >     <img src="/img/gifs/slimed.gif" alt="reels" width="500"/>
 > </h3>
 

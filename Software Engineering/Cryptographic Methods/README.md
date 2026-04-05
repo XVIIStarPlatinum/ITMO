@@ -55,7 +55,7 @@
 
 > Диффи-Хеллман момент
 > <p align="center">
-> <img src="/img/memes/dhm.png" alt="dhm" width="500"/>
+>     <img src="/img/memes/dhm.png" alt="dhm" width="500"/>
 > </p>
 
 ---

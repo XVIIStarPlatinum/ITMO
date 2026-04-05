@@ -37,7 +37,7 @@
 **Практик**: [Птицын Максим Евгеньевич](https://my.itmo.ru/persons/336759) [(@zkyoto)](https://github.com/zkyoto)
 
 > <h3 align="center">
->     <sup><i>Каждый подход би лайк</i></sup>
+>     <sup><i>Каждый подход би лайк</i></sup><br>
 >     <img src="/img/pics/zxcursed-with-fan.jpg" alt="vtcursed" width="500"/>
 > </h3>
 

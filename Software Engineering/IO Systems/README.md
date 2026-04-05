@@ -34,14 +34,14 @@
 > или "Программирование компьютерной графики" (т.е., блин всмысле т.е. там и так понятно же).
 
 > <h3 align="center">
->     Семинар №1:
+>     Семинар №1:<br>
 >     <img src="/img/memes/three-dragons.png" alt="me" width="500"/>
 > </h3>
 ---
 ## Результаты
 
 > <h3 align="center">
->     The Macbook is giving an error! Shut it down! 
+>     The Macbook is giving an error! Shut it down! <br>
 >     <img src="/img/memes/opencore-installation-hangs-with-error-message-v0-8toi634fo55a1.jpg" alt="oy vey" width="500"/>
 > </h3>
 - VI семестр: **зачёт** (${\color{green}88.5}$/100 баллов)

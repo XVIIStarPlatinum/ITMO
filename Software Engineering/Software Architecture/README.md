@@ -31,7 +31,7 @@
 > предмет по автомату.
 
 > <h3 align="center">
->     Java со своими AbstractJavaFinalSerializedFactory или StaticFactoryFactoryFactory
+>     Java со своими AbstractJavaFinalSerializedFactory или StaticFactoryFactoryFactory<br>
 >     <img src="/img/memes/steampunk-city-with-lot-factories-airships-city-is-built-river-there-are-bridges-cranes-everywhere_14117-447895.png" alt="AbstractJavaFinalSerializedFactory" width="500"/>
 > </h3>
 

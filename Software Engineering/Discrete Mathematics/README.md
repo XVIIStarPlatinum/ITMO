@@ -39,7 +39,7 @@
 <s>Эх Дима Ценеков... Что бы мы делали без тебя...</s>
 > <p align="center">
 >     <img src="/img/memes/the-best-thing-about-a-boolean-is-even-if-you-are-wrong-you-v0-26hiqr7hxga51.jpg" alt="how inefficient" width="500"/>
-
+> </p>
 - I семестр: **зачёт** (${\color{green}}68$/100 баллов)
 - II семестр: **4C** (${\color{yellow}}82$/100 баллов)
 

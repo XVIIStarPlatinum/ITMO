@@ -32,6 +32,7 @@
 >     <img src="/img/memes/sisyphus.png" alt="sisyphus" width="500"/><br>
 >     <img src="/img/memes/schopenhauer.png" alt="schopenhauer" width="500"/><br>
 >     <img src="/img/memes/nietzsche.png" alt="hedonistic nonsense" width="500"/><br>
+>     <img src="/img/memes/thank-you-am.jpg" alt="thank you" width="500"/><br>
 > </h3>
 ---
 ## Результаты

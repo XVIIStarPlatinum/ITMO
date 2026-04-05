@@ -26,17 +26,16 @@
 >     <img src="/img/memes/offensivesql-v0-eb2pt1e06nff1.jpg" alt="psql" width="500"/>
 > </p>
 ---
-**Лектор**: [Николаев Владимир Вячеславович](https://my.itmo.ru/persons/146060)
-
+**Лектор**: [Николаев Владимир Вячеславович](https://my.itmo.ru/persons/146060)\
 **Практик**: [Чупанов Аликылыч Алибекович](https://my.itmo.ru/persons/285317)
 
 ---
 ## Результаты
 
-> <p align="center">
->     Я: какого хрена мой сервак спринга ничего не возвращает? <br> Тем временем:
+> <h3 align="center">
+>     Я: какого хрена мой сервак спринга ничего не возвращает? <br> Тем временем: <br>
 >     <img src="/img/memes/postgres-address-me.png" alt="address-me" width="500"/>
-> </p>
+> </h3>
 ---
 <s>Халява</s>
 - II семестр: **4C** (${\color{yellow}}80.1$/100 баллов)

@@ -2,9 +2,10 @@
 
 ---
 # Веб-программирование 2
-<p align="center">
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGltb2JtYnN6dHMyeXViNDc4OHViaXVldWtqcXY2N3c5Z2kzdDMyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8vIFoKU8s4m4CBqCao/giphy.gif" alt="here-we-go-again"/>
-</p>
+
+> <p align="center">
+>     <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGltb2JtYnN6dHMyeXViNDc4OHViaXVldWtqcXY2N3c5Z2kzdDMyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8vIFoKU8s4m4CBqCao/giphy.gif" alt="here-we-go-again"/>
+> </p>
 
 > Мегафакультет КТУ, факультет программной инженерии и компьютерной техники в университете информационной технологии, механики и оптики в г. Санкт-Петербург
 
@@ -40,7 +41,7 @@
 ## Результаты
 
 > <h3 align="center">
->     <s>Вот только теперь я понимаю Spring...</s>
+>     <s>Вот только теперь я понимаю Spring...</s><br>
 >     <img src="/img/memes/beingjavadeveloperin2024-v0-xthatzrmgxrd1.jpg" alt="spring" width="500"/>
 > </h3>
 - V семестр: **5A** (${\color{green}91,36}$/100 баллов)

@@ -30,6 +30,11 @@
 > <p align="center"> 
 >     <img src="/img/memes/average-western-polyglot-vs-average-african-v0-1pjasd60lc0b1.jpg" alt="average african" width="500"/>
 > </p>
+
+> [!IMPORTANT]
+> Если вы застрялись в курсе русского языка, то вы не можете выбраться оттуда в середине учебного года. Надо обязательно
+> дождать начало нового учебного года, к сожалению.
+
 ---
 
 ## Результаты

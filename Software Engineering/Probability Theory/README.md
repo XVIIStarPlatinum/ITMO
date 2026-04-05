@@ -4,7 +4,7 @@
 # Собачья чушь
 
 > <h3 align="center">
->     Когда узнал что больше не будет теорвера
+>     Когда узнал что больше не будет теорвера<br>
 >     <img src="/img/gifs/darwin-nunez-nunez.gif" alt="darwizzy"/>
 > </h3>
 
@@ -29,7 +29,7 @@
 
 ---
 > <h3 align="center">
->     Селина против здравого смысла
+>     Селина против здравого смысла****
 >     <img src="/img/gifs/playsports-play-sports.gif" alt="darwizzy-2" width="500"/>
 > </h3>
 

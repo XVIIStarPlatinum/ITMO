@@ -6,7 +6,7 @@
 
 > <p align="center">
 > «Я читать не люблю, и я писать не люблю. <...> И поэтому ваши письма даже не читаю»<br>
-> © Тауфик Измайлович Алиев
+> © Тауфик Измайлович Алиев<br>
 >     <img src="/img/charts/arrows.png" alt="a fucking clock factory lol" width="500"/>
 > </p>
 

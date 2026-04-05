@@ -41,6 +41,7 @@
 > <p align="center">
 >     <img src="https://media1.tenor.com/m/YqbR8ehN8F8AAAAC/kendrick-kendrick-lamar.gif" alt="dot-4" width="500"/>
 > </p>
+>
 > Лабораторные работы можно выполнить в парах и даже в тройках с одобрением преподавателя.
 
 > [!NOTE]

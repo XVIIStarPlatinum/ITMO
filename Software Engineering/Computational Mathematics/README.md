@@ -48,7 +48,7 @@ float Q_rsqrt ( float number )
 **Вариант**: 1
 
 > <h3 align="center">
->     Нули после запятого в итоге вычислительных действий с float:
+>     Нули после запятого в итоге вычислительных действий с float:<br>
 >     <img src="https://media1.tenor.com/m/xdOYn3spIHsAAAAd/infinite-dragon-dream-feet-loop.gif" alt="zeros" width="500"/>
 > </h3>
 
