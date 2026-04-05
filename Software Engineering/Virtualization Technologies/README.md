@@ -39,6 +39,14 @@
 > Следует оформить отчеты с особой осторожностью, если у вас принимает Белозубов. Все необходимые требования
 > находятся [здесь](./Требования%20к%20оформлению%20отчета.docx).
 
+> [!NOTE]
+> <p align="center">
+>     <img src="https://media1.tenor.com/m/14kqW4-PBPgAAAAd/vanben-turbo-granny.gif" alt="beethoven" width="500"/>
+> </p>
+>
+> У нейротеха есть дополнительная лабораторная работа — [ЛР №2](./labs/Lab-2.docx).
+
+
 > [!TIP]
 > <p align="center">
 >     <img src="/img/memes/awsfreetierbelike-v0-uo1s10j8evqb1.jpg" alt="aws-2" width="500"/>
