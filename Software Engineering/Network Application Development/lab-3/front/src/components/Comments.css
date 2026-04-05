@@ -1,0 +1,105 @@
+.hw-container {
+    max-width: 720px;
+    width: 100%;
+    padding: 24px 16px;
+    margin: 0 auto;
+}
+
+.comments-root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+.comments-list {
+    height: 40vh;
+    min-height: 160px;
+    overflow-y: auto;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.comment-item {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.comment-author {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.comment-text {
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+.comments-form,
+.comments-submit {
+    padding: 0 16px;
+}
+
+.comments-form {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.input-author, .input-comment {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.02);
+    box-sizing: border-box;
+}
+
+.input-author {
+    height: 40px;
+}
+
+.input-comment {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.error {
+    color: #ff7b7b;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.comments-submit {
+    margin-top: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-send {
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: #1876d2;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
+
+.App-header .hw-container {
+    width: 100%;
+    max-width: 900px;
+}
+
+@media (max-width: 600px) {
+    .comments-list {
+        height: 35vh;
+    }
+}
