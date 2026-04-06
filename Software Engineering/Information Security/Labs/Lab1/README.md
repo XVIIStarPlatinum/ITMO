@@ -226,21 +226,21 @@ Dependency-Check`. Регулярный аудит зависимостей — 
 
 ## Полезные ссылки
 
-| Ссылка                                                                                                                                                        | Описание                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [docs/template.docx](./docs/template-1.docx)                                                                                                                  | Шаблон отчёта для Работы 2                                                                                              |
-| [cheatsheetseries.owasp.org](https://cheatsheetseries.owasp.org/)                                                                                             | Официальный репозиторий Vulhub — основная база знаний для этой работы                                                   |
-| [jwt.io/introduction](https://jwt.io/introduction/)                                                                                                           | National Vulnerability Database (NVD) — для поиска подробных описаний CVE                                               |
-| [owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)                                                                                      | OWASP Top 10 — чтобы классифицировать найденную уязвимость по категориям (Инъекции, Небезопасные десериализации и т.д.) |
-| [docs.github.com/en/actions](https://docs.github.com/en/actions/)                                                                                             | Docker Documentation — для работы с контейнерами                                                                        |
-| [docs.gitlab.com/ci/pipelines](https://docs.gitlab.com/ci/pipelines/)                                                                                         |                                                                                                                         |
-| [ru.wikipedia.org/wiki/Bcrypt](https://ru.wikipedia.org/wiki/Bcrypt/)                                                                                         | Docker Hub с уязвимыми окружениями                                                                                      |
-| [ru.wikipedia.org/wiki/Scrypt](https://ru.wikipedia.org/wiki/Scrypt/)                                                                                         |                                                                                                                         |
-| [ru.wikipedia.org/wiki/Argon2](https://ru.wikipedia.org/wiki/Argon2/)                                                                                         |                                                                                                                         |
-| [ru.wikipedia.org/wiki/Внедрение SQL-кода](https://ru.wikipedia.org/wiki/%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_SQL-%D0%BA%D0%BE%D0%B4%D0%B0) | Общий гайд по воспроизведению уязвимостей и эксплойтов                                                                  |
-| [habr.com/p/676718/](https://habr.com/p/676718/)                                                                                                              | Официальный веб-сайт, на котором можно искать подходящую уязвимость                                                     |
-| [owasp.org/www-project-dependency-check/](https://owasp.org/www-project-dependency-check/)                                                                    | Руководство по использованию Vulhub                                                                                     |
-| [snyk.io](https://snyk.io/)                                                                                                                                   |                                                                                                                         |
+| Ссылка                                                                                         | Описание                                                 |
+|------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [docs/template.docx](./docs/template-1.docx)                                                   | Шаблон отчёта для Работы 1                               |
+| [cheatsheetseries.owasp.org](https://cheatsheetseries.owasp.org/)                              | OWASP Cheat Sheet Series                                 |
+| [jwt.io/introduction](https://jwt.io/introduction/)                                            | Документация по JWT                                      |
+| [owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)                       | OWASP Top 10                                             |
+| [docs.github.com/en/actions](https://docs.github.com/en/actions/)                              | Документация по GitHub Actions — для настройки пайплайна |
+| [docs.gitlab.com/ci/pipelines](https://docs.gitlab.com/ci/pipelines/)                          | Документация по GitLab CI/CD — аналог для GitLab         |
+| [ru.wikipedia.org/wiki/Bcrypt](https://ru.wikipedia.org/wiki/Bcrypt/)                          | Bcrypt — Wikipedia                                       |
+| [ru.wikipedia.org/wiki/Scrypt](https://ru.wikipedia.org/wiki/Scrypt/)                          | Scrypt — Wikipedia                                       |
+| [ru.wikipedia.org/wiki/Argon2](https://ru.wikipedia.org/wiki/Argon2/)                          | Argon2 — Wikipedia                                       |
+| [ru.wikipedia.org/wiki/Внедрение SQL-кода](https://ru.wikipedia.org/wiki/Внедрение%20SQL-кода) | SQLi — Wikipedia                                         |
+| [habr.com/p/676718/](https://habr.com/p/676718/)                                               | Виды Application Security Testing: SAST, DAST, IAST      |
+| [owasp.org/www-project-dependency-check/](https://owasp.org/www-project-dependency-check/)     | Официальный сайт OWASP                                   |
+| [snyk.io](https://snyk.io/)                                                                    | Официальный сайт snyk                                    |
 
 ## Лицензия
 

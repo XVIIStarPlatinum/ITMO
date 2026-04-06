@@ -260,14 +260,14 @@ Threat Modeling задаёт стратегическое направление
 
 ## Полезные ссылки
 
-| Ссылка                                                                                                       | Описание                   |
-|--------------------------------------------------------------------------------------------------------------|----------------------------|
-| [docs/template.docx](./docs/template-3.docx)                                                                 | Шаблон отчёта для Работы 2 |
-| [owasp.org/www-project-juice-shop](https://owasp.org/www-project-juice-shop/)                                |                            |
-| [zaproxy.org/getting-started](https://www.zaproxy.org/getting-started/)                                      |                            |
-| [learn.microsoft.com](https://learn.microsoft.com/ru-ru/azure/security/develop/threat-modeling-tool-threats) |                            |
-| [first.org/cvss/v4.0/user-guide](https://www.first.org/cvss/v4.0/user-guide)                                 |                            |
-| [lucidchart.com/pages/ru/dfd-diagram](https://www.lucidchart.com/pages/ru/dfd-diagram)                       |                            |
+| Ссылка                                                                                                       | Описание                                           |
+|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [docs/template.docx](./docs/template-3.docx)                                                                 | Шаблон отчёта для Работы 3                         |
+| [owasp.org/www-project-juice-shop](https://owasp.org/www-project-juice-shop/)                                | Официальный сайт OWASP Juice Shop                  |
+| [zaproxy.org/getting-started](https://www.zaproxy.org/getting-started/)                                      | Руководство по основным функциям сканера OWASP ZAP |
+| [learn.microsoft.com](https://learn.microsoft.com/ru-ru/azure/security/develop/threat-modeling-tool-threats) | Описание категорий угроз по методике STRIDE        |
+| [first.org/cvss/v4.0/user-guide](https://www.first.org/cvss/v4.0/user-guide)                                 | Руководство по расчету CVSS                        |
+| [lucidchart.com/pages/ru/dfd-diagram](https://www.lucidchart.com/pages/ru/dfd-diagram)                       | Описание DFD                                       |
 
 ## Лицензия
 
