@@ -2,7 +2,9 @@
 
 ## Рубежный контроль №1
 
-<img alt="naruto-hinata" src="https://github.com/maxbarsukov/itmo/blob/master/.docs/naruto-hinata.gif" height="300">
+> <p align="center">
+>     <img alt="tg googling the goddamn enemy" src="https://media1.tenor.com/m/Wb9SExoLzHgAAAAd/dandadan-dandadan-anime.gif" width="500">
+> </p>
 
 > [!TIP]
 > I don't ever make the same mistake twice. I make it 4-5 times just to be sure.
