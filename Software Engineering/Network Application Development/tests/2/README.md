@@ -1,11 +1,15 @@
 # Рубежный контроль №2 (NP ITMO 2025-autumn)
 
+---
+
 > <p align="center">
 >     <img src="https://media1.tenor.com/m/r6zw1Ij72yQAAAAC/dandadan-dandadan-anime.gif" alt="actual crashout" width="500"/>
 > </p>
 
 > [!TIP]
 > Можно так-то не сдавать их, если уверены, что закроете предмет на 60 баллов.
+
+---
 
 #### 1. Каким из следующих методов можно создать React-компонент:
 

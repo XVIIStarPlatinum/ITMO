@@ -1,11 +1,14 @@
 # Рубежный контроль №1 (NP ITMO 2025-autumn)
 
+---
 > <p align="center">
 >     <img src="https://media1.tenor.com/m/c8p1CD1Q2EcAAAAC/dandadan-momo.gif" alt="crying" width="500"/>
 > </p>
 
 > [!TIP]
 > Можно так-то не сдавать их, если уверены, что закроете предмет на 60 баллов.
+
+---
 
 #### 1. Выберите корректные утверждения о TCP и UDP
 
