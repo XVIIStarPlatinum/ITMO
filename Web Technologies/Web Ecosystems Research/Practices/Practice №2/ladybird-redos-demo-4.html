@@ -20,7 +20,16 @@
     figure { margin: 1.25rem 0; }
     figure img { display: block; width: 100%; max-width: 920px; border: 1px solid #8888; border-radius: .4rem; }
     figcaption { margin-top: .45rem; color: #888; }
-    pre { background-color: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 16px; overflow: auto; font-family: monospace; }
+    pre { background-color: #f6f8fa; color: #24292f; border: 1px solid #d0d7de; border-radius: 6px; padding: 16px; overflow: auto; font-family: monospace; }
+    .comment { color: #6e7781; }
+    .removed { color: #cf222e; }
+    .added { color: #1a7f37; }
+    @media (prefers-color-scheme: dark) { 
+	pre { background-color: #161b22; color: #e6edf3; border-color: #30363d; }
+	.comment { color: #8b969e; }
+	.removed { color: #ff7b72; }
+	.added { color: #7ee787; }
+    }
   </style>
 </head>
 <body>
@@ -78,16 +87,16 @@
           <li>
           Увеличение константа лимиты допустимых итерации до остановки поиска (находится в файле Libraries/LibRegex/Rust/src/vm.rs, строки 17-18):
           <pre><code>
-            /// Maximum number of steps before aborting (prevents ReDoS).
-            - const MATCH_LIMIT: u64 = 10_000_000;
-            + const MATCH_LIMIT: u64 = 1_000_000_000_000;
+            <span class="comment">/// Maximum number of steps before aborting (prevents ReDoS).</span>
+            <span class="removed">- const MATCH_LIMIT: u64 = 10_000_000;</span>
+            <span class="added">+ const MATCH_LIMIT: u64 = 1_000_000_000_000;</span>
           </code></pre>
           </li>
           <li>
             Для бенчмаркинга пришлось также добавить следующую строку в функциях run_fast и run_general:
             <pre><code>
               if self.steps >= MATCH_LIMIT {
-              + eprintln!("[MATCH_LIMIT] steps={}", self.steps);
+              <span class="added">+ eprintln!("[MATCH_LIMIT] steps={}", self.steps);</span>
                 return VmResult::LimitExceeded;
               }
             </code></pre>
