@@ -1,0 +1,12 @@
+Ladybird PID file '/run/user/1000/Ladybird/Profiles/default/Ladybird.pid' exists with PID 169898, but process cannot be found
+Fontconfig error: Cannot load default config file: Unable to open /etc/fonts/fonts.conf
+Fontconfig error: Cannot load default config file: Unable to open /etc/fonts/fonts.conf
+71269.084 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,10,0.200,false"
+71269.100 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,12,0.200,false"
+71269.116 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,14,0.700,false"
+71269.137 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,16,2.600,false"
+71269.162 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,18,11.900,false"
+71269.229 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,20,56.100,false"
+71269.475 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,22,234.000,false"
+71270.463 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,24,980.400,false"
+71274.338 [33;1mWebContent(171466)[0m: [32;1m(js log)[0m "REDOS_RESULT,26,3868.000,false"

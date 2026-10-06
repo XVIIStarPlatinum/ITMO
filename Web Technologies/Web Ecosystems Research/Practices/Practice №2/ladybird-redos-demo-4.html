@@ -13,7 +13,9 @@
     input, select, button { font: inherit; padding: .4rem .55rem; }
     button { grid-column: 1 / -1; justify-self: start; margin-top: .2rem; }
     #status { min-height: 1.5rem; font-weight: 600; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    #grid { display: grid; grid-template-columns: 4rem 1fr 1fr; margin-top: 1rem; border: 1px solid #8888; }
+    .cell { padding: .45rem; border: 1px solid #8888; }
+    .head { font-weight: 700; }
     th, td { border: 1px solid #8888; padding: .45rem; text-align: left; }
     .subtitle { color: #888; margin-top: -.6rem; }
     .report { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid #8888; }
@@ -24,11 +26,19 @@
     .comment { color: #6e7781; }
     .removed { color: #cf222e; }
     .added { color: #1a7f37; }
-    @media (prefers-color-scheme: dark) { 
-	pre { background-color: #161b22; color: #e6edf3; border-color: #30363d; }
-	.comment { color: #8b969e; }
-	.removed { color: #ff7b72; }
-	.added { color: #7ee787; }
+    @media (prefers-color-scheme: dark) {
+	  pre { background-color: #161b22; color: #e6edf3; border-color: #30363d; }
+	  .comment { color: #8b969e; }
+      .removed { color: #ff7b72; }
+	  .added { color: #7ee787; }
+    }
+    .cell:not(.head) { animation: row-in .25s ease-out; }
+    @keyframes row-in {
+      from { opacity: 0; transform: translateY(-3px); }
+      to   { opacity: 1; transform: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cell:not(.head) { animation: none; }
     }
   </style>
 </head>
@@ -61,12 +71,12 @@
 
   <p id="status" role="status">Готово к запуску.</p>
 
-  <table>
-    <thead>
-      <tr><th>n</th><th>Результат</th><th>Время, мс</th></tr>
-    </thead>
-    <tbody id="results"></tbody>
-  </table>
+  <div id="grid" role="table" aria-label="Результаты">
+    <div class="cell head" role="columnheader">n</div>
+    <div class="cell head" role="columnheader">Результат</div>
+    <div class="cell head" role="columnheader">Время, мс</div>
+    <div id="results" style="display: contents"></div>
+  </div>
 
   <section class="report">
     <h2>Отчёт об исследовании</h2>
@@ -154,7 +164,20 @@
       const results = document.querySelector("#results");
       const runButton = document.querySelector("#run");
 
-      runButton.addEventListener("click", () => {
+      const addRow = (n, result, elapsed) => {
+        for (const text of [String(n), result, elapsed.toFixed(3)]) {
+          const cell = document.createElement("div");
+          cell.className = "cell";
+          cell.setAttribute("role", "cell");
+          cell.textContent = text;
+          results.append(cell);
+        }
+      };
+
+      const nextFrame = () =>
+              new Promise(r => requestAnimationFrame(() => setTimeout(r, 0)));
+
+      runButton.addEventListener("click", async () => {
         const maxN = Number(maxNInput.value);
         const maxElapsed = Number(maxTimeInput.value);
         if (!Number.isInteger(maxN) || maxN < startN || maxN > 40) {
@@ -166,36 +189,30 @@
           return;
         }
 
-        const kind = patternSelect.value;
-        const regexp = regexes[kind];
-        const measurements = [];
+        const regexp = regexes[patternSelect.value];
+        results.replaceChildren();
+        runButton.disabled = true;
+        let stop = `Прогон завершён: достигнут предел n = ${maxN}.`;
 
         for (let n = startN; n <= maxN; n += step) {
+          status.textContent = `Выполняется n = ${n}…`;
+          await nextFrame();
+
           const value = "a".repeat(n) + "!";
           const started = performance.now();
-          const matched = regexp.test(value);
+          let result, error = null;
+          try { result = String(regexp.test(value)); }
+          catch (e) { error = e; result = `ошибка: ${e.name}`; }
           const elapsed = performance.now() - started;
-          measurements.push({ n, matched, elapsed });
-          if (elapsed > maxElapsed) break;
+          console.log(`REDOS_RESULT,${n},${elapsed.toFixed(3)},${result}`);
+
+          addRow(n, result, elapsed);
+          if (error) { stop = `Прогон остановлен: исключение при n = ${n} (${error.message}).`; break; }
+          if (elapsed > maxElapsed) { stop = `Прогон остановлен: время превысило ${maxElapsed} мс при n = ${n}.`; break; }
         }
 
-        results.replaceChildren();
-        for (const measurement of measurements) {
-          const row = document.createElement("tr");
-          const nCell = document.createElement("td");
-          const resultCell = document.createElement("td");
-          const timeCell = document.createElement("td");
-          nCell.textContent = String(measurement.n);
-          resultCell.textContent = String(measurement.matched);
-          timeCell.textContent = measurement.elapsed.toFixed(3);
-          row.append(nCell, resultCell, timeCell);
-          results.append(row);
-        }
-
-        const last = measurements[measurements.length - 1];
-        status.textContent = last.elapsed > maxElapsed
-          ? `Прогон остановлен: время превысило ${maxElapsed} мс при n = ${last.n}.`
-          : `Прогон завершён: достигнут предел n = ${maxN}.`;
+        status.textContent = stop;
+        runButton.disabled = false;
       });
     })();
   </script>
